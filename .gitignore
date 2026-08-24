@@ -1,1 +1,5 @@
+# R Studiio project files
 .Rproj.user
+
+# Mac files
+.DS_Store
