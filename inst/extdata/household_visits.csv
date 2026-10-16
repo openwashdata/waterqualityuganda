@@ -1,0 +1,1119 @@
+visit_id,date_sampled,region,district,community,source_name,storage_container,transport_container,days_in_transport_container,boils_water,storage_cleaning_days,transport_cleaning_days,storage_cleaning_method,transport_cleaning_method
+25,2024-12-02,Karamoja Region,Kaabong,Peikale,Peikale,Pot,Jerry can,1,FALSE,7,7,Grass and water,"Gravel, grass and sand"
+26,2024-12-02,Karamoja Region,Kaabong,Peikale,Peikale,Pot,Jerry can,1,FALSE,14,7,Arches and grass,Sand and grass
+27,2024-12-02,Karamoja Region,Kaabong,Peikale,Peikale,Pot,Jerry can,1,FALSE,1,2,Arches and grass,Sand and grass
+28,2024-12-03,Karamoja Region,Kaabong,Urutukapel,Urutukapel,Pot,Jerry can,1,FALSE,1,2,"Water, polythene bag, sosom apple leaves",Sand and arches
+29,2024-12-03,Karamoja Region,Kaabong,Urutukapel,Urutukapel,Pot,Jerry can,1,FALSE,1,1,Polythene bag and water,Sand and polithen bag
+30,2024-12-03,Karamoja Region,Kaabong,Urutukapel,Urutukapel,Pot,Jerry can,1,FALSE,1,1,Polythene bag and water,Sand and arches
+31,2024-12-03,Karamoja Region,Kaabong,Tulyenyang,Tulyenyang,Pot,Watering can,1,FALSE,1,1,Polythene bag and water,Sand and polythene bag
+32,2024-12-03,Karamoja Region,Kaabong,Tulyenyang,Tulyenyang,Pot,Jerry can,1,FALSE,1,2,Arches and polythene bag,Sand and grass
+33,2024-12-03,Karamoja Region,Kaabong,Tulyenyang,Tulyenyang,Pot,Jerry can,1,FALSE,3,3,Polythene bag,Sand and polythene bag
+34,2024-12-03,Karamoja Region,Kaabong,Nachukul,Nachukul,Pot,Jerry can,1,FALSE,3,3,Arches and polythene bag,Sand and gravel
+35,2024-12-03,Karamoja Region,Kaabong,Nachukul,Nachukul,Pot,Quad,1,FALSE,2,3,Arches and polythene bag,Sand and gravel
+36,2024-12-03,Karamoja Region,Kaabong,Nachukul,Nachukul,Pot,Jerry can,1,FALSE,3,4,Polythene bag and arches,Polythene bag and sand
+37,2024-12-04,Karamoja Region,Kaabong,Nakosowan 1,Nakosowan 1,Pot,Jerry can,1,FALSE,1,1,Polythene bag and water,"Sand, polythene bag and water"
+38,2024-12-04,Karamoja Region,Kaabong,Nakosowan,Nakosowan 1,Pot,Jerry can,1,FALSE,1,1,Water and arches,Sand and water
+39,2024-12-04,Karamoja Region,Kaabong,Nakosowan,Nakosowan 1,Pot,Jerry can,2,FALSE,1,2,Polythene bag and water,Sand and water
+40,2024-12-04,Karamoja Region,Kaabong,Nasuguru,Nasuguru,Pot,Quad,1,FALSE,2,2,Sand and polythene bag,Sand and gravel
+41,2024-12-04,Karamoja Region,Kaabong,Nasuguru,Nasuguru,Pot,Jerry can,1,FALSE,1,2,Water and a piece of polythene bag,"Polythene bag, sand with water"
+42,2024-12-04,Karamoja Region,Kaabong,Nasuguru,Nasuguru,Pot,Jerry can,1,FALSE,1,1,Sand and polythene bag,Sand and piece of polythene bag
+43,2024-12-04,Karamoja Region,Kaabong,St Marys Borehole,St Marys Chapel,Pot,Jerry can,1,FALSE,3,4,Polythene bag with water,Soap and piece of polythene bag
+44,2024-12-04,Karamoja Region,Kaabong,St Marys Borehole,St Marys Chapel,Pot,Jerry can,1,FALSE,1,1,Polythene bag,Gravel
+45,2024-12-04,Karamoja Region,Kaabong,St Marys Borehole,St Marys Chapel,Pot,Jerry can,1,FALSE,3,3,Polythene bag with soap,Polythene bag and soap
+46,2024-12-04,Karamoja Region,Kaabong,Yerun,Yerun,Pot,Jerry can,1,FALSE,1,2,Polythene bag and water,Sand and water
+47,2024-12-08,Karamoja Region,Kaabong,Kangisute,Kangisute,Pot,Jerry can,1,FALSE,3,5,Polythene bag and water,Sand and gravel
+48,2024-12-09,Karamoja Region,Kaabong,Nangolekuruk,NA,Pot,Jerry can,1,FALSE,7,3,Polythene bag and water,"Soap, sand and water"
+49,2024-12-09,Karamoja Region,Kaabong,Nangolekuruk,Nangolekuruk,Pot,Jerry can,1,FALSE,1,0,With water only,N/a
+50,2024-12-09,Karamoja Region,Kaabong,Nangolekuruk,Nangolekuruk,Pot,Jerry can,1,FALSE,2,2,Polythene bag and water,Sand and water
+51,2024-12-09,Karamoja Region,Kaabong,Yerun,Yerun,Pot,Jerry can,1,FALSE,3,2,Polythene and arches,Sand and gravel
+52,2024-12-09,Karamoja Region,Kaabong,Yerun,Yerun,Pot,Jerry can,1,FALSE,1,1,Polythene and water,Water
+53,2024-12-09,Karamoja Region,Kaabong,Kangisute,Kangisute,Pot,Jerry can,1,FALSE,2,5,Polythene bag and water,Sand gravel and water
+54,2024-12-09,Karamoja Region,Kaabong,Kangisute,Kangisute,Pot,Jerry can,1,FALSE,2,1,Polythene bag and ashes,Water and arches
+55,2024-12-10,Karamoja Region,Kaabong,Narube,Narube,Pot,Jerry can,1,FALSE,3,1,Water and polythene bag,Water
+56,2024-12-10,Karamoja Region,Kaabong,Narube,Narube,Pot,Jerry can,1,FALSE,2,1,Water,Water
+57,2024-12-10,Karamoja Region,Kaabong,Narube,Narube,Pot,Jerry can,1,FALSE,2,4,Polythene bag and water,Sand and gravel
+58,2024-12-10,Karamoja Region,Kaabong,Papa 2,Papa 2,Bucket,Jerry can,1,FALSE,1,5,Polythene and water,Sand and gravel
+59,2024-12-10,Karamoja Region,Kaabong,Papa 2,Papa 2,Bucket,Jerry can,1,FALSE,2,3,"Polythene bag, ashes and water",Polythene bag and gravel
+60,2024-12-10,Karamoja Region,Kaabong,Papa 2,Papa 2,Bucket,Jerry can,1,FALSE,5,5,Polythene and soap,"Polythene, soap and gravel"
+61,2024-12-10,Karamoja Region,Kaabong,Teregu,Teregu,Bucket,Jerry can,1,FALSE,1,4,Polythene and water,"Sand, gravel, water"
+62,2024-12-10,Karamoja Region,Kaabong,Teregu,Teregu,Bucket,Jerry can,1,FALSE,3,3,Polythene and water,Sand and water
+63,2024-12-10,Karamoja Region,Kaabong,Teregu,Teregu,Bucket,Jerry can,1,FALSE,4,5,Polythene bag and soap or arches.,Sand and water
+66,2024-12-11,Karamoja Region,Kaabong,Natumugarae,Natumugarae,Bucket,Jerry can,1,FALSE,5,5,Steal wire and water,"Sand, gravel and water"
+67,2024-12-11,Karamoja Region,Kaabong,Natumugarae,Natumugarae,Bucket,Jerry can,1,FALSE,4,1,Polythene bag and water,"Gravel, sand and watee"
+68,2024-12-11,Karamoja Region,Kaabong,Natumugarae,Natumugarae,Bucket,Jerry can,1,FALSE,2,1,2,"Sand , gravel and water"
+69,2024-12-11,Karamoja Region,Kaabong,Nakoreto,Nakoreto,Bucket,Jerry can,1,FALSE,2,1,Polythene bag and water,Sand and gravel
+70,2024-12-11,Karamoja Region,Kaabong,Nakoreto,Nakoreto,Jerry can,Bucket,1,FALSE,1,2,Polythene bag and water,Sand and gravel
+71,2024-12-11,Karamoja Region,Kaabong,Nakoreto,Nakoreto,Bucket,Jerry can,1,FALSE,2,2,Polythene bag and water,Sand and gravel
+72,2024-12-11,Karamoja Region,Kaabong,Nanyangadoket,Nanyangadoket,Bucket,Jerry can,1,FALSE,2,0,Water and polythene bag,Water
+73,2024-12-11,Karamoja Region,Kaabong,Nanyangadoket,Nanyangadoket,Bucket,Jerry can,1,FALSE,2,3,"Polythene bag, water and soap","Sand, gravel, water and at times steel wire"
+74,2024-12-11,Karamoja Region,Kaabong,Nanyangadoket,Nanyangadoket,Bucket,Jerry can,1,FALSE,2,1,"Polythene bag, water and soap","Sand, gravel and water"
+75,2024-12-12,Karamoja Region,Kaabong,Lopelpel,Lopelpel,Pot,Jerry can,1,FALSE,2,4,Polythene bag and arches,"Sand, gravel and polythene bag"
+76,2024-12-12,Karamoja Region,Kaabong,Lopelpel,Lopelpel,Pot,Quad,1,FALSE,1,3,Polythene bag and water,"Polythene bag, arches and soap"
+77,2024-12-12,Karamoja Region,Kaabong,Lopelpel,Lopelpel,Pot,Jerry can,1,FALSE,3,1,Polythene bag and water,Sand and gravel
+78,2024-12-12,Karamoja Region,Kaabong,Moru-Ese,Moruese,Bucket,Jerry can,1,FALSE,4,3,"Steel wire, soap or arches",Sand and gravel
+79,2024-12-12,Karamoja Region,Kaabong,Moru-Ese,Moruese,Bucket,Jerry can,1,FALSE,3,5,Polythene bag and water,Sand and gravel
+80,2024-12-12,Karamoja Region,Kaabong,Moru-Ese,Moruese,Bucket,Jerry can,1,FALSE,2,2,"Polythene, arches or soap",Sand and gravel
+81,2024-12-12,Karamoja Region,Kaabong,Napeikidor,Napeikidor,Bucket,Jerry can,1,FALSE,3,1,"Polythene bag, arches and water",Water and sand
+82,2024-12-12,Karamoja Region,Kaabong,Napeikidor,Napeikidor,Bucket,Water bottle,1,FALSE,3,5,Polythene bag and water,"Sand, gravel and water"
+83,2024-12-12,Karamoja Region,Kaabong,Napeikidor,Napeikidor,Bucket,Jerry can,1,FALSE,3,1,Polythene bag and water,"Sand, gravel and water"
+84,2024-12-13,Karamoja Region,Kaabong,Lokitet,Lokitet,Bucket,Jerry can,1,FALSE,4,5,"Polythene bag, water and soap",Sand and gravel
+85,2024-12-13,Karamoja Region,Kaabong,Lokitet,Lokitet,Bucket,Jerry can,1,FALSE,3,5,Polythene bag and soap,Steel wire and soap
+86,2024-12-13,Karamoja Region,Kaabong,Lokitet,Lokitet,Bucket,Jerry can,1,FALSE,6,3,Polythene bag and soap,"Sand, gravel and water"
+87,2025-03-18,Karamoja Region,Kaabong,Kangisute,Kangisute,Bucket,Jerry can,1,FALSE,2,1,Water and polythene bag,Sand and water
+88,2025-03-18,Karamoja Region,Kaabong,Kangisute,Kangisute,Bucket,Jerry can,1,FALSE,2,4,Polythen bag and water,Sand and gravel
+89,2025-03-18,Karamoja Region,Kaabong,Kangisute,Kangisute,Pot,Jerry can,1,FALSE,4,2,Polythen bag and water,Sand and water
+92,2025-03-18,Karamoja Region,Kaabong,Nanyangadoket,Nanyangadoket,Bucket,Jerry can,2,FALSE,3,4,Polythen bag and water,"Sand, gravel and water"
+93,2025-03-18,Karamoja Region,Kaabong,Nanyangadoket,Nanyangadoket,Drum,Jerry can,1,FALSE,2,3,Polythen bag and water,Sand and water
+94,2025-03-18,Karamoja Region,Kaabong,Nanyangadoket,Nanyangadoket,Bucket,Jerry can,1,TRUE,4,2,"Polythen bag, soap and water",Sand and water
+95,2025-03-18,Karamoja Region,Kaabong,Nasuguru,Nasuguru,Pot,Jerry can,1,FALSE,2,4,Polythen bag and water,"Sand, gravel and water"
+96,2025-03-18,Karamoja Region,Kaabong,Papa 2,Papa 2,Drum,Jerry can,1,FALSE,2,4,Polythen bag and water,"Sand,gravel and water"
+98,2025-03-19,Karamoja Region,Kaabong,Nasuguru,Nasuguru,Pot,Jerry can,2,FALSE,4,3,Polythen bag and water,Sand and water
+99,2025-03-19,Karamoja Region,Kaabong,Papa 2,Papa 2,Drum,Jerry can,2,FALSE,2,5,Polythen and water,"Gravel, sand and water"
+100,2025-03-19,Karamoja Region,Kaabong,Papa 2,Papa 2,Drum,Jerry can,1,FALSE,4,5,Polythen bag and water,"Sand, gravel and water"
+101,2025-03-19,Karamoja Region,Kaabong,St Marys Chapel,St Marys Chapel,Pot,Jerry can,1,FALSE,2,2,Polythen bag and water,Sand and gravel
+104,2025-03-19,Karamoja Region,Kaabong,St Marys Chapel,St Marys Chapel,Pot,Jerry can,2,FALSE,4,5,Polythen and water,"Sand, gravel and water"
+106,2025-03-24,Karamoja Region,Kaabong,Nachukul,Nachukul,Bucket,Jerry can,2,FALSE,4,4,"Polythen bag, soap and water","Sand, gravel and polythene bag"
+107,2025-03-24,Karamoja Region,Kaabong,Nachukul,Nachukul,Pot,Jerry can,1,FALSE,3,5,Polythen bag and water,Sand and gravel
+108,2025-03-24,Karamoja Region,Kaabong,Nachukul,Nachukul,Bucket,Jerry can,2,FALSE,3,4,Polythen bag and water,"Sand, gravel and water"
+109,2025-03-24,Karamoja Region,Kaabong,Peikale,Peikale,Pot,Jerry can,1,FALSE,2,3,Polythen bag and water,"Sand, gravel and water"
+110,2025-03-24,Karamoja Region,Kaabong,Peikale,Peikale,Pot,Jerry can,1,FALSE,3,2,Polythen bag and water,"Sand, gravel and water"
+111,2025-03-24,Karamoja Region,Kaabong,Peikale,Peikale,Pot,Jerry can,1,FALSE,2,1,Polythen bag and water,Water and sand
+112,2025-03-24,Karamoja Region,Kaabong,Tulyenyang,Tulyenyang,Pot,Jerry can,1,FALSE,2,3,Polythen bag and water,"Sand, gravel and water"
+113,2025-03-24,Karamoja Region,Kaabong,Tulyenyang,Tulyenyang,Pot,Jerry can,1,FALSE,1,2,Polythene bag and water,Sand and water
+114,2025-03-24,Karamoja Region,Kaabong,Tulyenyang,Tulyenyang,Pot,Jerry can,1,FALSE,1,2,Polythen bag and water,"Gravel, sand and water"
+117,2025-03-25,Karamoja Region,Kaabong,Natumugarae,Natumugarae,Drum,Jerry can,1,FALSE,2,3,Polythen bag and water,Gravel. Sand and water
+118,2025-03-25,Karamoja Region,Kaabong,Natumugarae,Natumugarae,Bucket,Jerry can,1,FALSE,1,2,Polythen bag and water,Sand and water
+119,2025-03-25,Karamoja Region,Kaabong,Natumugarae,Natumugarae,Drum,Jerry can,1,FALSE,2,4,Polythen bag and water,"Gravel, sand and water"
+121,2025-03-26,Karamoja Region,Kaabong,Nasuguru,Nasuguru,Pot,Jerry can,1,FALSE,2,2,Polythen bag and water,Sand and water
+122,2025-03-26,Karamoja Region,Kaabong,St Marys Chapel,St Marys Chapel,Pot,Jerry can,1,FALSE,3,4,Polythen bag and water,Sand and water
+124,2025-03-27,Karamoja Region,Kaabong,Moru-Ese,Moruese,Drum,Jerry can,1,FALSE,4,7,Arches and polythen bag,Steel wire and arches
+125,2025-03-27,Karamoja Region,Kaabong,Moru-Ese,Moruese,Bucket,Jerry can,1,FALSE,5,4,Polythen bag and water,Sand and water
+126,2025-03-27,Karamoja Region,Kaabong,Moru-Ese,Moruese,Bucket,Jerry can,1,FALSE,4,2,Polythen bag and water,Water
+127,2025-04-15,Karamoja Region,Kaabong,Peikale,Peikale,Pot,Jerry can,1,FALSE,3,2,Polythene bag and water,Sand and water
+128,2025-04-15,Karamoja Region,Kaabong,Peikale,Peikale,Bucket,Jerry can,1,FALSE,3,4,Polythen bag and water,"Sand, gravel and water"
+130,2025-04-22,Karamoja Region,Kaabong,Kangisute,Kangisute,Jerry can,Bucket,1,FALSE,3,5,Polythen and water,Clean with water
+131,2025-04-22,Karamoja Region,Kaabong,Kangisute,Kangisute,Bucket,Jerry can,1,FALSE,2,1,Polythen bag and water,Water and sand
+132,2025-04-22,Karamoja Region,Kaabong,Kangisute,Kangisute,Bucket,Jerry can,1,FALSE,3,3,Water and polythen bag,Sand and water
+134,2025-04-22,Karamoja Region,Kaabong,Moru-Ese,Moruese,Bucket,Jerry can,1,FALSE,4,3,Polythen bag and water,Gravel and water
+137,2025-04-22,Karamoja Region,Kaabong,Nanyangadoket,Nanyangadoket,Drum,Jerry can,1,FALSE,3,2,Polythen bag and water,Sand and water
+138,2025-04-22,Karamoja Region,Kaabong,Nanyangadoket,Nanyangadoket,Bucket,Jerry can,1,FALSE,4,4,Polythen bag and water,Sand and water
+139,2025-04-22,Karamoja Region,Kaabong,Natumugarae,Natumugarae,Drum,Jerry can,1,FALSE,2,5,Polythen bag and water,Gravel and water
+140,2025-04-22,Karamoja Region,Kaabong,Natumugarae,Natumugarae,Drum,Jerry can,1,FALSE,2,4,Polythen bag and water,Sand and water
+141,2025-04-22,Karamoja Region,Kaabong,Natumugarae,Natumugarae,Bucket,Jerry can,1,FALSE,2,2,Polythen bag and water,Water and sand
+143,2025-04-23,Karamoja Region,Kaabong,Peikale,Peikale,Pot,Jerry can,1,FALSE,2,2,Polythen bag and water,Sand and water
+147,2025-04-28,Karamoja Region,Kaabong,Papa 2,Papa 2,Drum,Jerry can,1,FALSE,4,2,Polytjen bag and water,Water
+148,2025-04-28,Karamoja Region,Kaabong,Papa 2,Papa 2,Drum,Jerry can,1,FALSE,1,3,Water and polythen,Sand and water
+149,2025-04-28,Karamoja Region,Kaabong,Papa 2,Papa 2,Drum,Jerry can,1,FALSE,2,3,Water and polythen bag,Sand and water
+150,2025-04-29,Karamoja Region,Kaabong,Tulyenyang,Tulyenyang,Pot,Jerry can,1,FALSE,2,1,Water and polythen bag,Water and sand
+151,2025-04-29,Karamoja Region,Kaabong,Tulenyang,Tulyenyang,Pot,Jerry can,1,FALSE,3,2,Polythen bag and water,Water and sand
+152,2025-04-29,Karamoja Region,Kaabong,Tulyenyang,Tulyenyang,Pot,Jerry can,1,FALSE,3,4,Polythen bag and water,Sand and water
+153,2025-04-29,Karamoja Region,Kaabong,Nachukul,Nachukul,Pot,Jerry can,1,FALSE,2,4,Polythen bag and water,"Sand, gravel and water"
+154,2025-04-29,Karamoja Region,Kaabong,Nachukul,Nachukul,Jerry can,Jerry can,1,FALSE,3,5,Polythen bag and water,"Sand, gravel and water"
+155,2025-04-29,Karamoja Region,Kaabong,Nachukul,Nachukul,Pot,Jerry can,1,FALSE,4,5,Polythen bag and water,"Sand, gravel and water"
+156,2025-05-12,Karamoja Region,Kaabong,Nasuguru,Nasuguru,Pot,Jerry can,1,FALSE,2,3,Polythen bag and water,"Polythen bag, water and sand"
+157,2025-05-12,Karamoja Region,Kaabong,Nasuguru,Nasuguru,Pot,Jerry can,1,FALSE,2,4,Polythen bag and water,Sand and water
+158,2025-05-12,Karamoja Region,Kaabong,St Marys Chapel,St Marys Chapel,Pot,Jerry can,1,FALSE,3,5,Polythen bag and water,"Sand, gravel and water"
+159,2025-05-12,Karamoja Region,Kaabong,St Marys Chapel,St Marys Chapel,Pot,Jerry can,1,FALSE,1,3,Water and polythen bag,Sand and water
+161,2025-05-12,Karamoja Region,Kaabong,St Marys Chapel,St Marys Chapel,Pot,Jerry can,1,FALSE,4,5,Polythen bag and water,Sand and water
+162,2025-05-12,Karamoja Region,Kaabong,Nasuguru,Nasuguru,Pot,Jerry can,1,FALSE,3,2,Water and polythen bag,Water
+164,2025-05-13,Karamoja Region,Kaabong,Moruese,Moruese,Jerry can,Jerry can,1,FALSE,1,1,Use water and polythen bag only,Use water and sand only
+165,2025-05-13,Karamoja Region,Kaabong,Moruese,Moruese,Bucket,Jerry can,1,FALSE,4,4,Water and polythen bag,Water and polythen bag and sand
+166,2025-05-13,Karamoja Region,Kaabong,Nanyangadoket,Nanyangadoket,Drum,Jerry can,1,FALSE,4,2,Polythen bag and water,Water and sand
+167,2025-05-19,Karamoja Region,Kaabong,Tulyenyang,Tulyenyang,Pot,Jerry can,1,FALSE,3,2,Polythen bag and water,Sand and water
+168,2025-05-19,Karamoja Region,Kaabong,Tulyenyang,Tulyenyang,Bucket,Jerry can,1,FALSE,2,1,Water and polythen bag,Water only
+169,2025-05-19,Karamoja Region,Kaabong,Tulyenyang,Tulyenyang,Pot,Watering can,1,FALSE,2,1,Water only,Water only
+171,2025-05-19,Karamoja Region,Kaabong,Nasuguru,Nasuguru,Pot,Jerry can,1,FALSE,4,4,Polythen bag and water,Sand and water
+173,2025-05-19,Karamoja Region,Kaabong,Nasuguru,Nasuguru,Pot,Jerry can,1,FALSE,3,4,Polythen bag and water,Sand and water
+174,2025-05-19,Karamoja Region,Kaabong,Nasuguru,Nasuguru,Pot,Jerry can,1,FALSE,4,5,Polythen bag and water,Sand and water
+175,2025-05-20,Karamoja Region,Kaabong,Nachukul,Nachukul,Pot,Jerry can,1,FALSE,2,5,Polythen bag and water,"Sand, gravel and water"
+176,2025-05-20,Karamoja Region,Kaabong,Nachukul,Nachukul,Pot,Jerry can,1,FALSE,2,3,Polythen bag and water,Sand and water
+177,2025-05-20,Karamoja Region,Kaabong,St Marys Chapel,St Marys Chapel,Pot,Jerry can,1,FALSE,4,5,Polythen bag and water,Sand and water
+178,2025-05-20,Karamoja Region,Kaabong,St Marys Chapel,St Marys Chapel,Pot,Jerry can,1,FALSE,3,5,Polythen bag and water,"Sand, polythen bag and water"
+179,2025-05-20,Karamoja Region,Kaabong,St Marys Chapel,St Marys Chapel,Pot,Jerry can,1,FALSE,2,1,Polythen bag and water,Water only
+181,2025-05-20,Karamoja Region,Kaabong,Papa 2,Papa 2,Drum,Jerry can,1,FALSE,2,5,Polythen bag and water,Sand and water
+183,2025-05-20,Karamoja Region,Kaabong,Papa 2,Papa 2,Drum,Jerry can,1,FALSE,1,4,Polythen and water,Sand and water
+184,2025-05-20,Karamoja Region,Kaabong,Papa 2,Papa 2,Drum,Jerry can,1,FALSE,3,5,Polythen bag and water,"Sand, soap and water"
+186,2025-05-27,Karamoja Region,Kaabong,Kangisute,Kangisute,Bucket,Jerry can,1,FALSE,2,2,Polythrn and water,Water and sand
+187,2025-05-27,Karamoja Region,Kaabong,Kangisute,Kangisute,Bucket,Jerry can,1,FALSE,4,5,Polythen bag and water,Sand and water
+188,2025-05-27,Karamoja Region,Kaabong,Kangisute,Kangisute,Bucket,Jerry can,1,FALSE,4,3,Polythen bag and water,Sand and water
+190,2025-05-27,Karamoja Region,Kaabong,Nanyangadoket,Nanyangadoket,Drum,Jerry can,1,FALSE,4,2,Polythen bag and water,Water and sand
+191,2025-05-27,Karamoja Region,Kaabong,Nanyangadoket,Nanyangadoket,Bucket,Jerry can,1,FALSE,3,2,Polythen bag and water,Sand and water
+192,2025-05-27,Karamoja Region,Kaabong,Lokut Lucia,Nanyangadoket,Drum,Jerry can,1,FALSE,2,2,Polythen bag and water,Water and sand
+194,2025-05-27,Karamoja Region,Kaabong,Natumugarae,Natumugarae,Drum,Jerry can,1,FALSE,3,3,Polythen bag and water,Sand and water
+195,2025-05-27,Karamoja Region,Kaabong,Natumugarae,Natumugarae,Bucket,Jerry can,1,FALSE,1,4,Polythen bag and water,Sand and water
+197,2025-05-28,Karamoja Region,Kaabong,Moruese,Moruese,Bucket,Jerry can,1,FALSE,4,5,Polythen bag and water,Sand and water
+198,2025-05-28,Karamoja Region,Kaabong,Moruese,Moruese,Drum,Jerry can,1,FALSE,3,4,Polythen bag and water,Sand and water
+199,2025-05-28,Karamoja Region,Kaabong,Moruese,Moruese,Drum,Jerry can,1,FALSE,2,4,Polythen bag and water,Sand and water
+201,2025-05-28,Karamoja Region,Kaabong,Natumugarae,Natumugarae,Drum,Jerry can,1,FALSE,4,4,"Polythen bag, water and soap",Sand and water
+202,2025-06-02,Karamoja Region,Kaabong,Peikale,Peikale,Pot,Jerry can,1,FALSE,2,3,Polythene bag and water,Sand and water
+204,2025-06-02,Karamoja Region,Kaabong,Peikale,Peikale,Bucket,Jerry can,1,FALSE,1,1,Sand and water,Sand and water
+205,2025-06-02,Karamoja Region,Kaabong,Naloto Maria,Peikale,Bucket,Jerry can,1,FALSE,1,1,Sand and water,Sand and water
+206,2025-06-16,Karamoja Region,Kaabong,Nasuguru,Nasuguru,Pot,Jerry can,1,FALSE,2,1,Water and polythene bag,Water and sand
+208,2025-06-16,Karamoja Region,Kaabong,Nasuguru,Nasuguru,Pot,Jerry can,1,FALSE,2,2,Water and polythene bag,Sand and water
+209,2025-06-16,Karamoja Region,Kaabong,Nasuguru,Nasuguru,Pot,Jerry can,1,FALSE,1,2,Polythen bag and water,Sand and water
+210,2025-06-16,Karamoja Region,Kaabong,St Marys Chapel,St Marys Chapel,Pot,Jerry can,1,FALSE,3,2,Polythrn bag and water,Sand and water
+211,2025-06-16,Karamoja Region,Kaabong,St Marys Chapel,St Marys Chapel,Pot,Jerry can,1,FALSE,3,3,Polythen bag and water,Sand and water
+212,2025-06-16,Karamoja Region,Kaabong,St Marys Chapel,St Marys Chapel,Bucket,Jerry can,1,FALSE,2,1,Polythen bag and water,Sand and water
+214,2025-06-16,Karamoja Region,Kaabong,Papa 2,Papa 2,Drum,Jerry can,1,FALSE,1,2,Water and polythen bag,Sand and water
+215,2025-06-16,Karamoja Region,Kaabong,Papa 2,Papa 2,Drum,Jerry can,1,FALSE,1,2,Polythen bag and water,Sand and water
+216,2025-06-16,Karamoja Region,Kaabong,Papa 2,Papa 2,Drum,Jerry can,1,FALSE,3,5,Water and polythen bag,Sand and water
+217,2025-06-17,Karamoja Region,Kaabong,Peikale,Peikale/ Tulyenyang,Pot,Jerry can,1,FALSE,3,1,Polythen bag and water,Sand and water
+218,2025-06-17,Karamoja Region,Kaabong,Tulyenyang,Tulyenyang,Pot,Jerry can,1,FALSE,1,1,Water and polythen bag,Water and sand
+219,2025-06-17,Karamoja Region,Kaabong,Tulyenyang,Tulyenyang,Pot,Jerry can,1,FALSE,3,1,Polythen bag and water,Sand and water
+221,2025-06-17,Karamoja Region,Kaabong,Peikale,People/ Tulyenyang,Pot,Jerry can,1,FALSE,3,2,Polythen bag and water,Sand and water
+222,2025-06-17,Karamoja Region,Kaabong,Peikale,Peikale/ Tulyenyang,Pot,Jerry can,1,FALSE,2,3,Polythen bag and water,Sand and water
+223,2025-06-17,Karamoja Region,Kaabong,Tulyenyang,Tulyenyang,Drum,Jerry can,1,FALSE,1,1,Polythene bag and water,Sand and water
+224,2025-06-17,Karamoja Region,Kaabong,Nachukul,Nachukul/ Tulyenyang,Pot,Jerry can,1,FALSE,1,2,Polythen bag and water,Sand and water
+225,2025-06-17,Karamoja Region,Kaabong,Nachukul,Nachukul/ Tulyenyang,Pot,Jerry can,1,FALSE,1,1,Water and polythen bag,Sand and water
+226,2025-06-17,Karamoja Region,Kaabong,Nachukul,Nachukul,Pot,Jerry can,1,FALSE,1,2,Polythen bag and water,Sand and water
+227,2025-06-25,Karamoja Region,Kaabong,Kangisute,Kangisute,Bucket,Jerry can,1,FALSE,1,1,Polythen bag and water,Sand and water
+228,2025-06-25,Karamoja Region,Kaabong,Moruese,Moruese,Drum,Jerry can,1,FALSE,3,4,"Polythen bag, soap and water","Sand, water and polythen bag"
+229,2025-06-25,Karamoja Region,Kaabong,Moruese,Moruese,Drum,Jerry can,1,FALSE,4,5,"Polythen bag, water and soap",Sand and water
+230,2025-06-25,Karamoja Region,Kaabong,Moruese,Moruese,Drum,Jerry can,1,TRUE,3,6,Polythen bag and water,Sand and water
+232,2025-06-25,Karamoja Region,Kaabong,Nanyangadoket,Nanyangadoket,Drum,Jerry can,1,FALSE,2,2,Polythen bag and water,Sand and water
+233,2025-06-25,Karamoja Region,Kaabong,Nanyangadoket,Nanyangadoket,Bucket,Jerry can,1,FALSE,4,1,"Polythen bag, water",Sand and water
+235,2025-06-25,Karamoja Region,Kaabong,Nanyangadoket,Nanyangadoket,Drum,Jerry can,1,FALSE,3,4,Polythen bag and water,Sand and water
+236,2025-06-25,Karamoja Region,Kaabong,Natumugarae,Natumugarae,Bucket,Jerry can,1,FALSE,1,6,Polythen bag and water,Sand and water
+237,2025-06-25,Karamoja Region,Kaabong,Natumugarae,Natumugarae,Bucket,Jerry can,1,FALSE,2,1,Polythen bag and water,Sand and water
+238,2025-06-26,Karamoja Region,Kaabong,Kangisute,Kangisute,Bucket,Jerry can,1,FALSE,2,1,Polythen bag and water,Sand and water
+239,2025-06-26,Karamoja Region,Kaabong,Kangisute,Kangisute,Sauce pan,Jerry can,1,FALSE,2,1,"Polythen bag, sand and water",Water and sand once in a while
+241,2025-06-26,Karamoja Region,Kaabong,Natumugarae,Natumugarae,Drum,Jerry can,1,TRUE,1,1,Polythen bag and water,Sand and water
+243,2025-07-14,Karamoja Region,Kaabong,Nasuguru,Nasuguru,Pot,Jerry can,1,FALSE,3,1,Polythen bag and water,Water and sand
+244,2025-07-14,Karamoja Region,Kaabong,Nasuguru,Nasuguru,Pot,Jerry can,1,FALSE,2,4,"Polythen bag , soap and water","Sand, gravel and water"
+245,2025-07-14,Karamoja Region,Kaabong,St Marys Chapel,St Marys Chapel,Bucket,Jerry can,1,FALSE,1,1,Water,Water
+246,2025-07-14,Karamoja Region,Kaabong,St Marys Chapel,St Marys Chapel,Pot,Jerry can,1,FALSE,2,5,"Polythen bag, water and soap",Water and sand
+248,2025-07-14,Karamoja Region,Kaabong,Papa 2,Papa 2/ St Marys Chapel,Drum,Jerry can,1,FALSE,1,4,Polythen and water,Water and sand
+249,2025-07-14,Karamoja Region,Kaabong,Papa 2,Papa 2/ St Marys Chapel,Drum,Jerry can,1,FALSE,2,1,Polythen bag and water,Sand and water
+251,2025-07-14,Karamoja Region,Kaabong,St Marys Chapel,St Marys Chapel,Pot,Jerry can,1,FALSE,3,5,Polythen bag and water,Sand and water
+252,2025-07-14,Karamoja Region,Kaabong,Papa 2,Papa 2/ St Marys Chapel,Drum,Jerry can,1,FALSE,3,3,Polythen bag and water,Sand and water
+253,2025-07-14,Karamoja Region,Kaabong,Nasuguru,Nasuguru,Pot,Jerry can,1,FALSE,2,1,Polythen bag and water,Sand and water
+255,2025-07-15,Karamoja Region,Kaabong,Peikale,Tulyenyang,Pot,Jerry can,1,FALSE,3,4,Polythen bag and water,Sand and water
+256,2025-07-15,Karamoja Region,Kaabong,Tulyenyang,Tulyenyang,Pot,Jerrycan and watering can,1,FALSE,1,1,Polythen bag and water,Sand and water
+257,2025-07-15,Karamoja Region,Kaabong,Tulyenyang,Tulyenyang,Pot,Jerry can,1,FALSE,2,5,Polythen bag and water,Sand and water
+258,2025-07-15,Karamoja Region,Kaabong,Peikale,Peikale/ Tulyenyang,Pot,Jerry can,1,FALSE,3,5,Polythen bag and water,Sand and water
+259,2025-07-15,Karamoja Region,Kaabong,Tulyenyang,Tulyenyang,Drum,Jerry can,1,FALSE,2,1,Polythen bag and water,Sand and water
+260,2025-07-15,Karamoja Region,Kaabong,Peikale,Peikale/ Tulyenyang,Bucket,Jerry can,1,FALSE,3,4,Polythen bag and water,Sand and water
+261,2025-07-21,Karamoja Region,Kaabong,Moruese,Moruese,Drum,Jerry can,1,FALSE,1,1,Polythen bag and water,Sand and water
+262,2025-07-21,Karamoja Region,Kaabong,Moru-Ese,Moruese,Drum,Jerry can,1,FALSE,2,1,Polythen bag and water,Sand and water
+263,2025-07-21,Karamoja Region,Kaabong,Moruese,Moruese,Bucket,Jerry can,1,FALSE,3,6,"Polythen bag, sand and water","Sand, gravel and water"
+265,2025-07-21,Karamoja Region,Kaabong,Nanyangadoket,Nanyangadoket,Drum,Jerry can,1,FALSE,2,5,Polythen bag and water,"Sand, water and gravel"
+266,2025-07-21,Karamoja Region,Kaabong,Nanyangadoket,Nanyangadoket,Bucket,Jerry can,1,FALSE,3,4,Polythen bag and water,Sand and water
+268,2025-07-21,Karamoja Region,Kaabong,Nanyangadoket,Nanyangadoket,Drum,Jerry can,1,FALSE,2,4,Polythen bag and water,Sand and water
+269,2025-07-21,Karamoja Region,Kaabong,Natumugarae,Natumugarae,Drum,Jerry can,1,FALSE,1,2,Polythen bag and water,Sand and water
+270,2025-07-21,Karamoja Region,Kaabong,Natumugarae,Natumugarae,Bucket,Jerry can,1,FALSE,3,4,Polythen bag and water,Sand and water
+271,2025-07-21,Karamoja Region,Kaabong,Natumugarae,Natumugarae,Drum,Jerry can,1,FALSE,1,3,Ppllythen bag and water,Sand and water
+273,2025-07-23,Karamoja Region,Kaabong,Nasuguru,Nasuguru,Pot,Jerry can,1,FALSE,2,1,Polythen bag and water,Sand and water
+275,2025-07-23,Karamoja Region,Kaabong,Nasuguru,Nasuguru,Pot,Jerry can,1,FALSE,3,2,Polythen bag and water,Sand and water
+276,2025-07-23,Karamoja Region,Kaabong,Nasuguru,Nasuguru,Pot,Jerry can,1,FALSE,3,6,Polythen bag and water,Sand and water
+277,2025-07-23,Karamoja Region,Kaabong,St Marys Chapel,St Marys Chapel,Pot,Jerry can,1,FALSE,3,4,Polythen bag and water,Sand and water
+278,2025-07-23,Karamoja Region,Kaabong,Papa 2 / St Marys Chapel,Papa 2/ St Marys Chapel,Drum,Jerry can,1,FALSE,2,2,Polythen bag and water,Sand and water
+279,2025-07-23,Karamoja Region,Kaabong,St Marys Chalel,St Marys Chapel,Drum,Jerry can,1,FALSE,4,5,Polythen bag and water,Sand and water
+280,2025-07-23,Karamoja Region,Kaabong,St Marys Chapel,St Marys Chapel,Bucket,Jerry can,1,FALSE,1,1,Polythen bag and water,Sand and water
+282,2025-07-23,Karamoja Region,Kaabong,St Marys Chapel,St Marys Chapel,Pot,Jerry can,1,FALSE,4,5,Polythen bag and water,Sand and water
+283,2025-07-24,Karamoja Region,Kaabong,Nachukul,Nachukul,Pot,Jerry can,1,FALSE,1,1,Polythen bag and water,Sand and water
+284,2025-07-24,Karamoja Region,Kaabong,Nachukul,Nachukul,Bucket,Jerry can,1,FALSE,1,1,Polythen bag and water,Sand and water
+285,2025-07-24,Karamoja Region,Kaabong,Nachukul,Nachukul,Drum,Jerry can,1,FALSE,1,1,Polythen bag and water,Sand and water
+287,2025-07-24,Karamoja Region,Kaabong,Kangisute,Kangisute,Bucket,Jerry can,1,FALSE,2,1,"Polythen bag, sand and water",Sand and water
+288,2025-07-24,Karamoja Region,Kaabong,Kangisute,Kangisute,Bucket,Jerry can,1,FALSE,4,2,Polythen bag and water,Sand and water
+289,2025-07-24,Karamoja Region,Kaabong,Kangisute,Kangisute,Bucket,Jerry can,1,FALSE,1,1,"Polythen bag, sand and water",Sand and water
+291,2025-08-12,Karamoja Region,Kaabong,St Marys Chapel,St Marys Chapel,Pot,Jerry can,1,FALSE,4,4,Water and polythen bage,Water and sand
+293,2025-08-12,Karamoja Region,Kaabong,St Marys Chapel,St Marys Chapel,Pot,Jerry can,4,FALSE,4,4,Water and polythenbag,Water and sand
+294,2025-08-12,Karamoja Region,Kaabong,St Marys Chapel,St Marys Chapel,Bucket,Jerry can,2,FALSE,1,1,Water and ploythen bage,Water and sand
+296,2025-08-13,Karamoja Region,Kaabong,Kathile,Papa 2,Jerry can,Jerry can,1,TRUE,1,2,Water and sand,Water and polythen bag
+298,2025-08-13,Karamoja Region,Kaabong,Kamacharkol,Peikale,Pot,Jerry can,1,TRUE,2,2,Water and sand,Water and polythen bag
+299,2025-08-13,Karamoja Region,Kaabong,Kathile,Nasuguru,Pot,Jerry can,1,FALSE,1,1,Water and sand,Water polythen bag
+300,2025-08-13,Karamoja Region,Kaabong,Kamacharkol,Peikale,Pot,Bucket,1,FALSE,1,2,Water and sand,Water and polythen
+301,2025-08-13,Karamoja Region,Kaabong,Kathile,Papa 2,Jerry can,Jerry can,3,FALSE,3,3,Water and polythen bag,Water and sand
+302,2025-08-13,Karamoja Region,Kaabong,Kathile,Papa 2,Jerry can,Jerry can,2,FALSE,2,4,Water and sand,Water and polythen bag
+303,2025-08-13,Karamoja Region,Kaabong,Kamacharkol,Peikale,Pot,Jerry can,2,FALSE,1,1,Water and soap,Water and polythen
+305,2025-08-13,Karamoja Region,Kaabong,Kathile,Nasuguru,Pot,Jerry can,1,FALSE,1,1,Water and sand,Water and polythen bag
+306,2025-08-13,Karamoja Region,Kaabong,Kathile,Nasuguru,Pot,Jerry can,1,FALSE,1,1,Water and sand,Water and polythen bag
+308,2025-08-15,Karamoja Region,Kaabong,Kamacharkol,Nachukul,Jerry can,Jerry can,2,FALSE,1,1,Water and sand,Water and sand
+309,2025-08-15,Karamoja Region,Kaabong,Kamacharkol,Nachukul,Jerry can,Jerry can,1,FALSE,1,1,Water and sand,Water and sand
+310,2025-08-15,Karamoja Region,Kaabong,Kamacharkol,Urutukapel,Jerry can,Jerry can,1,TRUE,1,1,Water and polythene bag,Water and polythene bag
+311,2025-08-15,Karamoja Region,Kaabong,Kamacharkol,Urutukapel,Jerry can,Jerry can,1,FALSE,1,1,Water and sand,Water and polythene bag
+312,2025-08-15,Karamoja Region,Kaabong,Kamacharkol,Urutukapel,Jerry can,Jerry can,1,FALSE,1,1,Water and sand,Water and polythene bag
+314,2025-08-15,Karamoja Region,Kaabong,Kamacharkol,Nachukul,Jerry can,Jerry can,1,FALSE,1,1,Water and sand,Water and sand
+317,2025-08-18,Karamoja Region,Kaabong,Kangisute,Kangisute,Jerry can,Jerry can,2,FALSE,2,2,Water and polythene bag,Water and soap
+318,2025-08-18,Karamoja Region,Kaabong,Kangisute,Kangisute,Jerry can,Jerry can,1,FALSE,1,1,Water and polythene bag,Water and polythene bag
+319,2025-08-18,Karamoja Region,Kaabong,Morunyang,Nanyangadoket,Jerry can,Jerry can,3,TRUE,4,4,Water and polythene bag,Water and polythene bag
+320,2025-08-18,Karamoja Region,Kaabong,Kangisute,Kangisute,Jerry can,Jerry can,1,FALSE,2,2,Water and polythene bag,Water and polythene bag
+321,2025-08-18,Karamoja Region,Kaabong,Nanyangadoket,Nanyangadoket,Jerry can,Jerry can,2,TRUE,3,3,Water and polythene bag,Water and polythene bag
+322,2025-08-18,Karamoja Region,Kaabong,Nanyangadoket,Nanyangadoket,Jerry can,Jerry can,3,TRUE,3,3,"Water, soap and polythene bag",Water and polythene bag
+324,2025-08-19,Karamoja Region,Kaabong,Natumugarae,Natumugarae,Jerry can,Jerry can,1,FALSE,1,1,Water and soap,Water and soap
+325,2025-08-19,Karamoja Region,Kaabong,Natumugarae,Natumugarae,Jerry can,Jerry can,1,FALSE,1,1,Water and soap,Water and polythene bag
+326,2025-08-19,Karamoja Region,Kaabong,Natumugarae,Natumugarae,Jerry can,Jerry can,1,TRUE,1,1,Water and soap,Water and polythene bag
+328,2025-08-19,Karamoja Region,Kaabong,Moru-Ese,Moruese,Jerry can,Jerry can,1,FALSE,1,1,Water and polythene bag,Water and polythene bag
+329,2025-08-19,Karamoja Region,Kaabong,Moru-Ese,Moruese,Jerry can,Jerry can,1,FALSE,1,1,Water and polythene bag,Water and sand
+330,2025-08-19,Karamoja Region,Kaabong,Kotirae,Moruese,Jerry can,Jerry can,1,FALSE,2,1,Water and polythene bag,Water and polythene bag
+332,2025-08-20,Karamoja Region,Kaabong,Nakoreto,Nakoreto,Jerry can,Jerry can,1,FALSE,1,1,Water and polythene bag,Water and polythene bag
+333,2025-08-20,Karamoja Region,Kaabong,Napeikidor,Napeikidor,Sauce pan,Jerry can,1,FALSE,1,1,Water and polythene bag,Water and polythene bag
+334,2025-08-20,Karamoja Region,Kaabong,Napeikidor,Napeikidor,Bucket,Jerry can,1,FALSE,1,1,Water and polythene bag,Water and polythene bag
+335,2025-08-20,Karamoja Region,Kaabong,Napeikidor,Napeikidor,Bucket,Jerry can,1,FALSE,1,1,Water and polythene bag,Water and polythene bag
+337,2025-08-22,Karamoja Region,Kaabong,Lopelipel,Lopelpel,Sauce pan,Jerry can,2,FALSE,1,1,Water and polythene bag,Water and polythene bag
+338,2025-08-22,Karamoja Region,Kaabong,Lopelipel,Lopelpel,Bucket,Jerry can,2,FALSE,1,2,Water and polythene bag,Water and polythene bag
+339,2025-08-22,Karamoja Region,Kaabong,Lopelipel,Lopelpel,Pot,Jerry can,2,FALSE,1,2,Water and polythene bag,Water and polythene bag
+340,2025-08-22,Karamoja Region,Kaabong,Nakoreto,Nakoreto,Jerry can,Jerry can,1,FALSE,1,1,Water and sand,Water and sand
+342,2025-08-22,Karamoja Region,Kaabong,Nakoreto,Nakoreto,Bucket,Jerry can,2,FALSE,4,4,Water and soap,Water and soap
+344,2025-08-26,Karamoja Region,Kaabong,Teregu,Teregu,Sauce pan,Jerry can,1,FALSE,1,1,Water and polythene bag,Water and polythene bag
+346,2025-08-26,Karamoja Region,Kaabong,Teregu,Teregu,Bucket,Jerry can,1,FALSE,1,1,Water and polythene bag,Water and polythene bag
+347,2025-08-26,Karamoja Region,Kaabong,Teregu,Teregu,Pot,Jerry can,1,FALSE,1,1,Water and polythene bag,Water and polythene bag
+348,2025-08-26,Karamoja Region,Kaabong,Nakasowan,Nakasowan,Pot,Jerry can,1,TRUE,1,1,Water and polythene bag,Water and polythene bag
+349,2025-08-26,Karamoja Region,Kaabong,Nakasowan,Nakasowan,Sauce pan,Jerry can,1,FALSE,1,1,Water and polythene bag,Water and polythene bag
+350,2025-08-26,Karamoja Region,Kaabong,Nakasowan,Nakasowan,Pot,Jerry can,1,FALSE,1,1,Water and polythene bag,Water and polythene bag
+351,2025-08-26,Karamoja Region,Kaabong,Lokitet,Lokitet,Bucket,Jerry can,2,FALSE,2,2,Water and soap,Water and soap
+352,2025-08-26,Karamoja Region,Kaabong,Lokitet,Lokitet,Bucket,Jerry can,2,FALSE,2,2,Water and soap,Water and soap
+353,2025-08-26,Karamoja Region,Kaabong,Lokitet,Lokitet,Bucket,Jerry can,1,FALSE,1,1,Water and soap,Water and soap
+355,2025-08-27,Karamoja Region,Kaabong,Yaruun,Yerun,Pot,Jerry can,1,TRUE,1,1,Water and polythene bag,Water and polythene bag
+356,2025-08-27,Karamoja Region,Kaabong,Yaruun,Yerun,Pot,Jerry can,1,FALSE,1,1,Water and polythene bag,Water and polythene bag
+357,2025-08-27,Karamoja Region,Kaabong,Nangolekuruk,Lokuriana Martha,Pot,Jerry can,1,FALSE,1,1,Water and polythene bag,Water and polythene bag
+359,2025-08-27,Karamoja Region,Kaabong,Nangolekuruk,Nangolekuruk,Pot,Jerry can,1,FALSE,1,1,Water and polythene bag,Water and polythene bag
+360,2025-08-27,Karamoja Region,Kaabong,Nangolekuruk,Nangolekuruk,Pot,Jerry can,2,TRUE,2,2,Water and polythene bag,Water and soap
+361,2025-08-27,Karamoja Region,Kaabong,Narube,Narube,Sauce pan,Jerry can,1,FALSE,1,1,Water and polythene bag,Water and polythene bag
+363,2025-08-27,Karamoja Region,Kaabong,Yaruun,Yerun,Sauce pan,Jerry can,1,FALSE,1,1,Water and polythene bag,Water and polythene bag
+364,2025-08-28,Karamoja Region,Kaabong,Narube,Narube,Pot,Jerry can,1,FALSE,1,2,Water and polythene bag,Water and soap
+366,2025-08-28,Karamoja Region,Kaabong,Narube,Narube,Bucket,Jerry can,1,FALSE,1,1,Water and polythene bag,Water and soap
+368,2025-02-01,Teso Region,Kumi,Kapolin,Kapolin Ps,Pot,Jerry can,1,FALSE,2,1,The same method,They mix gravel and leaves the pour water
+369,2025-02-01,Teso Region,Kumi,Kapolin,Kapolin Ps,Pot,Jerry can,2,FALSE,2,3,Only water,They just use water
+370,2025-02-01,Teso Region,Kumi,Kapolin,Kapolin Ps,Pot,Jerry can,1,FALSE,2,1,Water leaves and gravel,Leaves and water
+371,2025-02-01,Teso Region,Kumi,Apapai,Apapai Apapai,Pot,Jerry can,1,FALSE,3,2,Still soap and water,Soap and water
+372,2025-02-01,Teso Region,Kumi,Apapai,Apapai Apapai,Pot,Jerry can,2,FALSE,3,7,Mango leaves and water,An old camera mixed with soap and qater
+374,2025-02-01,Teso Region,Kumi,Atutur,Apapai Apapai,Pot,Jerry can,2,FALSE,5,2,Mango leaves and water,Gravel plus an old camera and soap and water
+375,2025-02-02,Teso Region,Kumi,Atutur,Akalabai Okengo,Pot,Jerry can,3,FALSE,3,2,Leaves and water,Gravel leaves and soap
+377,2025-02-02,Teso Region,Kumi,Atutur,Akalabai Okengo,Pot,Jerry can,1,FALSE,3,2,Hand washed,Grass mixed with gravel and soap
+378,2025-02-02,Teso Region,Kumi,Atutur,Akalabai Okengo,Pot,Jerry can,2,FALSE,3,1,Mango leaves and water,Leaves gravel and soap
+379,2025-02-02,Teso Region,Kumi,Atutur,Omolokonyo,Pot,Jerry can,2,FALSE,1,2,An old camera and water,Leaves and water
+381,2025-02-02,Teso Region,Kumi,Atutur,Omolokonyo,Pot,Jerry can,2,FALSE,3,3,An old camera and water,Leaves and gravel
+382,2025-02-02,Teso Region,Kumi,Atutur,Kalungar Ps,Pot,Jerry can,1,FALSE,3,3,Mango leaves and water,Gravel leaves and soap
+383,2025-02-03,Teso Region,Kumi,Atutur,Omolokonyo,Pot,Jerry can,2,FALSE,3,7,Leaves and water,Leaves gravel and soap
+384,2025-02-03,Teso Region,Kumi,Atutur,Kalungar Ps,Pot,Jerry can,2,FALSE,2,7,Mango leaves and water,Gravel and soap
+386,2025-02-03,Teso Region,Kumi,Atutur,Kalungar Ps,Pot,Jerry can,3,FALSE,2,6,Mango leaves and water,Gravel and leaves
+387,2025-02-03,Teso Region,Kumi,Kamacha,Ojie Tc,Pot,Jerry can,1,FALSE,6,2,Inside hand washing and out side soap,Mix soap and steel wire
+389,2025-02-03,Teso Region,Kumi,Kamacha,Ojie Tc,Pot,Jerry can,1,FALSE,3,2,Water and hand washed,Leaves and gravel
+390,2025-02-03,Teso Region,Kumi,Kamacha,Ojie Tc,Pot,Jerry can,1,FALSE,6,3,Leaves and water,Leaves and water
+392,2025-02-04,Teso Region,Kumi,Kamacha,Adodoi Palam,Pot,Jerry can,2,FALSE,5,2,Water and mango leaves,Leaves soap and water
+393,2025-02-04,Teso Region,Kumi,Kamacha,Adodoi Palam,Pot,Jerry can,1,FALSE,6,2,Banana leaves and water,Leaves and gravel mixed in water
+394,2025-02-04,Teso Region,Kumi,Kamacha,Adodoi Palam,Jerry can,Jerry can,2,FALSE,2,7,Steel wire and soap,Steel wire and soap
+395,2025-02-04,Teso Region,Kumi,Kakures,Kakures Ps,Pot,Jerry can,3,FALSE,6,2,Mango leaves and water,Mango leaves and water
+397,2025-02-04,Teso Region,Kumi,Kakures,Kakures Ps,Pot,Jerry can,3,FALSE,6,3,Mango leaves and water,Water and gravel
+398,2025-02-04,Teso Region,Kumi,Kakures,Kakures Ps,Pot,Jerry can,2,FALSE,6,3,Water and clean cavera,Steel wire and soap
+399,2025-02-05,Teso Region,Kumi,Kanyum,Odotuno,Pot,Jerry can,3,FALSE,6,2,An old camera and soap,Gravel and soap
+401,2025-02-05,Teso Region,Kumi,Kanyum,Odotuno,Pot,Jerry can,1,FALSE,6,3,Water and mango leaves,Mango leaves and water
+402,2025-02-05,Teso Region,Kumi,Kanyum,Odotuno,Pot,Jerry can,1,FALSE,2,7,Leaves and water,Gravel and water
+404,2025-02-05,Teso Region,Kumi,Kanyum,Kabwele Goria,Pot,Jerry can,2,FALSE,2,1,Hand washing,Leaves soap and water
+405,2025-02-05,Teso Region,Kumi,Kanyum,Kabwele Goria,Pot,Jerry can,2,FALSE,2,5,Hand washing,Water and gravel
+406,2025-02-05,Teso Region,Kumi,Kanyum,Kabwele Goria,Pot,Jerry can,2,FALSE,3,2,Water only,Leaves and water
+407,2025-02-17,Teso Region,Kumi,Kapolin Ps,Kapolin Ps,Pot,Jerry can,2,FALSE,6,2,Leaves and water,Gravel and leaves
+408,2025-02-17,Teso Region,Kumi,Kapolin,Kapolin Ps,Pot,Jerry can,1,FALSE,5,2,Water and mango leaves,Water and soap
+410,2025-02-17,Teso Region,Kumi,Ongino Kapolin,Kapolin Ps,Pot,Jerry can,1,FALSE,4,3,Leaves and water,Gravel and leaves
+411,2025-02-17,Teso Region,Kumi,Atutur,Apapai Apapai,Pot,Jerry can,1,FALSE,3,7,An old camera and soap,Leaves water and soap
+412,2025-02-17,Teso Region,Kumi,Atutur,Apapai Apapai,Pot,Jerry can,1,FALSE,6,3,An old camera and water,Mango leaves and water
+414,2025-02-17,Teso Region,Kumi,Atutur,Apapai Apapai,Pot,Jerry can,1,FALSE,5,2,Water and aclean cavera,Mango leaves
+416,2025-02-18,Teso Region,Kumi,Atutur,Akalabai Okengo,Pot,Jerry can,1,FALSE,3,5,An old cavera with water,Gravel and leaves
+417,2025-02-18,Teso Region,Kumi,Atutur,Akalabai Okengo,Pot,Jerry can,1,FALSE,3,1,Mango leaves and water,Mango leaves and water
+418,2025-02-18,Teso Region,Kumi,Atutur,Akalabai Okengo,Pot,Jerry can,1,FALSE,4,1,Mango leaves and water,Soap and water
+419,2025-02-18,Teso Region,Kumi,Atutur,Omolokonyo,Pot,Jerry can,1,FALSE,5,1,Mango leaves and water,Water and soap
+421,2025-02-18,Teso Region,Kumi,Atutur,Omolokonyo,Pot,Jerry can,1,FALSE,3,1,Cavera and water,Soap and water
+422,2025-02-18,Teso Region,Kumi,Atutur,Omolokonyo,Pot,Jerry can,1,FALSE,3,2,Mango leaves,Soap and water
+424,2025-02-19,Teso Region,Kumi,Atutur,Kalungar Ps,Pot,Jerry can,1,FALSE,6,2,Mango leaves and water,Cavera and soap
+425,2025-02-19,Teso Region,Kumi,Atutur,Kalungar Ps,Pot,Jerry can,2,FALSE,2,1,Soap cavera and water,Gravel and water
+426,2025-02-19,Teso Region,Kumi,Atutur,Kalungar Ps,Pot,Jerry can,2,FALSE,3,1,Mango leaves,Gavel leaves and soap and water
+428,2025-02-19,Teso Region,Kumi,Kamacha,Ojie Tc,Pot,Jerry can,1,FALSE,4,2,Mango leaves and water,Soap and gravel
+429,2025-02-19,Teso Region,Kumi,Kamacha,Ojie Tc,Pot,Jerry can,1,FALSE,3,8,Mango leaves and water,Gravel and soap and water
+430,2025-02-19,Teso Region,Kumi,Kamacha,Ojie Tc,Pot,Jerry can,2,FALSE,3,2,Mango leaves and water,Gravel and soap
+432,2025-02-20,Teso Region,Kumi,Kamacha,Adodoi Palam,Pot,Jerry can,2,FALSE,5,2,Mango leaves and water,Soap and a average and water
+433,2025-02-20,Teso Region,Kumi,Kamacha,Adodoi Palam,Pot,Jerry can,2,FALSE,6,2,Leaves and water,Gravel and soap
+434,2025-02-20,Teso Region,Kumi,Kamacha,Adodoi Palam,Pot,Jerry can,2,FALSE,1,2,Mango leaves and watef,Gravel and soap
+436,2025-02-20,Teso Region,Kumi,Kakures,Kakures Ps,Pot,Jerry can,1,FALSE,3,8,Leaves and water,"Hot water,gravel and soap"
+437,2025-02-20,Teso Region,Kumi,Kakures,Kakures Ps,Pot,Jerry can,11,FALSE,5,2,Mango leaves and water,Gravel and water
+438,2025-02-20,Teso Region,Kumi,Kakures,Kakures Ps,Pot,Jerry can,2,FALSE,6,3,Leaves and water,Soap and an old cavera
+439,2025-02-21,Teso Region,Kumi,Kanyum,Odotuno,Pot,Jerry can,1,FALSE,1,3,Water only,Soap and acavera
+441,2025-02-21,Teso Region,Kumi,Kanyum,Odotuno,Pot,Jerry can,1,FALSE,3,2,Leaves and water,Gravel soap and water
+442,2025-02-21,Teso Region,Kumi,Kanyum,Odotuno,Pot,Jerry can,1,FALSE,2,2,Leaves and water,Gravel soap and water
+444,2025-02-21,Teso Region,Kumi,Kanyum,Kabwele Goria,Pot,Jerry can,1,FALSE,6,2,Mango leaves,Soap and cavera
+445,2025-02-21,Teso Region,Kumi,Kanyum,Kabwele Goria,Pot,Jerry can,2,FALSE,4,6,Leaves and water,Gravel soap and water
+446,2025-02-21,Teso Region,Kumi,Kanyum,Kabwele Goria,Pot,Jerry can,1,FALSE,3,6,Just hand washed and dry,Soap and water
+448,2025-03-14,Teso Region,Kumi,Ongino,Kapolin Ps,Pot,Jerry can,2,FALSE,4,3,Leaves and water,Gravel and soap
+449,2025-03-14,Teso Region,Kumi,Ongino,Kapolin Ps,Pot,Jerry can,3,FALSE,5,3,Leaves and soap,Gravel and soap
+450,2025-03-14,Teso Region,Kumi,Atutur,Apapai Apapai,Pot,Jerry can,2,FALSE,4,2,Mango leaves,Gravel and soap
+452,2025-03-14,Teso Region,Kumi,Atutur,Apapai Apapai,Pot,Jerry can,2,FALSE,3,7,Mango leaves and water,Gravel and soap
+453,2025-03-14,Teso Region,Kumi,Atutur,Apapai Apapai,Pot,Jerry can,1,FALSE,3,7,Leaves and water dried for some time,Gravel and soap
+454,2025-03-14,Teso Region,Kumi,Atutur,Apapai Apapai,Pot,Jerry can,2,FALSE,3,2,Leaves and water,Gravel and soap
+456,2025-03-14,Teso Region,Kumi,Ongino,Kapolin Ps,Pot,Jerry can,2,FALSE,6,7,Leaves and water,Gravel and soap
+457,2025-03-14,Teso Region,Kumi,Ongino,Kapolin Ps,Pot,Jerry can,2,FALSE,3,7,Leaves and soap,Gravel and soap
+458,2025-03-14,Teso Region,Kumi,Ongino,Kapolin Ps,Pot,Jerry can,2,TRUE,3,7,Leaves and soap,Gravel and soap
+459,2025-03-15,Teso Region,Kumi,Atutur,Omolokonyo,Pot,Jerry can,2,FALSE,3,7,Leaves and water,Camera and soap
+460,2025-03-16,Teso Region,Kumi,Atutur,Kalungar Ps,Pot,Jerry can,2,FALSE,5,3,Mango leaves,Gravel and soap
+461,2025-03-16,Teso Region,Kumi,Atutur,Kalungar Ps,Pot,Jerry can,2,FALSE,3,2,Mango leaves and dried for a while,Gravel and soap
+463,2025-03-16,Teso Region,Kumi,Atutur,Kalungar Ps,Pot,Jerry can,1,FALSE,3,7,Mango leaves and water placed under sunshine,Gravel and leaves and soap
+465,2025-03-16,Teso Region,Kumi,Kamacha,Ojie Tc,Pot,Jerry can,1,FALSE,3,2,Mango leaves and water dried,Cavera and soap
+466,2025-03-16,Teso Region,Kumi,Kamacha,Ojie Tc,Pot,Jerry can,1,FALSE,2,3,Mango leaves and water,Gravel and soap
+467,2025-03-16,Teso Region,Kumi,Kamacha,Ojie Tc,Pot,Jerry can,1,FALSE,2,8,Leaves and water,Gravel water and soap
+469,2025-03-17,Teso Region,Kumi,Kamacha,Adodoi Palam,Pot,Jerry can,1,FALSE,3,4,Mango leaves and water,Cavera and soap
+470,2025-03-17,Teso Region,Kumi,Kamacha,Adodoi Palam,Pot,Jerry can,1,FALSE,5,7,Mango leaves and water,Gravel and soap
+471,2025-03-17,Teso Region,Kumi,Kamacha,Adodoi Palam,Pot,Jerry can,1,FALSE,6,3,Mango leaves and water,Gravel and soap
+472,2025-03-17,Teso Region,Kumi,Kakures,Kakures Ps,Pot,Jerry can,1,FALSE,4,7,Leaves and water,Gravel and soap
+473,2025-03-17,Teso Region,Kumi,Kakures,Kakures Ps,Pot,Jerry can,2,FALSE,5,7,Leaves and soap,Gravel and soap
+474,2025-03-17,Teso Region,Kumi,Kakures,Kakures,Pot,Jerry can,1,FALSE,6,3,Mango leaves and water placed under sunshine,Gravel and soap
+476,2025-03-18,Teso Region,Kumi,Kanyum,Odotuno,Pot,Jerry can,1,FALSE,4,3,Mango leaves and the pot dried under sunshine,Gravel and soap
+478,2025-03-18,Teso Region,Kumi,Kanyum,Odotuno,Pot,Jerry can,1,FALSE,3,5,Leaves and water pot dried under sunshine,Gravel and cavera and soap
+479,2025-03-18,Teso Region,Kumi,Kanyum,Odotuno,Pot,Jerry can,1,FALSE,2,4,Leaves and water,Gravel and water
+481,2025-03-18,Teso Region,Kumi,Kanyum,NA,Pot,Jerry can,1,FALSE,3,7,Cavera and soap,Gravel and cavera with soap
+482,2025-03-18,Teso Region,Kumi,Kanyum,Kabwele Goria,Pot,Jerry can,1,FALSE,6,3,Leaves and water,Cavera and soap
+483,2025-03-18,Teso Region,Kumi,Kanyum,Kabwele Goria,Pot,Jerry can,1,FALSE,5,3,Mango leaves and water,Gravel and cavera
+485,2025-04-14,Teso Region,Kumi,Atutur,Apapai Apapai,Pot,Jerry can,1,FALSE,4,4,Mango leaves,Cavera and soap
+486,2025-04-14,Teso Region,Kumi,Atutur,Apapai Apapai,Pot,Jerry can,2,FALSE,5,3,Leaves and water,Gravel and water and soap
+487,2025-04-14,Teso Region,Kumi,Atutur,Apapai Apapai,Pot,Jerry can,2,FALSE,5,3,Leaves and water,Gravel and soap
+489,2025-04-15,Teso Region,Kumi,Ongino,Kapolin Ps,Pot,Jerry can,2,FALSE,3,7,Mango leaves and water,Gravel and water
+490,2025-04-15,Teso Region,Kumi,Ongino,Kapolin Ps,Pot,Jerry can,2,FALSE,3,4,Mango leaves and water dried for sometime,Gravel and soap
+491,2025-04-15,Teso Region,Kumi,Ongino,Kapolin Ps,Pot,Jerry can,3,FALSE,3,1,Leaves and soap,Gravel and soap
+493,2025-04-16,Teso Region,Kumi,Atutur,Omolokonyo,Pot,Jerry can,2,FALSE,4,7,Mango leaves and water,Gravel and soap
+494,2025-04-16,Teso Region,Kumi,Atutur,Omolokonyo,Pot,Jerry can,3,FALSE,4,3,Leaves and water,Gravel and soap
+496,2025-04-16,Teso Region,Kumi,Atutur,Akalabai Okengo,Pot,Jerry can,2,TRUE,6,8,Leaves and water,Camera and soap
+497,2025-04-16,Teso Region,Kumi,Atutur,Akalabai Okengo,Pot,Jerry can,1,FALSE,3,4,Leaves and water,Camera and soap
+498,2025-04-16,Teso Region,Kumi,Atutur,Akalabai Okengo,Pot,Jerry can,2,FALSE,3,7,Leaves and water,Camera and soap
+500,2025-04-18,Teso Region,Kumi,Atutur,Kalungar Ps,Pot,Jerry can,2,FALSE,4,7,Leaves and water,Gravel and soap
+501,2025-04-18,Teso Region,Kumi,Atutur,Kalungar Ps,Pot,Jerry can,1,FALSE,3,7,Mango leaves and water,Gravel and soap
+502,2025-04-18,Teso Region,Kumi,Atutur,Kalungar Ps,Pot,Jerry can,1,FALSE,5,7,Leaves and water,Camera and soap
+504,2025-04-18,Teso Region,Kumi,Kamacha,Ojie Tc,Pot,Jerry can,2,FALSE,3,8,Leaves and water,Camera and soap
+505,2025-04-18,Teso Region,Kumi,Kamacha,Ojie Tc,Pot,Jerry can,2,FALSE,3,7,Mango leaves and water,Gravel and soap
+506,2025-04-18,Teso Region,Kumi,Kamacha,Ojie Tc,Pot,Jerry can,2,FALSE,5,7,Mango leaves and water,Camera and soap
+508,2025-04-19,Teso Region,Kumi,Kamacha,Adodoi Palam,Pot,Jerry can,2,FALSE,5,7,Leaves and water,Camera and soap
+509,2025-04-19,Teso Region,Kumi,Kamacha,Adodoi Palam,Pot,Jerry can,2,FALSE,5,7,Mango leaves and water,Gravel and soap
+510,2025-04-19,Teso Region,Kumi,Kamacha,Adodoi Palam,Pot,Jerry can,1,FALSE,6,7,Leaves and water,Camera .gravel and soap
+511,2025-04-19,Teso Region,Kumi,Kakures,Kakures Ps,Pot,Jerry can,2,FALSE,3,7,Leaves and water,Camera and soap
+513,2025-04-19,Teso Region,Kumi,Kakures,Kakures Ps,Pot,Jerry can,2,FALSE,3,7,Leaves and water,Gravel and soap
+514,2025-04-19,Teso Region,Kumi,Kakures,Kakures,Pot,Jerry can,2,FALSE,4,7,Mango leaves and water,Gravel and soap
+516,2025-04-20,Teso Region,Kumi,Kanyum,Odotuno,Pot,Jerry can,1,TRUE,3,7,Camera and water,Leaves and steel wire and soap
+517,2025-04-20,Teso Region,Kumi,Kanyum,Odotuno,Pot,Jerry can,2,FALSE,3,7,Leaves and water,Camera and soap
+518,2025-04-20,Teso Region,Kumi,Kanyum,Odotuno,Pot,Jerry can,2,FALSE,2,7,Hand washed with water,Leaves and soap
+520,2025-04-20,Teso Region,Kumi,Kanyum,Kabwele Goria,Pot,Jerry can,2,TRUE,3,7,Leaves and water,Camera and soap
+521,2025-04-20,Teso Region,Kumi,Kanyum,Kabwele Goria,Pot,Jerry can,3,FALSE,4,7,Mango leaves and water,Gravel and soap
+522,2025-04-20,Teso Region,Kumi,Kanyum,Kabwele Goria,Pot,Jerry can,2,FALSE,3,7,Mango leaves and water,Gravel and water
+524,2025-05-22,Teso Region,Kumi,Ongino,Kapolin Ps,Pot,Jerry can,1,FALSE,6,7,Mango leaves and water,Gravel and soap
+525,2025-05-22,Teso Region,Kumi,Ongino,Kapolin Ps,Pot,Jerry can,2,FALSE,5,3,Leaves and water,Gravel and soap
+526,2025-05-22,Teso Region,Kumi,Ongino,Kapolin Ps,Pot,Jerry can,2,FALSE,3,7,Leaves and water,Local sponge and soap
+528,2025-05-23,Teso Region,Kumi,Atutur,Apapai Apapai,Pot,Jerry can,1,FALSE,4,7,Leaves and water,Gravel leaves and soap
+529,2025-05-23,Teso Region,Kumi,Atutur,Apapai Apapai,Pot,Jerry can,2,FALSE,3,7,Leaves and water the dry on sun,Sponge and soap
+530,2025-05-23,Teso Region,Kumi,Atutur,Apapai Apapai,Pot,Jerry can,2,FALSE,3,7,Mango leaves and water,Gravel leaves and soap
+532,2025-05-23,Teso Region,Kumi,Atutur,Akalabai Okengo,Pot,Jerry can,1,FALSE,3,7,Leaves and soap,Gravel and soap
+533,2025-05-23,Teso Region,Kumi,Atutur,Akalabai Okengo,Pot,Jerry can,2,FALSE,3,7,Mango leaves and water,Gravel and soap
+534,2025-05-23,Teso Region,Kumi,Atutur,Akalabai Okengo,Pot,Jerry can,2,FALSE,3,7,Leaves and water,Gravel soap and water
+536,2025-05-24,Teso Region,Kumi,Atutur,Omolokonyo,Pot,Jerry can,1,FALSE,4,7,Mango leaves and water,Sponge and soap
+537,2025-05-24,Teso Region,Kumi,Atutur,Omolokonyo,Pot,Jerry can,1,FALSE,3,6,Leaves and water and dry,Gravel soap and water
+538,2025-05-24,Teso Region,Kumi,Atutur,Omolokonyo,Pot,Jerry can,1,FALSE,3,5,Leaves and water,Gravel and soap
+540,2025-05-25,Teso Region,Kumi,Atutur,Kalungar Ps,Pot,Jerry can,1,FALSE,2,2,Leaves and water,Sponge and soap
+541,2025-05-25,Teso Region,Kumi,Atutur,Kalungar Ps,Pot,Jerry can,1,FALSE,4,7,Leaves and water,Gravel and soap
+542,2025-05-25,Teso Region,Kumi,Atutur,Kalungar Ps,Pot,Jerry can,2,FALSE,2,7,Leaves and water,Gravel and soap
+544,2025-05-25,Teso Region,Kumi,Kamacha,Ojie Tc,Pot,Jerry can,2,FALSE,3,14,Leaves and water,Gravel and soap
+545,2025-05-25,Teso Region,Kumi,Kamacha,Ojie Tc,Pot,Jerry can,2,FALSE,3,7,Leaves and water,Gravel and soap
+546,2025-05-25,Teso Region,Kumi,Kamacha,Ojie Tc,Pot,Jerry can,2,FALSE,3,7,Leaves and water,Sponge and soap
+548,2025-05-27,Teso Region,Kumi,Kamacha,Adodoi Palam,Pot,Jerry can,2,FALSE,3,7,Leaves and water,Gravel and soap
+549,2025-05-27,Teso Region,Kumi,Kamacha,Adodoi Palam,Pot,Jerry can,2,FALSE,3,7,Leaves and water,Gravel and soap
+551,2025-05-27,Teso Region,Kumi,Kakures,Kakures,Pot,Jerry can,2,FALSE,3,7,Sponge and water,Gravel and soap
+552,2025-05-27,Teso Region,Kumi,Kakures,Kakures Ps,Pot,Jerry can,2,FALSE,3,6,Sponge and water,Sponge and soap
+553,2025-05-27,Teso Region,Kumi,Kakures,Kakures Ps,Pot,Jerry can,2,FALSE,4,7,Sponge and water,Sponge and soap
+554,2025-05-27,Teso Region,Kumi,Kamacha,Adodoi Palam,Pot,Jerry can,2,FALSE,3,7,Sponge and water,Sponge and soap
+556,2025-05-28,Teso Region,Kumi,Kanyum,Odotuno,Pot,Jerry can,1,FALSE,3,5,Mango leaves and water,Gravel and soap
+557,2025-05-28,Teso Region,Kumi,Kanyum,Odotuno,Pot,Jerry can,3,FALSE,4,7,Sponge and water,Gravel and soap
+559,2025-05-28,Teso Region,Kumi,Kanyum,Kabwele Goria,Pot,Jerry can,2,FALSE,3,7,Mango leaves and water,Gravel and soap
+560,2025-05-28,Teso Region,Kumi,Kanyum,Kabwele Goria,Pot,Jerry can,2,FALSE,3,7,Leaves and water,Gravel and soap
+561,2025-05-28,Teso Region,Kumi,Kanyum,Kabwele Goria,Pot,Jerry can,2,FALSE,2,4,Leaves and water,Gravel and soap
+562,2025-05-28,Teso Region,Kumi,Kanyum,Odotuno,Pot,Jerry can,1,FALSE,5,4,Leaves and water,Gravel and soap
+564,2025-06-16,Teso Region,Kumi,Ongino,Kapolin Ps,Pot,Jerry can,2,FALSE,7,5,Leaves and water,Leaves and soap
+565,2025-06-16,Teso Region,Kumi,Ongino,Kapolin Ps,Pot,Jerry can,1,FALSE,3,7,Sponge and water,Leaves and soap
+566,2025-06-16,Teso Region,Kumi,Ongino,Kapolin Ps,Pot,Jerry can,1,FALSE,3,7,Leaves and water,Leaves and soap
+568,2025-06-17,Teso Region,Kumi,Atutur,Apapai Apapai,Pot,Jerry can,1,FALSE,3,7,Leaves and water,Sponge and soap
+569,2025-06-17,Teso Region,Kumi,Atutur,Apapai Apapai,Pot,Jerry can,2,FALSE,3,7,Leaves and water,Leaves and soap
+570,2025-06-17,Teso Region,Kumi,Atutur,Apapai Apapai,Pot,Jerry can,1,FALSE,3,4,Sponge and water,Mango leaves
+572,2025-06-17,Teso Region,Kumi,Atutur,Akalabai Okengo,Pot,Jerry can,1,FALSE,3,7,Mango leaves and water,Leaves and soap
+573,2025-06-17,Teso Region,Kumi,Atutur,Akalabai Okengo,Pot,Jerry can,1,FALSE,3,5,Mango leaves and water,Mango leaves
+574,2025-06-17,Teso Region,Kumi,Atutur,Akalabai Okengo,Pot,Jerry can,1,FALSE,6,4,Mango leaves and water,Mango leaves and soap
+576,2025-06-18,Teso Region,Kumi,Atutur,Kalungar Ps,Pot,Jerry can,1,FALSE,3,7,Sponge and water,Mango leaves and soap
+577,2025-06-18,Teso Region,Kumi,Atutur,Kalungar Ps,Pot,Jerry can,2,FALSE,3,7,Mango leaves and water,Mango leaves and soap
+578,2025-06-18,Teso Region,Kumi,Atutur,Kalungar Ps,Pot,Jerry can,1,FALSE,3,4,Mango leaves and water,Mango leaves and soap
+579,2025-06-18,Teso Region,Kumi,Atutur,Omolokonyo,Pot,Jerry can,1,FALSE,5,3,Mango leaves and water,Sponge and soap
+581,2025-06-18,Teso Region,Kumi,Atutur,Omolokonyo,Pot,Jerry can,1,FALSE,3,5,Mango leaves and water,Sand and soap
+582,2025-06-18,Teso Region,Kumi,Atutur,Omolokonyo,Pot,Jerry can,1,FALSE,3,7,Mango leaves,Sand and soap
+584,2025-06-19,Teso Region,Kumi,Kamacha,Adodoi Palam,Pot,Jerry can,1,FALSE,3,7,Mango leaves and water,Sponge and soap
+585,2025-06-19,Teso Region,Kumi,Kamacha,Adodoi Palam,Pot,Jerry can,1,FALSE,5,7,Banana leaves and water,Leaves and soap
+586,2025-06-19,Teso Region,Kumi,Kamacha,Adodoi Palam,Pot,Jerry can,1,FALSE,2,3,Banana leaves and water,Sponge and soap
+588,2025-06-19,Teso Region,Kumi,Kamacha,Ojie Tc,Pot,Jerry can,1,FALSE,3,4,Sponge and water,Leaves and soap
+589,2025-06-19,Teso Region,Kumi,Kamacha,Ojie Tc,Pot,Jerry can,1,FALSE,6,4,Leaves gravel and water,Leaves and water
+590,2025-06-19,Teso Region,Kumi,Kamacha,Ojie Tc,Pot,Jerry can,1,FALSE,2,3,Leaves and water,Leaves and soap
+592,2025-06-20,Teso Region,Kumi,Kakures,Kakures Ps,Pot,Jerry can,1,FALSE,6,7,Mango leaves and water,Leaves and soap
+593,2025-06-20,Teso Region,Kumi,Kakures,Kakures Ps,Pot,Jerry can,1,FALSE,2,5,Mango leaves and water,Leaves and soap
+594,2025-06-20,Teso Region,Kumi,Kakures,Kakures Ps,Pot,Jerry can,1,FALSE,2,4,Mango leaves and water,Sand and soap
+595,2025-06-20,Teso Region,Kumi,Kanyum,Odotuno,Pot,Jerry can,2,FALSE,2,5,Mango leaves and water,Sponge and soap
+596,2025-06-20,Teso Region,Kumi,Kanyum,Odotuno,Pot,Jerry can,2,FALSE,2,7,Mango leaves and water,Sand and soap water
+598,2025-06-20,Teso Region,Kumi,Kanyum,Odotuno,Pot,Jerry can,1,FALSE,3,7,Mango leaves and water,Leaves and soap
+600,2025-06-21,Teso Region,Kumi,Kanyum,Kabwele Goria,Pot,Jerry can,1,FALSE,3,4,Mango leaves and water,Sand and soap
+601,2025-06-21,Teso Region,Kumi,Kanyum,Kabwele Goria,Pot,Jerry can,1,FALSE,3,4,Mango leaves and water,Sponge and soap
+602,2025-06-21,Teso Region,Kumi,Kanyum,Kabwele Goria,Pot,Jerry can,2,FALSE,3,7,Mango leaves and water,Sponge and soap
+604,2025-07-14,Teso Region,Kumi,Kanyum,Odotuno,Pot,Jerry can,1,FALSE,4,7,Mango leaves and water,Gravel and soap
+605,2025-07-14,Teso Region,Kumi,Kanyum,Odotuno,Pot,Jerry can,2,FALSE,4,7,Mango leaves and water,Leaves and soap
+606,2025-07-14,Teso Region,Kumi,Kanyum,Odotuno,Pot,Jerry can,2,FALSE,3,7,Mango leaves and water,Sponge and soap
+608,2025-07-14,Teso Region,Kumi,Kanyum,Kabwele Goria,Pot,Jerry can,2,FALSE,3,4,Hand washing with water,Gravel and soap
+609,2025-07-14,Teso Region,Kumi,Kanyum,Kabwele Goria,Pot,Jerry can,1,FALSE,3,5,Mango leaves and water,Gravel and soap
+610,2025-07-14,Teso Region,Kumi,Kanyum,Kabwele Goria,Pot,Jerry can,2,FALSE,3,5,Mango leaves and water,Gravel and soap
+611,2025-07-15,Teso Region,Kumi,Ongino,Kapolin Ps,Pot,Jerry can,2,FALSE,3,7,Sponge and water,Gravel soap and water
+613,2025-07-15,Teso Region,Kumi,Ongino,Kapolin Ps,Pot,Jerry can,1,FALSE,5,7,Mango leaves,Gravel soap and water
+614,2025-07-15,Teso Region,Kumi,Ongino,Kapolin Ps,Pot,Jerry can,1,FALSE,4,7,Leaves and water,Gravel leaves and water
+615,2025-07-15,Teso Region,Kumi,Atutur,Apapai Apapai,Pot,Jerry can,1,FALSE,3,4,Mango leaves and water,Gravel and soap
+617,2025-07-15,Teso Region,Kumi,Atutur,Apapai Apapai,Pot,Jerry can,1,FALSE,3,4,Mango leaves and water,Gravel and soap
+618,2025-07-15,Teso Region,Kumi,Atutur,Apapai Apapai,Pot,Jerry can,1,FALSE,2,7,Mango leaves and water,Sponge and soap
+619,2025-07-16,Teso Region,Kumi,Atutur,Akalabai Okengo,Pot,Jerry can,2,FALSE,3,4,Mango leaves,Gravel and soap
+621,2025-07-16,Teso Region,Kumi,Atutur,Akalabai Okengo,Pot,Jerry can,2,FALSE,4,7,Mango leaves and water,Gravel and soap
+622,2025-07-16,Teso Region,Kumi,Atutur,Akalabai Okengo,Pot,Jerry can,2,FALSE,3,7,Mango leaves and water,Sponge and water and soap
+623,2025-07-16,Teso Region,Kumi,Atutur,Omolokonyo,Pot,Jerry can,1,FALSE,3,4,Mango leaves and water,Gravel soap and water
+625,2025-07-16,Teso Region,Kumi,Atutur,Omolokonyo,Pot,Jerry can,1,FALSE,3,7,Eaves and water,Sponge soap and water
+626,2025-07-16,Teso Region,Kumi,Atutur,Omolokonyo,Pot,Jerry can,1,FALSE,3,5,Mango leaves,Sponge and soap
+628,2025-07-17,Teso Region,Kumi,Atutur,Kalungar Ps,Pot,Jerry can,1,FALSE,3,7,Mango leaves and water,Gravel and soap
+629,2025-07-17,Teso Region,Kumi,Atutur,Kalungar Ps,Pot,Jerry can,1,FALSE,3,7,Mango leaves and water,Sponge and soap
+630,2025-07-17,Teso Region,Kumi,Atutur,Kalungar Ps,Pot,Jerry can,2,FALSE,3,7,Mango leaves and water,Sponge soap and water
+632,2025-07-17,Teso Region,Kumi,Kamacha,Ojie Tc,Pot,Jerry can,2,FALSE,3,6,Leaves and water,Sponge soap and water
+633,2025-07-17,Teso Region,Kumi,Kamacha,Ojie Tc,Pot,Jerry can,1,FALSE,3,5,Mango leaves and water,Sponge soap and water
+634,2025-07-17,Teso Region,Kumi,Kamacha,Ojie Tc,Pot,Jerry can,3,FALSE,3,7,Mango leaves and water,Gravel and water
+636,2025-07-18,Teso Region,Kumi,Kamacha,Adodoi Palam,Pot,Jerry can,1,FALSE,4,7,Sponge and water,Gravel soap and water
+637,2025-07-18,Teso Region,Kumi,Kamacha,Adodoi Palam,Pot,Jerry can,2,FALSE,2,7,Sponge and water,Sponge and soap
+638,2025-07-18,Teso Region,Kumi,Kamacha,Adodoi Palam,Pot,Jerry can,2,FALSE,3,5,Leaves and water,Leaves and water
+640,2025-07-18,Teso Region,Kumi,Kakures,Kakures Ps,Pot,Jerry can,3,FALSE,3,7,Mango leaves and water,Gravel soap and water
+641,2025-07-18,Teso Region,Kumi,Kakures,Kakures Ps,Pot,Jerry can,2,FALSE,4,7,Sponge and water,Gravel soap and water
+642,2025-07-18,Teso Region,Kumi,Kakures,Kakures Ps,Pot,Jerry can,2,FALSE,3,7,Leaves and water,Gravel soap and water
+645,2025-08-18,Teso Region,Kumi,Ongino,Kapolin Atirir,Pot,Jerry can,1,FALSE,3,7,Local sponge and water,Gravel and soap
+646,2025-08-18,Teso Region,Kumi,Ongino,Kapolin Atirir,Pot,Jerry can,2,FALSE,5,7,Mango leaves and water,Mango leaves and soap
+647,2025-08-18,Teso Region,Kumi,Ongino,Kapolin Ps,Pot,Jerry can,2,FALSE,4,7,Mango leaves and water,Gravel and and soap
+648,2025-08-18,Teso Region,Kumi,Ongino,Kapolin Ps,Pot,Jerry can,3,FALSE,3,7,Mango leaves and water,Gravel and soap
+650,2025-08-18,Teso Region,Kumi,Ongino,Kapolin Ps,Pot,Jerry can,2,FALSE,2,4,Mango leaves and water,Gravel and soap
+651,2025-08-19,Teso Region,Kumi,Ongino,Kapolin Atirir,Pot,Jerry can,1,FALSE,3,4,Mango leaves and water,Gravel and soap
+653,2025-08-19,Teso Region,Kumi,Kanapa,Kongoto Oturukulu,Pot,Jerry can,1,FALSE,3,7,Mango leaves and water,Sponge and soap
+654,2025-08-19,Teso Region,Kumi,Kanapa,Kongoto Oturukulu,Pot,Jerry can,2,FALSE,3,7,Leaves and soap,Leaves gravel and soap
+655,2025-08-19,Teso Region,Kumi,Kanapa,Kongoto Oturukulu,Pot,Jerry can,3,FALSE,3,7,Leaves and water,Gravel and soap
+656,2025-08-20,Teso Region,Kumi,Atutur,Apapai Apapai,Pot,Jerry can,2,FALSE,3,5,Mango leaves and water,Gravel and soap
+658,2025-08-20,Teso Region,Kumi,Atutur,Apapai Apapai,Pot,Jerry can,2,FALSE,4,6,Leaves and water handwashed,Leaves and soap
+659,2025-08-20,Teso Region,Kumi,Atutur,Apapai Apapai,Pot,Jerry can,2,FALSE,5,7,Mango leaves and water,Gravel and soap
+661,2025-08-20,Teso Region,Kumi,Atutur,Akalabai Okengo,Pot,Jerry can,1,FALSE,3,7,Leaves and water,Sponge and soap
+662,2025-08-20,Teso Region,Kumi,Atutur,Akalabai Okengo,Pot,Jerry can,1,TRUE,3,5,Mango leaves and water,Gravel and soap
+663,2025-08-20,Teso Region,Kumi,Atutur,Akalabai Okengo,Pot,Jerry can,2,FALSE,4,7,Leaves and water,Gravel and soap
+665,2025-08-21,Teso Region,Kumi,Kakures,Kakures Ps,Pot,Jerry can,1,FALSE,5,7,Leaves and water,Gravel and soap
+666,2025-08-21,Teso Region,Kumi,Kakures,Kakures Ps,Pot,Jerry can,2,FALSE,NA,5,Sponge and water,Gravel and soap
+667,2025-08-21,Teso Region,Kumi,Kakures,Kakures Ps,Pot,Jerry can,2,FALSE,3,7,Sponge and water,Gravel and soap water
+669,2025-08-21,Teso Region,Kumi,Kakures,Kituba Ps,Pot,Jerry can,2,FALSE,4,7,Leaves and water,Gravel and soap
+670,2025-08-21,Teso Region,Kumi,Kakures,Kakures,Pot,Jerry can,1,FALSE,4,7,Leaves and water,Gravel and soap
+671,2025-08-22,Teso Region,Kumi,Kakures,Kakures B Rarak,Pot,Jerry can,2,FALSE,3,7,Leaves and water,Gravel and soap
+672,2025-08-22,Teso Region,Kumi,Kakures,Kakures B Rarak,Pot,Jerry can,2,FALSE,3,7,Mango leaves and water,Gravel and soap
+673,2025-08-22,Teso Region,Kumi,Kakures,Kakures B Rarak,Pot,Jerry can,2,FALSE,3,4,Sponge and water,Gravel and soap
+676,2025-08-23,Teso Region,Kumi,Atutur,Kalungar Ps,Pot,Jerry can,1,FALSE,4,7,Sponge and water,Gravel and soap
+677,2025-08-23,Teso Region,Kumi,Atutur,Kalungar Ps,Pot,Jerry can,1,FALSE,5,7,Leaves and water,Gravel and soap
+678,2025-08-23,Teso Region,Kumi,Atutur,Kalungar Ps,Pot,Jerry can,1,FALSE,3,7,Leaves and water,Gravel and soap
+679,2025-08-23,Teso Region,Kumi,Atutur,Omolokonyo,Pot,Jerry can,1,FALSE,3,4,Sponge and water,Gravel and soap
+681,2025-08-23,Teso Region,Kumi,Atutur,Omolokonyo,Pot,Jerry can,2,FALSE,5,4,Leaves and water,Gravel and soap
+682,2025-08-23,Teso Region,Kumi,Atutur,Omolokonyo,Pot,Jerry can,2,FALSE,3,5,Leaves and water,Gravel and soap
+683,2025-08-24,Teso Region,Kumi,Kamacha,Adodoi Palam,Pot,Jerry can,2,FALSE,4,7,Mango leaves and water,Use of gravel and soap
+684,2025-08-24,Teso Region,Kumi,Kamacha,Adodoi Palam,Pot,Jerry can,2,FALSE,4,7,Leaves and water,Gravel and soap
+685,2025-08-24,Teso Region,Kumi,Kamacha,Adodoi Palam,Pot,Jerry can,2,FALSE,4,7,Leaves and water,Gravel and soap
+688,2025-08-24,Teso Region,Kumi,Kamacha,Ojie Tc,Pot,Jerry can,2,FALSE,3,7,Leaves and water,Gravel and soap
+689,2025-08-24,Teso Region,Kumi,Kamacha,Ojie Tc,Pot,Jerry can,2,FALSE,5,4,Leaves and water,Gravel and soap
+690,2025-08-24,Teso Region,Kumi,Kamacha,Ojie Tc,Pot,Jerry can,2,FALSE,4,7,Leaves and water,Gravel and soap
+692,2025-08-25,Teso Region,Kumi,Kanyum,Ajuket Ps,Pot,Jerry can,2,FALSE,1,7,Mango leaves and water,Gravel and soap
+693,2025-08-25,Teso Region,Kumi,Kanyum,Ajuket Ps,Pot,Jerry can,2,FALSE,3,7,Leaves and water,Steel wire and soap
+694,2025-08-25,Teso Region,Kumi,Kanyum,Ajuket Ps,Pot,Jerry can,1,FALSE,4,7,Leaves and water,Gravel and soap
+695,2025-08-25,Teso Region,Kumi,Kanyum,Odotuno,Pot,Jerry can,2,FALSE,4,5,Sponge and water,Gravel and soap
+696,2025-08-25,Teso Region,Kumi,Kanyum,Odotuno,Pot,Jerry can,2,FALSE,3,7,Sponge and water,Gravel and soap
+697,2025-08-25,Teso Region,Kumi,Kanyum,Odotuno,Pot,Jerry can,1,FALSE,3,7,Sponge and water,Gravel and soap
+700,2025-08-26,Teso Region,Kumi,Kanyum,Olimai Ps,Pot,Jerry can,2,FALSE,4,7,Sponge and water,Gravel and soap
+701,2025-08-26,Teso Region,Kumi,Kanyum,Olimai Ps,Pot,Jerry can,2,FALSE,3,7,Gravel and water,Sponge and soap
+702,2025-08-26,Teso Region,Kumi,Kanyum,Olimai Ps,Pot,Jerry can,1,FALSE,3,5,Leaves and water,Gravel and soap
+704,2025-08-26,Teso Region,Kumi,Kanyum,Kabwele Goria,Pot,Jerry can,1,FALSE,3,7,Sponge and water,Gravel and soap
+705,2025-08-26,Teso Region,Kumi,Kanyum,Kabwele Goria,Pot,Jerry can,2,FALSE,3,4,Sponge and water,Leaves and soap
+706,2025-08-26,Teso Region,Kumi,Kanyum,Kabwele Goria,Pot,Jerry can,2,FALSE,4,6,Leaves and water,Gravel and soap
+707,2025-08-27,Teso Region,Kumi,Nyero,Acilun Agurut,Pot,Jerry can,2,FALSE,3,4,Leaves and water,Gravel and soap
+708,2025-08-27,Teso Region,Kumi,Nyero,Acilun Agurut,Pot,Jerry can,1,FALSE,4,5,Handwashing with water and dry,Steel wire
+709,2025-08-27,Teso Region,Kumi,Nyero,Acilun Agurut,Pot,Jerry can,1,FALSE,2,4,Leaves and water,Gravel and soap
+712,2025-08-27,Teso Region,Kumi,Nyero,Orapada Omatakiria,Pot,Jerry can,1,FALSE,3,4,Mango leaves and water,Mango leaves and water
+713,2025-08-27,Teso Region,Kumi,Nyero,Orapada Omatakiria,Pot,Jerry can,1,FALSE,3,5,Sponge and water,Gravel and soap
+714,2025-08-27,Teso Region,Kumi,Nyero,Orapada Omatakiria,Pot,Jerry can,1,FALSE,3,7,Sponge and water,Gravel and soap
+716,2025-08-28,Teso Region,Kumi,Nyero,Moruikara,Pot,Jerry can,1,FALSE,3,7,Mango leaves and water,Gravel and soap
+717,2025-08-28,Teso Region,Kumi,Nyero,Moruikara,Pot,Jerry can,1,FALSE,6,7,Sponge and water,Gravel and soap
+718,2025-08-28,Teso Region,Kumi,Nyero,Moruikara,Pot,Jerry can,1,FALSE,3,7,Sponge and water,Gravel and soap
+719,2025-08-28,Teso Region,Kumi,Nyero,Olilim Ps,Pot,Jerry can,1,FALSE,2,2,Mango leaves,Gnit shells and soap
+720,2025-08-28,Teso Region,Kumi,Nyero,Olilim Ps,Pot,Jerry can,2,FALSE,4,7,Handwashing with watet,Sponge and soap
+722,2025-08-28,Teso Region,Kumi,Nyero,Olilim Ps,Pot,Jerry can,1,TRUE,3,4,Handwashing,Gravel and soap
+723,2024-12-09,Busoga Region,Luuka,Luzinga Park,Luzinga Park,Pot,Jerry can,1,FALSE,7,7,"Polythen bag, water ,soap","Steel wire,soap,water"
+724,2024-12-09,Busoga Region,Luuka,Lizlnga Park,Luzinga Park,Pot,Jerry can,1,FALSE,8,14,Water only,Water only
+725,2024-12-09,Busoga Region,Luuka,Luzinga Park,Luzinga Park,Pot,Jerry can,1,FALSE,5,12,"Water ,soap, leaves","Water,soap, leaves"
+726,2024-12-09,Busoga Region,Luuka,Irongo,Irongo Subcounty,Drum,Jerry can,1,FALSE,60,30,Water and leaves,"Only water,and leaves"
+727,2024-12-09,Busoga Region,Luuka,Irongo,Irongo Subcounty,Pot,Jerry can,1,FALSE,3,7,Steel wire and water,"Sand, steel wire and water"
+728,2024-12-09,Busoga Region,Luuka,Irongoc,Irongo Subcounty,Jerry can,Jerry can,1,FALSE,7,14,"Leaves,water","Sand, leaves water"
+729,2024-12-09,Busoga Region,Luuka,Kibinga T/C,Kibinga T/ C,Pot,Jerry can,1,FALSE,8,15,"Sand, water, leaves,","Sand, water and leaves"
+730,2024-12-09,Busoga Region,Luuka,Kibinga T/C,Kibinga T/ C,Pot,Jerry can,1,FALSE,10,15,Leaves and water,"Leaves, water soap"
+731,2024-12-09,Busoga Region,Luuka,Kibinga T/C,Kiklbinga T/ C,Jerry can,Jerry can,1,FALSE,6,12,"Polythen bag, soap and water","Polythen ,soap, and water"
+732,2024-12-09,Busoga Region,Luuka,Kibinga A,Kibinga A,Pot,Jerry can,1,FALSE,5,14,"Polythen bag, water and soap","Polythen bag, water ,soap"
+733,2024-12-09,Busoga Region,Luuka,Kibinga A,Kibinga A,Pot,Jerry can,1,FALSE,30,60,Water only,Water only
+734,2024-12-09,Busoga Region,Luuka,Kibinga A,Kibinga A,Pot,Jerry can,1,FALSE,6,10,"Polythenbag, water and soap","Polythenbag, water,soap"
+750,2025-04-23,Busoga Region,Luuka,Budhabangula Nambula,Budhabangula Nambula,Pot,Jerry can,1,FALSE,7,5,"Polythene bags, soap, water","Steel wire,sop and water"
+751,2025-04-23,Busoga Region,Luuka,Budhabangula Nambula,Budhabangula Nambula,Pot,Jerry can,1,FALSE,7,7,"Polythene bags, soap, water","Polythene bags,sand, soap, water"
+752,2025-04-23,Busoga Region,Luuka,Kisambira,Kisambira,Pot,Jerry can,1,FALSE,7,14,"Polythenebag, soap, water","Polythenebag,soap, water"
+753,2025-04-23,Busoga Region,Luuka,Kisambira,Kisambira,Pot,Jerry can,1,FALSE,7,14,"Polythenebag, water, soap","Sand, polythenebag, water"
+754,2025-04-23,Busoga Region,Luuka,Kisambira,Kisambira,Pot,Jerry can,1,FALSE,12,12,"Polythenebag, soap, water","Sand, water, polythenebag"
+755,2025-04-23,Busoga Region,Luuka,Buwaiswa Gulemye,Buwaiswa Gulemye,Pot,Jerry can,1,FALSE,14,14,"Polythenebag, water, and soap","Polythenebag, water, and soap"
+756,2025-04-23,Busoga Region,Luuka,Buwaiswa Gulemye,Buwaiswa Gulemye,Pot,Jerry can,11,FALSE,7,14,"Polythenebag, water, soap","Polythenebag, soap, water,sand"
+757,2025-04-23,Busoga Region,Luuka,Buwaiswa Gulemye,Buwaiswa Gulemye,Pot,Jerry can,1,TRUE,4,7,"Polythenebag, soap","Polythenebag, soap, water"
+758,2025-04-23,Busoga Region,Luuka,Luzinga Park,Luzinga Park,Pot,Jerry can,1,FALSE,7,14,"Polythenebag, soap, water","Polythenebag, water, soap, sand and leave s"
+759,2025-04-23,Busoga Region,Luuka,Luzinga Park,Luzinga Park,Pot,Jerry can,1,FALSE,14,28,"Leaves , soap","Leaves, soap, sand and water"
+760,2025-04-23,Busoga Region,Luuka,Luzinga Park,Luzinga Park,Pot,Jerry can,1,FALSE,7,7,"Polythenebag, water, soap","Polythenebag, saop, water"
+761,2025-04-24,Busoga Region,Luuka,Modern Times Ps,Modern Times Ps,Pot,Jerry can,1,FALSE,7,14,"Polythenebag, water, soap","Polythenebag, soap,sand"
+762,2025-04-24,Busoga Region,Luuka,Modern Times Ps,Modern Times Ps,Pot,Jerry can,1,FALSE,14,28,"Polythenebag, water, soap","Polythenebag, soap, water, sand"
+763,2025-04-24,Busoga Region,Luuka,Modern Times Ps,Modern Times Ps,Pot,Jerry can,1,FALSE,14,21,"Leaves, soap, water","Polythenebag, leaves, water,soap"
+764,2025-04-24,Busoga Region,Luuka,Nsima,Nsima,Pot,Jerry can,1,FALSE,5,5,"Polythenebag, soap, water","Polythenebag,e, water, sand"
+765,2025-04-24,Busoga Region,Luuka,Nsima,Nsima,Pot,Jerry can,1,FALSE,7,7,"Leaves, water, soap","Leaves, sand, water, soap"
+766,2025-04-24,Busoga Region,Luuka,Nsima,Nsima,Pot,Jerry can,1,FALSE,7,7,"Leaves, soap, water","Leaves, soap, sand, water"
+767,2025-04-24,Busoga Region,Luuka,Nawanyago Bagole,Nawanyago Bagole,Pot,Jerry can,1,FALSE,10,21,"Leaves, soap, water","Leaves, soap , water"
+768,2025-04-24,Busoga Region,Luuka,Nawanyago Bagole,Nawanyago Bagole,Pot,Jerry can,1,FALSE,7,14,"Leaves, polythenebag, soap, water","Polythenebag, leaves,sand saop"
+769,2025-04-24,Busoga Region,Luuka,Nawanyago Bagole,Nawanyago Bagole,Pot,Jerry can,1,FALSE,15,40,"Leaves,sand, saop","Leaves,sand, water, soap"
+770,2025-04-24,Busoga Region,Luuka,Nsambya Bameka,Nsambya Bameka,Pot,Jerry can,1,FALSE,7,7,"Leaves, soap, water","Leaves, sand, water, soap"
+771,2025-04-24,Busoga Region,Luuka,Nsambya Bameka,Nsambya Bameka,Pot,Jerry can,1,FALSE,15,15,"Leaves, soap, water","Sand, water, soap,, leaves"
+772,2025-04-24,Busoga Region,Luuka,Nsambya Bameka,Nsambya Bameka,Pot,Jerry can,1,FALSE,7,7,"Leaves, soap, water","Leaves, sand, water, soap"
+773,2025-05-22,Busoga Region,Luuka,Ikonia Bafumba A,Ikonia Bufumba A,Pot,Jerry can,1,FALSE,15,21,"Polythenebag, water, soap","Polythenebag, water, soap"
+774,2025-05-22,Busoga Region,Luuka,Ikonia Bufumbaa,Ikonia Bufumba A,Pot,Jerry can,1,FALSE,5,15,"Polythenebag, water, soap","Polythenebag, water, soap"
+775,2025-05-22,Busoga Region,Luuka,Ikonia Bufumbaa,Ikonia Bufumba A,Pot,Jerry can,1,FALSE,14,14,"Polythenebag, water, and, soap","Polythenebag, water, and soap"
+776,2025-05-22,Busoga Region,Luuka,Nakyere,Nakyere,Pot,Jerry can,1,FALSE,7,14,"Leaves, soap, and, water","Leaves, sand, water, and soap"
+777,2025-05-22,Busoga Region,Luuka,Nakyere,Nakyere,Pot,Jerry can,1,FALSE,7,7,"Leaves,saop, water","Leaves, soap, water and soap"
+778,2025-05-22,Busoga Region,Luuka,Nawankompe A,Nawankompe A,Pot,Jerry can,1,FALSE,7,7,"Leaves, soap, water","Leaves, soap, water,sand"
+779,2025-05-22,Busoga Region,Luuka,Nawankompe A,Nawankompe A,Pot,Jerry can,1,FALSE,14,14,"Polythenebag, water and soap","Leaves, polythenebag,sand, water, and soap"
+780,2025-05-22,Busoga Region,Luuka,Nawankompe A,Nawankompe A,Pot,Jerry can,1,FALSE,7,14,"Leaves, sap, water","Leaves,sand, water, and soap"
+781,2025-05-22,Busoga Region,Luuka,Luzinga Park,Luzinga Park,Pot,Jerry can,1,FALSE,7,15,"Leaves, soap, and water",Leaves soap and water
+782,2025-05-22,Busoga Region,Luuka,Luzinga Park,Luzinga Park,Pot,Jerry can,1,FALSE,5,7,"Leaves, soap, and, water","Leaves, soap,, and water"
+791,2025-05-28,Busoga Region,Luuka,Budhuba A,Budhuba A Mosque,Pot,Jerry can,1,FALSE,7,14,"Polythenebag, soap, water","Polythenebag, soap, water, sand"
+796,2025-06-19,Busoga Region,Luuka,Modern Times Ps,Modern Times Ps,Pot,Jerry can,1,FALSE,5,5,"Leaves, soap, water","Leaves, soap, water, sand"
+797,2025-06-19,Busoga Region,Luuka,Modern Times Ps,Modern Times Ps,Pot,Jerry can,1,FALSE,7,7,"Leaves, soap, water","Leaves, soap, water, sand"
+798,2025-06-19,Busoga Region,Luuka,Modern Times Ps,Modern Times Ps,Pot,Jerry can,1,FALSE,5,7,"Leaves, soap, water","Leaves, soap, water"
+799,2025-06-19,Busoga Region,Luuka,Nsiima,Nsima,Pot,Jerry can,1,FALSE,5,7,"Leaves, soap, water","Leaves, soap, water"
+800,2025-06-19,Busoga Region,Luuka,Nsiima,Nsima,Pot,Jerry can,1,FALSE,6,6,"Polythenebag, soap, water","Polythenebag, water, soap, sand"
+801,2025-06-19,Busoga Region,Luuka,Nsiima,Nsima,Pot,Jerry can,1,FALSE,7,7,"Polythenebag, soap, water","Polythenebag, water, soap, sand"
+806,2025-06-24,Busoga Region,Luuka,Luzinga Park,Luzinga Park,Pot,Jerry can,1,FALSE,5,7,"Polythenebag.soap, water","Polythenebag, soap, sand water"
+807,2025-06-24,Busoga Region,Luuka,Luzinga Park,Luzinga Park,Pot,Jerry can,1,FALSE,7,7,"Leaves, soap, water","Leaves, sand, water"
+808,2025-06-24,Busoga Region,Luuka,Luzinga Park,Luzinga Park,Pot,Jerry can,1,FALSE,5,7,"Polythenebag, water, soap","Polythenebag, water, soap, sand"
+809,2025-06-24,Busoga Region,Luuka,Ikonia Bufumbaa,Ikonia Bufumba A,Pot,Jerry can,1,FALSE,3,7,"Leaves, soap, water","Leaves, sand, water"
+810,2025-06-24,Busoga Region,Luuka,Ikonia Bufumbaa,Ikonia Bufumba A,Pot,Jerry can,1,FALSE,14,14,"Polythenebag, water, soap","Polythenebag, water, soap"
+811,2025-06-24,Busoga Region,Luuka,Nakyere,Nakyere,Pot,Jerry can,1,FALSE,5,5,"Polythenebag, water, soap","Polythenebag, water, soap, sand"
+812,2025-06-24,Busoga Region,Luuka,Nakyere,Nakyere,Pot,Jerry can,1,FALSE,14,7,"Leaves, soap, water","Leaves, sand, water, soap"
+813,2025-06-24,Busoga Region,Luuka,Nakyere,Nakyere,Pot,Jerry can,1,FALSE,3,5,"Leaves, soap, water","Leaves, soap, water, sand"
+822,2025-07-28,Busoga Region,Luuka,Nsambya Bameka,Nsambya Bameka,Pot,Jerry can,1,FALSE,5,5,"Polythene,water","Polythene bag, leaves,soap, water"
+823,2025-07-28,Busoga Region,Luuka,Nsambya Bameka,Nsambya Bameka,Pot,Jerry can,1,FALSE,21,21,"Water, leaves","Sand, water, leaves"
+824,2025-07-28,Busoga Region,Luuka,Nsambya Bameka,Nsambya Bameka,Pot,Jerry can,1,FALSE,5,5,"Polythene,bag,water","Polythene bag, water,soap"
+825,2025-07-28,Busoga Region,Luuka,Budhuaba. A Mosque,Budhuba A Mosque,Pot,Jerry can,1,FALSE,7,7,"Polythene bag, water , soap","Polythene bag, water, soap, sand"
+826,2025-07-28,Busoga Region,Luuka,Budhuuba Mosque,Budhuba A Mosque,Pot,Jerry can,1,FALSE,5,7,"Polythene, water","Polythene bag,sand, leaves, water"
+827,2025-07-28,Busoga Region,Luuka,Budhuuba A Mosque,Budhuba A Mosque,Pot,Jerry can,1,FALSE,14,14,"Leaves, water, soap","Leaves, water,sand"
+829,2025-07-29,Busoga Region,Luuka,Nakyere,Nakyere,Pot,Jerry can,1,FALSE,7,14,"Leaves, water","Sand , leaves, water"
+830,2025-07-29,Busoga Region,Luuka,Nakyere,Nakyere,Pot,Jerry can,1,FALSE,5,7,"Leaves, soap, water","Sand, leaves, water , soap"
+831,2025-07-29,Busoga Region,Luuka,Nakyere,Nakyere,Pot,Jerry can,1,FALSE,7,14,"Water, soap, leaves","Sand, water, soap, leaves"
+832,2025-07-29,Busoga Region,Luuka,Nsima,Nsima,Pot,Jerry can,1,FALSE,7,7,"Water, soap, leaves","Sand, water, soap, leaves"
+833,2025-07-29,Busoga Region,Luuka,Nsima,Nsima,Pot,Jerry can,1,FALSE,5,5,"Leaves, soap, water","Sand, water, soap, leaves"
+834,2025-07-29,Busoga Region,Luuka,Nsima,Nsima,Pot,Jerry can,1,FALSE,7,17,"Leaves, soap, water","Sand, leaves, soap,, water"
+835,2025-07-30,Busoga Region,Luuka,Modern Times Ps,Modern Times Ps,Pot,Jerry can,1,FALSE,5,5,"Leaves, soap, water","Sand, water, soap, leaves"
+836,2025-07-30,Busoga Region,Luuka,Modern Times Ps,Modern Times Ps,Pot,Jerry can,1,TRUE,4,4,"Leaves, water, soap","Sand, leaves, water, soap"
+837,2025-07-30,Busoga Region,Luuka,Modern Times Ps,Modern Times Ps,Pot,Jerry can,1,FALSE,7,7,"Leaves, soap, water","Leaves, soap, water, sand"
+838,2025-07-30,Busoga Region,Luuka,Nawankompe A,Nawankompe A,Pot,Jerry can,1,FALSE,5,7,"Polythene bag, water, soap","Polythene bag, sand, water, soap"
+839,2025-07-30,Busoga Region,Luuka,Nawankompe A,Nawankompe A,Pot,Jerry can,1,FALSE,7,7,"Leaves, soap, water","Sand, water, soap, leaves"
+840,2025-07-30,Busoga Region,Luuka,Nawankompe A,Nawankompe A,Pot,Jerry can,1,FALSE,7,8,"Polythene bag , water, soap","Soap, water, sand, polythene bag"
+841,2025-07-30,Busoga Region,Luuka,Ikonia Bufumbaa,Ikonia Bufumba A,Pot,Jerry can,1,FALSE,5,7,"Leaves, soap, water","Leaves, soap, water ,sand"
+842,2025-07-30,Busoga Region,Luuka,Ikonia Bufumbaa,Ikonia Bufumba A,Pot,Jerry can,1,FALSE,7,14,"Leaves, soap, water","Sand, water, soap, leaves"
+843,2025-07-30,Busoga Region,Luuka,Ikonia Bufumbaa,Ikonia Bufumba A,Pot,Jerry can,1,FALSE,8,8,"Water, leaves, soap","Sand, water, soap, leaves"
+844,2025-07-30,Busoga Region,Luuka,Luzinga Park,Luzinga Park,Pot,Jerry can,1,FALSE,7,10,"Leaves, soap water","Sand, water, leaves, soap"
+845,2025-07-30,Busoga Region,Luuka,Luzinga Park,Luzinga Park,Pot,Jerry can,1,FALSE,14,7,"Polythene bag, water, soap","Polythene bag, water, soap,sand"
+846,2025-07-30,Busoga Region,Luuka,Luzinga Park,Luzinga Park,Pot,Jerry can,1,FALSE,6,12,"Leaves, soap, water","Sand, water, soap, leaves"
+848,2025-08-18,Busoga Region,Luuka,Bukyamata,Bukyamata,Pot,Jerry can,1,TRUE,5,10,Smoking inside with banana peels washing it with water,Using water soap small soil particles and steel wire
+849,2025-08-18,Busoga Region,Luuka,Bukyamata,Bukyamata,Pot,Jerry can,1,FALSE,4,30,Using water soap small net,Using water soap small soil particles and steel wire
+850,2025-08-18,Busoga Region,Luuka,Bukyamata,Bukyamata,Pot,Jerry can,1,FALSE,6,25,Water soap small net,Using water soap small soil particles and a small net
+852,2025-08-19,Busoga Region,Luuka,Nairika Kagoma,Nairika Kagoma,Pot,Jerry can,1,FALSE,5,25,Using water soap small net,Using water soap small soil particles and steel wire
+853,2025-08-19,Busoga Region,Luuka,Nairika Kagoma,Nairika Kagoma,Pot,Jerry can,1,FALSE,6,10,Using water and hands,Using water soap small soil particles and a net
+854,2025-08-19,Busoga Region,Luuka,Nairika Kagoma,Nairika Kagoma,Pot,Jerry can,1,FALSE,6,20,Using water soap small net,Using water soap small soil particles and a small net
+855,2025-08-20,Busoga Region,Luuka,Nawanyago Bugole,Nawanyago Bagole,Pot,Jerry can,1,FALSE,5,14,"Leaves, water,","Leaves, water,sand"
+856,2025-08-20,Busoga Region,Luuka,Nawanyago Bugole,Nawanyago Bagole,Pot,Jerry can,1,FALSE,5,5,"Leaves, water, soap","Lea6,water, sand"
+857,2025-08-20,Busoga Region,Luuka,Nawanyago Bugole,Nawanyago Bagole,Pot,Jerry can,1,FALSE,5,5,"Leaves, water, soap","Leaves, soap, water, sand"
+858,2025-08-20,Busoga Region,Luuka,Nsambya Bameka,Nsambya Bameka,Pot,Jerry can,1,FALSE,7,7,"Polythene bag,water, soap, water","Polythene bag, soap, sand, water"
+860,2025-08-20,Busoga Region,Luuka,Nsambya Bameka,Nsambya Bameka,Pot,Jerry can,1,FALSE,7,7,"Leaves soap,water","Leaves, water, sand, soap"
+861,2025-08-20,Busoga Region,Luuka,Nsambya Bameka,Nsambya Bameka,Pot,Jerry can,1,FALSE,14,14,"Leaves ,water, soap","Leaves soap,water"
+862,2025-08-20,Busoga Region,Luuka,Budhuba A Mosque,Budhuba A Mosque,Pot,Jerry can,1,FALSE,7,14,"Leaves, water, soap","Leaves, water ,sand, soap"
+863,2025-08-20,Busoga Region,Luuka,Budhuba A Mosque,Budhuba A Mosque,Pot,Jerry can,1,FALSE,5,5,"Leaves, sand, soap, water","Leaves, water, soap, sand"
+864,2025-08-20,Busoga Region,Luuka,Budhuba A Mosque,Budhuba A Mosque,Pot,Jerry can,1,FALSE,3,3,"Polythene bag, , soap, water","Polythene bag, water, sand, soap"
+865,2025-08-21,Busoga Region,Luuka,Luzinga Park,Luzinga Park,Pot,Jerry can,1,FALSE,5,5,"Water , soap ,and leaves","Sand, local leaves, water, soap"
+866,2025-08-21,Busoga Region,Luuka,Luzinga Park,Luzinga Park,Pot,Jerry can,1,FALSE,5,7,"Polythene bag, soap, water","Sand , polythene bag, soap, water"
+867,2025-08-21,Busoga Region,Luuka,Luzinga Park,Luzinga Park,Pot,Jerry can,1,FALSE,7,7,"Leaves, water only","Leaves ,water, soap, sand"
+868,2025-08-21,Busoga Region,Luuka,Nakabaale A,Nakabaale A,Pot,Jerry can,1,FALSE,7,7,"Water, and polythene bag","Leaves, water, sand, and, soap"
+869,2025-08-21,Busoga Region,Luuka,Nakabaale A,Nakabaale A,Pot,Jerry can,1,FALSE,4,7,"Leaves, water, soap","Leaves, water, soap, sand"
+870,2025-08-21,Busoga Region,Luuka,Nakabaale A,Nakabaale A,Pot,Jerry can,1,FALSE,5,5,"Polythene bag, soap and water","Polythene bag, soap,,and sand"
+871,2025-08-21,Busoga Region,Luuka,Modern Time Ps,Modern Times Ps,Pot,Jerry can,1,FALSE,6,7,Water and soap,"Leaves, water ,sand and soap"
+872,2025-08-21,Busoga Region,Luuka,Modern Time Ps,Modern Times Ps,Pot,Jerry can,1,FALSE,7,7,"Leaves, water, soap","Leaves ,water, soap"
+873,2025-08-21,Busoga Region,Luuka,Modern Time Ps,Modern Times Ps,Pot,Jerry can,1,FALSE,3,7,"Leaves, water, soap","Leaves, water, sand, soap"
+874,2025-08-21,Busoga Region,Luuka,Nsima,Nsima,Pot,Jerry can,1,FALSE,5,5,"Leaves, water, soap","Leaves, water, sand, and, soap"
+875,2025-08-21,Busoga Region,Luuka,Nsima,Nsima,Pot,Jerry can,1,FALSE,7,7,"Leaves, water ,soap","Leaves, water, sand, soap"
+876,2025-08-21,Busoga Region,Luuka,Nsima,Nsima,Pot,Jerry can,1,FALSE,7,7,"Leaves, water, and soap","Leaves, water, soap, sand"
+879,2025-08-25,Busoga Region,Luuka,Busanda Ps,Busanda Ps,Pot,Jerry can,1,FALSE,5,17,Smoking inside with banana peels washing it with water,Using water soap small soil particles and a small net
+881,2025-08-25,Busoga Region,Luuka,Busanda Ps,Busanda Ps,Pot,Jerry can,1,FALSE,5,10,Washing it with a small net and soap plus water,Using water soap small soil particles and steel wire
+882,2025-08-25,Busoga Region,Luuka,Busanda Ps,Busanda Ps,Pot,Jerry can,1,FALSE,4,15,Washing it with water soap and a small net,Using water soap small soil particles and a small net
+888,2025-08-25,Busoga Region,Luuka,Budhabangula Nambula,Budhabangula Nambula,Pot,Jerry can,1,FALSE,6,14,Water soap small net,Using water soap small soil particles and steel wire
+890,2025-08-25,Busoga Region,Luuka,Budhabangula Nambula,Budhabangula Nambula,Pot,Jerry can,1,FALSE,6,10,Water soap small net,Using water soap small soil particles and steel wire
+891,2025-08-25,Busoga Region,Luuka,Budhabangula Nambula,Budhabangula Nambula,Pot,Jerry can,1,FALSE,7,30,Water soap small net,Using water soap small soil particles and steel wire
+894,2025-08-26,Busoga Region,Luuka,Nakabondo,Nakabondo,Pot,Jerry can,1,FALSE,7,14,"Smoking it with banana peels and using water,net to wash it",Using water soap small soil particles and a small net
+895,2025-08-26,Busoga Region,Luuka,Nakabondo,Nakabondo,Pot,Jerry can,1,FALSE,10,20,Using water soap small net,Using water soap small soil particles and steel wire
+896,2025-08-26,Busoga Region,Luuka,Budondo A,Budondo A,Bucket,Jerry can,1,FALSE,7,25,Using water soap small net,Using water soap small soil particles and steel wire
+897,2025-08-26,Busoga Region,Luuka,Budondo A,Budondo A,Pot,Jerry can,1,FALSE,10,20,Smoking inside with banana peels washing it with water,Using water soap small soil particles and steel wire
+898,2025-08-26,Busoga Region,Luuka,Budondo A,Budondo A,Pot,Jerry can,1,FALSE,9,15,Water soap small net,Using water soap small soil particles and a net
+899,2025-08-26,Busoga Region,Luuka,Kimanto,Kimanto,Pot,Jerry can,1,FALSE,9,15,Smoking inside with banana peels washing it with water,Using water soap small soil particles and steel wire
+900,2025-08-26,Busoga Region,Luuka,Kimanto,Kimanto,Pot,Jerry can,1,FALSE,10,24,Water soap small net,Using water soap small soil particles and steel wire
+901,2025-08-26,Busoga Region,Luuka,Kimanto,Kimanto,Pot,Jerry can,1,FALSE,10,14,Smoking inside with banana peels and water with water,Using water soap small soil particles and a small net
+902,2025-08-26,Busoga Region,Luuka,Busige Bumanha,Busige Bumanha,Pot,Jerry can,1,FALSE,7,17,Water soap small net,Using water soap small soil particles and steel wire
+903,2025-08-26,Busoga Region,Luuka,Bumanha Busige,Busige Bumanha,Pot,Jerry can,1,FALSE,10,14,Water soap small net,Using water soap small net for washing and steel wire
+904,2025-08-26,Busoga Region,Luuka,Busige Bumanha,Busige Bumanha,Pot,Jerry can,1,FALSE,12,30,Using water soap small net,Using water soap small net and steel wire
+905,2025-08-26,Busoga Region,Luuka,Nakabondo,Nakabondo,Pot,Jerry can,1,FALSE,6,14,Smoking inside with banana peels washing it water and a net,Using water soap small soil particles and steel wire
+907,2025-08-27,Busoga Region,Luuka,Nawankompe A,Nawankompe A,Pot,Jerry can,1,FALSE,5,5,"Leaves, water, and soap","Leaves, water, soap, sand,"
+908,2025-08-27,Busoga Region,Luuka,Nawankompe A,Nawankompe A,Pot,Jerry can,1,FALSE,7,7,"Leaves, water, and soap","Leaves.,water, sand and soap"
+909,2025-08-27,Busoga Region,Luuka,Nawankompe A,Nawankompe A,Pot,Jerry can,1,FALSE,7,10,"Polythene bag, and water","Polythene bag, soap, sand and water"
+910,2025-08-27,Busoga Region,Luuka,Nabikuyi Dodovico,Nabikuyi Dodovico,Pot,Jerry can,1,FALSE,7,7,"Polythene,,water, only","Polythene bag ,water, sand, soap"
+912,2025-08-27,Busoga Region,Luuka,Nabikuyi Dodovico,Nabikuyi Dodovico,Pot,Jerry can,1,FALSE,7,7,Polythenebag and water,"Polythene bag, soap, sand, and water"
+913,2025-08-27,Busoga Region,Luuka,Nabikuyi Dodovico,Nabikuyi Dodovico,Pot,Jerry can,1,FALSE,5,3,"Polythene bag, water, and soap","Polythene bag, sand, soap and water"
+916,2025-08-27,Busoga Region,Luuka,Nakyere,Nakyere,Pot,Jerry can,1,FALSE,5,5,"Polythene bag, and water","Leaves, water, sand, soap"
+917,2025-08-27,Busoga Region,Luuka,Nakyere,Nakyere,Pot,Jerry can,1,FALSE,5,5,"Leaves, and water","Leaves, water, sand, and soap"
+918,2025-08-27,Busoga Region,Luuka,Nakyere,Nakyere,Pot,Jerry can,1,FALSE,5,5,"Polythene bag, and water","Leaves, water, sand and soap"
+920,2025-08-28,Busoga Region,Luuka,Irongo Subc,Irongo Subcounty,Pot,Jerry can,1,FALSE,5,14,"Leaves, water","Leaves, water, soap, sand"
+921,2025-08-28,Busoga Region,Luuka,Irongo Sub C,Irongo Subcounty,Pot,Jerry can,1,FALSE,5,5,Polythene bag and water only,"Leaves, water, soap, sand"
+922,2025-08-28,Busoga Region,Luuka,Irongo Sub C,Irongo Subcounty,Pot,Jerry can,1,FALSE,5,5,"Leaves, water, and soap","Leaves, water, sand and soap"
+923,2025-08-28,Busoga Region,Luuka,Kibinga Tc,Kibinga Tc,Pot,Jerry can,1,FALSE,7,7,"Polythene bag, and water","Leaves, water, soap, and sand"
+924,2025-08-28,Busoga Region,Luuka,Kibinga Tc,Kibinga Tc,Pot,Jerry can,1,FALSE,7,14,"Polythene bag, and water","Leaves, soap, sand, and water"
+925,2025-08-28,Busoga Region,Luuka,Kibinga Tc,Kibinga Tc,Pot,Jerry can,1,FALSE,5,3,"Polythene bag, and water","Leaves ,soap, sand, and water"
+926,2025-08-28,Busoga Region,Luuka,Kibinga A,Kibinga A,Pot,Jerry can,1,FALSE,7,7,"Polythene bag, soap and water","Leaves, water, soap, and sand"
+927,2025-08-28,Busoga Region,Luuka,Kibinga A,Kibinga A,Pot,Jerry can,1,FALSE,7,7,"Polythene bag, and water","Leaves, water, sand and soap"
+928,2025-08-28,Busoga Region,Luuka,Kibinga A,Kibinga A,Pot,Jerry can,1,FALSE,7,5,"Polythene bag, and water","Leaves, soap, sand,,and water"
+929,2025-08-28,Busoga Region,Luuka,Ikonia Bufumba A,Ikonia Bufumba A,Pot,Jerry can,1,FALSE,7,7,"Leaves, and water","Leaves ,soap, sand, and water"
+930,2025-08-28,Busoga Region,Luuka,Ikonia Bufumba A,Ikonia Bufumba A,Pot,Jerry can,1,FALSE,5,5,"Polythene bag, and water","Leaves, soap, sand, and water"
+931,2025-08-28,Busoga Region,Luuka,Ikonia Bufumba A,Ikonia Bufumba A,Pot,Jerry can,1,FALSE,5,5,"Polythene bag, and water","Leaves, soap, sand, and water"
+932,2025-09-01,Busoga Region,Luuka,Buwaiswa Gulemye,Buwaiswa Gulemye,Pot,Jerry can,1,FALSE,14,14,Polythene bag and water,"Leaves, water, sand and soap"
+933,2025-09-01,Busoga Region,Luuka,Buwaiswa Gulemye,Buwaiswa Gulemye,Pot,Jerry can,1,FALSE,7,7,"Polythenebag,and water","Leaves, sand and water"
+934,2025-09-01,Busoga Region,Luuka,Buwaiswa Gulemye,Buwaiswa Gulemye,Pot,Jerry can,1,FALSE,7,7,"Polythene bag, and water","Leaves, water, soap, sand,"
+938,2025-09-01,Busoga Region,Luuka,Kisambira,Kisambira,Pot,Jerry can,1,FALSE,7,7,"Polythene bag, and water","Leaves, soap, sand, and water"
+939,2025-09-01,Busoga Region,Luuka,Kisambira,Kisambira,Pot,Jerry can,1,FALSE,10,10,"Polythene,bag and water","Leaves, water, and soap"
+940,2025-09-01,Busoga Region,Luuka,Kisambira,Kisambira,Pot,Jerry can,1,FALSE,7,7,"Polythene bag, and water","Leaves, soap, sand, and water"
+943,2025-09-01,Busoga Region,Luuka,Kyanvuma Ps,Kyanvuma Ps,Pot,Jerry can,1,FALSE,6,20,Smoking inside with banana peels and using water to wash,Using water soap small soil particles and steel wire
+944,2025-09-01,Busoga Region,Luuka,Kyanvuma Ps,Kyanvuma Ps,Pot,Jerry can,1,FALSE,7,17,Water soap and small net,Using water soap small soil particles and steel wire
+945,2025-09-01,Busoga Region,Luuka,Kyanvuma Ps,Kyanvuma Ps,Pot,Jerry can,1,FALSE,10,25,Water a small net and soap,Using water soap small soil particles and steel wire
+990,2024-12-03,Central Region,Nakaseke,Kakonde,Kakonde,Pot,Jerry can,5,TRUE,6,30,Water and soap,Water and soap
+991,2024-12-03,Central Region,Nakaseke,Kakonde,Kakonde,Pot,Jerry can,1,TRUE,4,30,Water and soap,They use water and soap
+992,2024-12-03,Central Region,Nakaseke,Kakonde,Kakonde,Pot,Jerry can,1,TRUE,7,30,Water and soap,Water and soap
+993,2024-12-03,Central Region,Nakaseke,Busumba,Busumba,Pot,Jerry can,1,TRUE,6,30,Steelwire and soap,"Steelwire ,soap and water"
+994,2024-12-03,Central Region,Nakaseke,Busumba,Busumba,Pot,Jerry can,1,TRUE,6,14,Dry banana leaves and water.,"They use steelwire, soap and soap."
+995,2024-12-03,Central Region,Nakaseke,Busumba,Busumba,Pot,Jerry can,1,TRUE,6,14,"Water , soap and sponge.",Steelwire and soap and water.
+996,2024-12-03,Central Region,Nakaseke,Lukumbi,Lukumbi Mosque,Pot,Jerry can,1,TRUE,30,30,Steel wire soap and water,Murram stones and water
+997,2024-12-03,Central Region,Nakaseke,Kuffu,Kuffu,Pot,Jerry can,1,TRUE,14,30,Dry banana leaves and water,"Steelwire,water and soap"
+998,2024-12-03,Central Region,Nakaseke,Kuffu,Kuffu,Pot,Jerry can,1,TRUE,5,30,"Soap ,dish washer and water","Steelwire,soap and water"
+999,2024-12-04,Central Region,Nakaseke,Naluvule T.c,Naluvule Tc,Bucket,Jerry can,1,TRUE,5,7,Steel wire and soap,Steelwire and soap
+1000,2024-12-04,Central Region,Nakaseke,Naluvule,Naluvule Tc,Drum,Jerry can,1,TRUE,4,7,Steelwire and soap,Steel wire and soap
+1001,2024-12-04,Central Region,Nakaseke,Naluvule,Naluvule Tc,Sauce pan,Jerry can,7,TRUE,7,14,"Steel wire ,soap and water","Steelwire ,soap and water"
+1002,2024-12-04,Central Region,Nakaseke,Mizimbo,Mizimbo,Pot,Jerry can,1,FALSE,7,30,Dish washer and water,"Steel wire, soap and water"
+1003,2024-12-04,Central Region,Nakaseke,Mizimbo,Mizimbo,Pot,Jerry can,1,TRUE,14,30,Lemon grass and water,"Steel wire , water and soap"
+1004,2024-12-04,Central Region,Nakaseke,Mizimbo,Mizimbo,Pot,Jerry can,1,TRUE,14,30,Water and dish washer,"Steelwire ,soap and water."
+1005,2024-12-04,Central Region,Nakaseke,Namasinda,Namasinda Nakitto,Pot,Jerry can,1,FALSE,30,30,They use plain water only.,"Steel wire,soap and water"
+1006,2024-12-04,Central Region,Nakaseke,Namasinda,Namasinda Nakitto,Pot,Jerry can,1,TRUE,2,14,Dish washer and water,"Steel wire ,soap and water"
+1007,2024-12-04,Central Region,Nakaseke,Namasinda,Namasinda Nakitto,Pot,Jerry can,1,TRUE,7,30,Water and dish washer,"Street wire, soap and soap"
+1008,2024-12-04,Central Region,Nakaseke,Kuffu,Kuffu,Pot,Jerry can,1,TRUE,7,30,"Dish washer,soap and water","Steel wire, soap and water"
+1011,2024-12-05,Central Region,Nakaseke,Ssanze,Ssanze,Pot,Jerry can,2,FALSE,14,30,Water and dish water.,"Ash or sand , dish washer and water"
+1012,2024-12-05,Central Region,Nakaseke,Ssanze,Ssanze,Pot,Jerry can,1,TRUE,30,30,Plain water.,"Steel wire ,soap and water."
+1013,2024-12-05,Central Region,Nakaseke,Ssanze,Ssanze,Pot,Jerry can,1,TRUE,30,30,Dish washer and plain water,"Steelwire, soap and water"
+1016,2024-12-05,Central Region,Nakaseke,Kivumu,Kivumu,Pot,Jerry can,1,TRUE,30,30,"Dish washer and water ,smoking it with dry banana peelings","Steelwire ,soap and water"
+1017,2024-12-05,Central Region,Nakaseke,Kivumu,Kakoola Kivumu,Pot,Jerry can,1,TRUE,14,30,Plain water,Steelwire water and soap
+1018,2024-12-05,Central Region,Nakaseke,Kivumu,Kivumu,Pot,Jerry can,1,TRUE,14,30,"Soap, water and dish washer.","Steelwire, soap and water."
+1019,2024-12-05,Central Region,Nakaseke,Bulamazzi,Bulamazzi,Pot,Jerry can,1,TRUE,4,30,Dry banana leaves and water.,"Steelwire,soap and water."
+1020,2024-12-05,Central Region,Nakaseke,Bulamazzi,Bulamazzi,Pot,Jerry can,1,TRUE,14,30,Dish washer and water.,"Steelwire,soap and water."
+1021,2024-12-05,Central Region,Nakaseke,Bulamazzi,Bulamazzi,Pot,Jerry can,1,TRUE,14,30,Plain water.,"Steelwire ,soap and water"
+1024,2024-12-10,Central Region,Nakaseke,Kifunfugu B,Kifunfugu B,Pot,Jerry can,1,TRUE,7,30,"Dish washer , water and soap","Steelwire ,soap and water"
+1025,2024-12-10,Central Region,Nakaseke,Kifunfugu B,Kifunfugu B,Pot,Jerry can,1,TRUE,7,14,Plain water.,"Steel wire ,soap and water"
+1026,2024-12-10,Central Region,Nakaseke,Kifunfugu Kasangombe,Kifunfugu B,Pot,Jerry can,1,FALSE,7,30,Use plain water and smoking it with dry banana leaves,"Steelwire, soap and water"
+1028,2024-12-10,Central Region,Nakaseke,Mugenyi Kasangombe,Mugenyi,Pot,Jerry can,1,TRUE,10,30,Plain water and then smoke it with dry banana leaves.,"Steel wire ,soap and water"
+1029,2024-12-10,Central Region,Nakaseke,Mugenyi Kasangombe,Mugenyi,Pot,Jerry can,1,TRUE,20,30,Plain water,Steelwire soap and water.
+1030,2024-12-10,Central Region,Nakaseke,Mugenyi Kasangombe,Mugenyi,Pot,Jerry can,1,TRUE,7,30,Plain water and then smoking it with dry banana peelings.,"Murram,soap , dishwasher and water"
+1033,2024-12-10,Central Region,Nakaseke,Lukumbi,Lukumbi Mosque,Pot,Jerry can,1,TRUE,2,30,Water,"Steel wire, water and soap"
+1034,2024-12-10,Central Region,Nakaseke,Kiteredde,Kiteredde,Pot,Jerry can,1,TRUE,30,7,"Water,soap and dishwasher","Steelwire, soap and water"
+1035,2024-12-10,Central Region,Nakaseke,Kiteredde,Kiteredde,Pot,Jerry can,1,FALSE,7,14,Water and smoking it with dry banana leaves,"Steelwire,water and soap"
+1036,2024-12-10,Central Region,Nakaseke,Kiteredde,Kiteredde,Pot,Jerry can,1,TRUE,3,30,Water and dishwasher.,Steelwire soap and water
+1037,2024-12-10,Central Region,Nakaseke,Lukumbi,Lukumbi Mosque,Sauce pan,Jerry can,1,FALSE,7,30,"Soap ,water and dish washer.","Steelwire ,soap and water"
+1038,2024-12-11,Central Region,Nakaseke,Kafunda Kikamulo,Kafunda,Pot,Jerry can,1,TRUE,7,14,Dishwasher and water.,"Steelwire,soap andwater."
+1039,2024-12-11,Central Region,Nakaseke,Kafunda Kikamulo,Kafunda,Pot,Jerry can,1,FALSE,7,14,"Steel wire ,soap , water and smoking it with dry banana leaves","Steelwire ,soap and water"
+1040,2024-12-11,Central Region,Nakaseke,Kafunda,Kafunda,Pot,Jerry can,1,TRUE,7,14,Water only.,"Steelwire ,soap and water."
+1041,2024-12-11,Central Region,Nakaseke,Wabikyakya,Wabikyakya,Pot,Jerry can,1,TRUE,21,30,Dish washer and water,"Steel wire ,soap and water."
+1042,2024-12-11,Central Region,Nakaseke,Wabikyakya Kikamulo,Wabikyakya,Pot,Jerry can,1,FALSE,7,30,Dry banana leaves and water.,"Steelwire,soap and water."
+1043,2024-12-11,Central Region,Nakaseke,Wabikyakya,Wabikyakya,Pot,Jerry can,1,FALSE,7,30,Water.,"Steelwire, soap and water."
+1044,2024-12-11,Central Region,Nakaseke,Butemula,Butemula A,Pot,Jerry can,1,FALSE,4,30,"Soap ,steelwire and water.","Steelwire, soap and water"
+1045,2024-12-11,Central Region,Nakaseke,Butemula,Butemula A,Pot,Jerry can,1,TRUE,7,30,Water and smoking with dry banana leaves.,"Steelwire, soap and water."
+1046,2024-12-11,Central Region,Nakaseke,Butemula,Butemula,Pot,Jerry can,1,TRUE,7,30,Water and smoking it with dry banana leaves.,"Steelwire,soap and water"
+1047,2024-12-11,Central Region,Nakaseke,Zirambwa,Zirambwa,Pot,Jerry can,1,TRUE,7,14,Water only.,"Steelwire, soap and water."
+1048,2024-12-11,Central Region,Nakaseke,Zirambwa,Zirambwa,Pot,Jerry can,1,TRUE,7,30,"Water ,soap and dish waher.","Steel wire, soap and water."
+1049,2024-12-11,Central Region,Nakaseke,Zirambwa,Zirambwa,Pot,Jerry can,1,TRUE,7,30,Smoking with dry banana peelings and water.,"Steelwire ,soap and water."
+1054,2024-12-16,Central Region,Nakaseke,Kasangombe,Kasangombe Police,Pot,Jerry can,1,TRUE,7,30,Water and smoking it with dry banana peelings.,"Steelwire,soap and water."
+1055,2024-12-16,Central Region,Nakaseke,Kasangombe,Kasangombe Police,Pot,Jerry can,1,TRUE,3,30,Water and dishwasher.,"Steelwire,soap and water."
+1056,2024-12-16,Central Region,Nakaseke,Kasangombe,Kasangombe Police,Pot,Jerry can,1,TRUE,30,30,Water and dish washer.,"Steelwire, soap and water"
+1057,2024-12-16,Central Region,Nakaseke,Namyeso Kitto,Namyeso,Pot,Jerry can,1,TRUE,30,7,Water and dishwasher.,"Steel wire ,soap and water"
+1058,2024-12-16,Central Region,Nakaseke,Namyeso Kitto,Namyeso,Pot,Jerry can,1,FALSE,7,30,Water only,"Steel wire,soap and water"
+1059,2024-12-16,Central Region,Nakaseke,Namyeso Kitto,Namyeso,Pot,Jerry can,1,FALSE,7,7,Water only,"Steelwire,soap and water."
+1060,2024-12-16,Central Region,Nakaseke,Kasiga,Kasiga,Pot,Jerry can,1,FALSE,7,30,Dry banana leaves and water.,"Steelwire,soap and water"
+1061,2024-12-16,Central Region,Nakaseke,Kasiga,Kasiga,Pot,Jerry can,1,TRUE,7,30,Water only.,"Steel wire ,soap and water."
+1062,2024-12-16,Central Region,Nakaseke,Nakitembe,Nakitembe,Pot,Jerry can,1,FALSE,3,30,Water only.,"Steelwire,soap andwater."
+1063,2024-12-16,Central Region,Nakaseke,Nakitembe,Nakitembe,Pot,Jerry can,2,TRUE,14,30,Water only.,"Steelwire ,soap and water"
+1064,2024-12-16,Central Region,Nakaseke,Nakitembe,Nakitembe,Pot,Jerry can,1,TRUE,3,30,Smoking it with dry banana peelings and then rinse with water.,"Steelwire ,soap and water."
+1065,2024-12-16,Central Region,Nakaseke,Kasiga,Kasiga,Pot,Jerry can,1,TRUE,7,30,"Steelwire,soap and water.","Steelwire ,soap and water"
+1126,2025-02-04,Central Region,Nakaseke,Kapeeka,Kapeeka Centre,Pot,Jerry can,1,FALSE,5,14,Plain water,Steelwire and soap
+1127,2025-02-04,Central Region,Nakaseke,Kapeeka,Kapeeka Centre,Pot,Jerry can,1,FALSE,7,14,Dry banana leaves and water,Steel wire and soap
+1128,2025-02-04,Central Region,Nakaseke,Kapeeka,Kapeeka Centre,Pot,Jerry can,1,FALSE,7,30,Smoking with dry banana leaves and rinse with water.,Steel wire and soap
+1129,2025-02-04,Central Region,Nakaseke,Namasinda,Namasinda 2,Sauce pan,Jerry can,1,TRUE,2,14,Steel wire and soap,Steelwire and soap
+1130,2025-02-04,Central Region,Nakaseke,Namasinda,Namasinda 2,Sauce pan,Jerry can,1,FALSE,7,14,Steelwire and soap,Steelwire and soap
+1131,2025-02-04,Central Region,Nakaseke,Namasinda,Namasinda 2,Pot,Jerry can,1,FALSE,14,30,Smoking with dry banana leaves and rinse with plain water.,Steel wire and soap
+1132,2025-02-04,Central Region,Nakaseke,Lukumbi,Lukumbi,Sauce pan,Jerry can,1,TRUE,7,14,Steel wire and soap,Steelwire and soap
+1133,2025-02-04,Central Region,Nakaseke,Lukumbi,Lukumbi,Pot,Jerry can,1,FALSE,14,14,Plain water,Steelwire and soap
+1134,2025-02-04,Central Region,Nakaseke,Lukumbi,Lukumbi,Pot,Jerry can,1,TRUE,3,14,Dry banana leaves and water,Steel wire and soap
+1135,2025-02-04,Central Region,Nakaseke,Namasinda,Namasinda 1,Drum,Jerry can,1,FALSE,30,30,Steelwire and soap,Steelwire and soap
+1136,2025-02-04,Central Region,Nakaseke,Namasinda,Namasinda 1,Bucket,Jerry can,1,TRUE,7,30,Steelwire and soap,Steelwire and soap
+1137,2025-02-04,Central Region,Nakaseke,Namasinda,Namasinda 1,Sauce pan,Jerry can,1,TRUE,14,30,Steel wire and soap,Steelwire and soap
+1138,2025-02-05,Central Region,Nakaseke,Kasangombe,Semagulu,Pot,Jerry can,1,FALSE,7,30,Smoking it with dry banana leaves and rinse it with water only.,Steelwire and soap
+1139,2025-02-05,Central Region,Nakaseke,Kasangombe,Semagulu,Bucket,Jerry can,1,FALSE,14,30,Steel wire and soap,Steel wire and soap
+1140,2025-02-05,Central Region,Nakaseke,Kasangombe,Semagulu,Pot,Jerry can,1,FALSE,14,30,Water only,Steel wire and soap
+1141,2025-02-05,Central Region,Nakaseke,Kibaale,Kibaale Tc,Pot,Jerry can,1,FALSE,7,30,Smoking it and then rinse it with water.,Steelwire and soap
+1142,2025-02-05,Central Region,Nakaseke,Kibaale,Kibaale Tc,Pot,Jerry can,1,TRUE,30,14,"Water, soap and dishwasher",Steel wire and soap
+1143,2025-02-05,Central Region,Nakaseke,Kibaale,Kibaale Tc,Pot,Jerry can,1,TRUE,14,30,Smoking with dry banana leaves and rinse with water only.,"Steel wire, soap and water"
+1144,2025-02-05,Central Region,Nakaseke,Kiwoko,Martyrs Church,Bucket,Jerry can,1,TRUE,7,30,"Steelwire, soap and water","Steelwire, soap and water."
+1145,2025-02-05,Central Region,Nakaseke,Kiwoko,Martyrs Church,Drum,Jerry can,1,TRUE,14,30,"Steelwire ,soap and water","Steel wire ,soap and water"
+1146,2025-02-05,Central Region,Nakaseke,Kiwoko,Martyrs Church,Pot,Jerry can,1,FALSE,3,30,Smoking with dry banana leaves and then wash it with pawpaw leaves and water.,"Steel wire, soap and water."
+1147,2025-02-05,Central Region,Nakaseke,Lukenku,Lukenku,Pot,Jerry can,1,FALSE,30,30,Water only,"Steelwire, soap and water"
+1148,2025-02-05,Central Region,Nakaseke,Lukenku,Lukenku,Sauce pan,Jerry can,1,FALSE,30,30,"Steelwire ,soap and water","Steelwire ,soap and water"
+1149,2025-02-05,Central Region,Nakaseke,Lukenku,Lukenku,Pot,Jerry can,1,FALSE,3,30,Dish washer and water.,"Steel wire ,soap and water"
+1151,2025-02-06,Central Region,Nakaseke,Nakazi Lugo,Nakazzi Lugo,Pot,Jerry can,1,FALSE,3,30,Smoking with dry banana leaves and rinse with water.,"Steel wire ,soap and water."
+1152,2025-02-06,Central Region,Nakaseke,Nakazzi Lugo,Nakazzi Lugo,Pot,Jerry can,1,FALSE,14,30,"Dish washer ,soap and then smoking it with dry banana leaves.","Steel wire ,soap and water"
+1153,2025-02-06,Central Region,Nakaseke,Nakazzi Lugo,Nakazzi Lugo,Pot,Jerry can,1,TRUE,14,14,"Steelwire ,soap and water.","Steel wire ,soap and water"
+1155,2025-02-06,Central Region,Nakaseke,Kakoola,Kakoola C/ O,Bucket,Jerry can,1,FALSE,14,30,Steel wire and soap,"Steelwire ,soap and water"
+1156,2025-02-06,Central Region,Nakaseke,Kakoola,Kakoola C/ O,Pot,Jerry can,1,TRUE,14,30,Water only.,Steelwire and soap
+1157,2025-02-06,Central Region,Nakaseke,Kakoola Kitto,Kakoola C/ O,Pot,Jerry can,1,TRUE,14,30,"Dish washer ,soap and water.",Steelwire soap and water
+1162,2025-03-17,Central Region,Nakaseke,Kakoola Kivumu,Kakoola Kivumu,Pot,Jerry can,1,FALSE,7,30,They use water only.,"Steel wire,soap and water"
+1163,2025-03-17,Central Region,Nakaseke,Kakoola Kivumu,Kakoola Kivumu,Pot,Jerry can,1,TRUE,30,5,Water only,"Steelwire, soap and water"
+1164,2025-03-17,Central Region,Nakaseke,Kakoola Kivumu,Kakoola Kivumu,Pot,Jerry can,1,TRUE,7,30,Water only.,"They use steelwire ,soap and water"
+1166,2025-03-18,Central Region,Nakaseke,Lukumbi,Lukumbi,Sauce pan,Jerry can,1,FALSE,4,30,"Steel wire ,soap and water.","Steelwire ,soap and water"
+1167,2025-03-18,Central Region,Nakaseke,Lukumbi,Lukumbi,Pot,Jerry can,1,FALSE,14,30,Water only.,"Steelwire ,soap and water"
+1168,2025-03-18,Central Region,Nakaseke,Lukumbi,Lukumbi,Pot,Jerry can,1,TRUE,5,14,Smoking it with dry banana peelings and then rinse with water only.,"Steel wire ,soap and water"
+1170,2025-03-18,Central Region,Nakaseke,Namasinda,Namasinda 1,Sauce pan,Jerry can,1,TRUE,4,30,"Steelwire, soap and water","Steelwire, soap and water"
+1171,2025-03-18,Central Region,Nakaseke,Namasinda,Namasinda 1,Bucket,Jerry can,1,TRUE,7,30,"Steelwire,soap and water.","Steelwire ,soap and water"
+1172,2025-03-18,Central Region,Nakaseke,Namasinda,Namasinda Nakitto,Pot,Jerry can,1,TRUE,5,30,Smoking with dry banana leaves and rinse with water,"Steelwire, soap and water"
+1173,2025-03-18,Central Region,Nakaseke,Namasinda,Namasinda Nakitto,Pot,Jerry can,1,TRUE,7,30,Water only.,Steelwire soap and water.
+1175,2025-03-18,Central Region,Nakaseke,Namasinda,Namasinda Nakitto,Pot,Jerry can,1,FALSE,7,30,Plain water,Steel wire soap and water
+1177,2025-03-18,Central Region,Nakaseke,Namasinda 2,Namasinda,Pot,Jerry can,1,TRUE,7,30,Water only.,Steelwire soap and water
+1178,2025-03-18,Central Region,Nakaseke,Zirambwa,Zirambwa,Pot,Jerry can,2,TRUE,14,30,They use water only,"Steel wire, soap and water."
+1179,2025-03-18,Central Region,Nakaseke,Namasinda 1,Namasinda 1,Drum,Jerry can,1,TRUE,14,30,"Steelwire, soap and water.","Steelwire ,soap and water."
+1180,2025-03-19,Central Region,Nakaseke,Zirambwa,Zirambwa,Pot,Jerry can,1,TRUE,7,30,Water only.,"Steel wire, soap and water"
+1183,2025-03-19,Central Region,Nakaseke,Namyeso,Namyeso,Pot,Jerry can,2,TRUE,7,30,Water only,"Steel wire,soap and water"
+1184,2025-03-19,Central Region,Nakaseke,Namyeso,Namyeso,Pot,Jerry can,1,TRUE,7,30,Water only.,"Steelwire,soap and water"
+1185,2025-03-19,Central Region,Nakaseke,Namyeso,Namyeso,Pot,Jerry can,1,TRUE,14,30,Dish washer and plain water.,"Steelwire ,soap and water"
+1188,2025-03-19,Central Region,Nakaseke,Bulamazzi,Bulamazzi,Pot,Jerry can,2,TRUE,7,30,Water only.,"Steelwire, soap and water"
+1189,2025-03-19,Central Region,Nakaseke,Mizimbo,Mizimbo,Pot,Jerry can,1,TRUE,7,30,Plain water,"Steelwire ,soap and water."
+1190,2025-03-19,Central Region,Nakaseke,Zirambwa,Zirambwa,Pot,Jerry can,1,TRUE,7,30,They use water only.,"Steelwire,soap and water."
+1191,2025-03-19,Central Region,Nakaseke,Bulamazzi,Bulamazzi,Pot,Jerry can,1,TRUE,7,30,Smoking it with dry banana leaves and rinse with water.,"Steelwire ,soap and water."
+1192,2025-03-19,Central Region,Nakaseke,Bilamazzi,Bulamazzi,Pot,Jerry can,1,TRUE,5,30,Smoking it with banana peelings and then rinse with water.,Steel wire and water
+1193,2025-03-20,Central Region,Nakaseke,Mizimbo,Mizimbo 1,Pot,Jerry can,1,TRUE,5,30,Plain water.,"Steelwire ,soap and water"
+1194,2025-03-20,Central Region,Nakaseke,Mizimbo,Mizimbo 1,Pot,Jerry can,1,TRUE,7,30,They use water only,Steelwire soap and water
+1197,2025-03-20,Central Region,Nakaseke,Wabikyakya,Wabikyakya,Pot,Jerry can,1,TRUE,21,30,Water only,"Steel wire ,smallstones for inside,soap and water"
+1198,2025-03-20,Central Region,Nakaseke,Wabikyakya,Wabikyakya,Pot,Jerry can,1,TRUE,14,30,Water only,"Steel wire ,soap and water."
+1199,2025-03-20,Central Region,Nakaseke,Wabikyakya,Wabikyakya,Pot,Jerry can,1,FALSE,10,30,Water only.,"Steel wire, soap ,sand and water."
+1201,2025-03-20,Central Region,Nakaseke,Ssanze,Ssanze,Pot,Jerry can,1,FALSE,14,60,Water only.,Sand and water.
+1202,2025-03-20,Central Region,Nakaseke,Ssanze,Ssanze,Pot,Jerry can,1,TRUE,30,60,Water only.,Sand and water
+1203,2025-03-20,Central Region,Nakaseke,Ssanze,Ssanze,Pot,Jerry can,1,TRUE,7,30,Water only,"Steelwire, soap and water"
+1204,2025-03-20,Central Region,Nakaseke,Nakitembe,Nakitembe,Pot,Jerry can,1,TRUE,7,30,Water only.,"Steelwire, soap and water"
+1205,2025-03-20,Central Region,Nakaseke,Nakitembe,Nakitembe,Pot,Jerry can,1,TRUE,7,30,Water only,"Sand ,dishwasher and soap"
+1206,2025-03-20,Central Region,Nakaseke,Nakitembe,Nakitembe,Pot,Jerry can,1,TRUE,21,30,Smoking with dry banana peeling and rinse with water,"Small stones ,soap and leaves."
+1208,2025-03-24,Central Region,Nakaseke,Kuffu,Kuffu,Pot,Jerry can,1,TRUE,7,30,Smoking it then after rinse it with water only .,"Steelwire, soap and water"
+1209,2025-03-24,Central Region,Nakaseke,Kuffu,Kuffu,Pot,Jerry can,1,TRUE,5,30,Water only,"Steelwire ,soap and water"
+1210,2025-03-24,Central Region,Nakaseke,Namasinda,Namasinda 2,Sauce pan,Jerry can,1,TRUE,14,30,Water only.,"Steelwire,soap and water"
+1211,2025-03-24,Central Region,Nakaseke,Namasinda,Namasinda 2,Sauce pan,Jerry can,1,FALSE,4,30,"Steelwire,soap and water","Steelwire ,soap and water."
+1212,2025-03-24,Central Region,Nakaseke,Busumba,Busumba,Pot,Jerry can,1,TRUE,7,7,Water only,"Dish washer,soap and water"
+1213,2025-03-24,Central Region,Nakaseke,Busumba,Busumba,Pot,Jerry can,1,TRUE,7,30,Water only.,"Steelwire,soap and water."
+1215,2025-03-24,Central Region,Nakaseke,Busumba,Busumba,Pot,Jerry can,1,TRUE,7,30,Wateronly.,"Steelwire,soap and water"
+1217,2025-03-24,Central Region,Nakaseke,Kakonde,Kakonde,Pot,Jerry can,1,FALSE,7,30,Water only,"Steelwire,soap and water"
+1218,2025-03-24,Central Region,Nakaseke,Kakonde,Kakonde,Pot,Jerry can,1,FALSE,7,30,Water only,Steelwire soap and water
+1219,2025-03-24,Central Region,Nakaseke,Kakonde,Kakonde,Pot,Jerry can,1,TRUE,7,38,They use water only.,"Steelwire,soap and water"
+1220,2025-03-24,Central Region,Nakaseke,Kuffu,Kuffu,Pot,Jerry can,1,TRUE,7,30,Water only.,Steelwire soap and water
+1223,2025-04-16,Central Region,Nakaseke,Namasinda,Namasinda 2,Sauce pan,Jerry can,1,TRUE,5,30,Steelwire and soap.,Steel wire and soap .
+1224,2025-04-16,Central Region,Nakaseke,Namasinda,Namasinda 2,Sauce pan,Jerry can,1,FALSE,5,30,"Steelwire ,soap and water.","Steel wire ,soap and waet"
+1226,2025-04-16,Central Region,Nakaseke,Namasinda,Namasinda 2,Pot,Jerry can,1,TRUE,7,30,Water only.,Steelwire and soap.
+1227,2025-04-16,Central Region,Nakaseke,Namasinda,Namasinda Nakitto,Pot,Jerry can,1,TRUE,7,30,"Water ,dishwasher and soap.",Steelwire and soap
+1229,2025-04-16,Central Region,Nakaseke,Namasinda 1,Namasinda 1,Drum,Jerry can,1,FALSE,30,30,"Steelwire, soap and water.","Steelwire, soap and water"
+1230,2025-04-16,Central Region,Nakaseke,Namasinda,Namasinda 1,Bucket,Jerry can,1,TRUE,3,30,Steelwire and soap,Steelwire and soap
+1231,2025-04-16,Central Region,Nakaseke,Namasinda,Namasinda 1,Sauce pan,Jerry can,1,TRUE,4,30,Steelwire and soap.,Steel wire and soap
+1232,2025-04-16,Central Region,Nakaseke,Namasinda,Namasinda Nakitto,Pot,Jerry can,1,FALSE,14,38,They rinse it with water .,They use steelwire and soap.
+1233,2025-04-17,Central Region,Nakaseke,Kuffu,Kuffu,Pot,Jerry can,1,TRUE,14,30,Water only.,"Steelwire, soap and water"
+1235,2025-04-17,Central Region,Nakaseke,Kuffu,Kuffu,Pot,Jerry can,1,TRUE,14,30,Water only.,"Steelwire ,soap and water."
+1236,2025-04-17,Central Region,Nakaseke,Kuffu,Kuffu,Pot,Jerry can,1,TRUE,30,30,Water only,Steelwire soap and water
+1237,2025-04-17,Central Region,Nakaseke,Namasinda,Namasinda Nakitto,Pot,Jerry can,1,TRUE,7,30,Water and dishwasher only.,"Steelwire, soap and water"
+1239,2025-04-17,Central Region,Nakaseke,Lukumbi,Lukumbi,Sauce pan,Jerry can,1,FALSE,5,30,"Steelwire,soap and water","Steelwire,soap and water"
+1240,2025-04-17,Central Region,Nakaseke,Lukumbi,Lukumbi,Pot,Jerry can,1,TRUE,14,30,Water only.,"Steelwire, soap and water"
+1241,2025-04-17,Central Region,Nakaseke,Lukumbi,Lukumbi,Pot,Jerry can,1,TRUE,7,30,Water only.,"Steelwire,soap and water"
+1243,2025-04-17,Central Region,Nakaseke,Busumba,Busumba,Pot,Jerry can,1,FALSE,14,30,Water only.,"Steel wire, soap and water"
+1244,2025-04-17,Central Region,Nakaseke,Busumba,Busumba,Pot,Jerry can,1,TRUE,14,30,Water only.,"Steelwire,soap and water"
+1245,2025-04-17,Central Region,Nakaseke,Busumba,Busumba,Pot,Jerry can,1,TRUE,7,30,Water only,"Steelwire,soap and water."
+1246,2025-04-17,Central Region,Nakaseke,Kakonde,Kakonde,Pot,Jerry can,1,TRUE,7,30,Water only.,"Steelwire ,water and soap"
+1248,2025-04-22,Central Region,Nakaseke,Zirambwa,Zirambwa,Pot,Jerry can,1,TRUE,14,30,Water only,"Steel wire,soap and water"
+1249,2025-04-22,Central Region,Nakaseke,Zirambwa,Zirambwa,Pot,Jerry can,1,TRUE,7,30,Water only,"Steelwire,soap and water."
+1250,2025-04-22,Central Region,Nakaseke,Zirambwa,Zirambwa,Pot,Jerry can,1,TRUE,7,30,Water only,"Steelwire ,soap and water."
+1252,2025-04-22,Central Region,Nakaseke,Namyeso,Namyeso,Pot,Jerry can,1,TRUE,14,30,Water only.,"Sand ,soap and water."
+1253,2025-04-22,Central Region,Nakaseke,Namyeso,Namyeso,Pot,Jerry can,1,TRUE,7,30,Water only,"Steelwire ,soap and water"
+1254,2025-04-22,Central Region,Nakaseke,Namyeso,Namyeso,Pot,Jerry can,1,FALSE,7,30,Water only,"Sand ,small stones and soap."
+1256,2025-04-22,Central Region,Nakaseke,Kakoola Kivumu,Kakoola Kivumu,Pot,Jerry can,1,TRUE,14,30,Water only,"Sand,soap and water"
+1257,2025-04-22,Central Region,Nakaseke,Kakoola Kivumu,Kakoola Kivumu,Pot,Jerry can,1,TRUE,7,30,Water only,"Steelwire ,soap and small tones."
+1258,2025-04-22,Central Region,Nakaseke,Kakoola Kivumu,Kakoola Kivumu,Pot,Jerry can,1,TRUE,14,30,"Water,dishwasher and soap.","Steelwire, smallstones and water"
+1259,2025-04-22,Central Region,Nakaseke,Bulamazzi,Bulamazzi,Pot,Jerry can,1,TRUE,7,30,Water only,"Steelwire ,soap and water."
+1261,2025-04-23,Central Region,Nakaseke,Mizimbo,Mizimbo,Pot,Jerry can,1,FALSE,7,30,Water only.,"Steelwire, soap and water"
+1262,2025-04-23,Central Region,Nakaseke,Mizimbo,Mizimbo,Pot,Jerry can,1,FALSE,7,30,Wash with lemongrass and water,"Steel, sand, soap and water."
+1264,2025-04-23,Central Region,Nakaseke,Bulamazzi,Bulamazzi,Pot,Jerry can,1,TRUE,5,30,Water only.,"Steelwire,soap and water"
+1265,2025-04-23,Central Region,Nakaseke,Ssanze,Ssanze,Pot,Jerry can,1,FALSE,14,60,Water only.,"Sand ,water and soap"
+1267,2025-04-23,Central Region,Nakaseke,Ssanze,Ssanze,Pot,Jerry can,1,FALSE,7,30,Water only,"Sand ,dishwasher and soap"
+1268,2025-04-23,Central Region,Nakaseke,Ssanze,Ssanze,Pot,Jerry can,1,TRUE,7,30,Water only.,"Steelwire,soap and water"
+1270,2025-04-23,Central Region,Nakaseke,Wabikyakya,Wabikyakya,Pot,Jerry can,1,TRUE,7,30,Water only.,"Steel wire ,soap and water"
+1271,2025-04-23,Central Region,Nakaseke,Wabikyakya,Wabikyakya,Pot,Jerry can,1,TRUE,7,30,Water only,"Steelwire,soap"
+1272,2025-04-23,Central Region,Nakaseke,Wabikyakya,Wabikyakya,Pot,Jerry can,1,TRUE,7,30,Rinse with water.,"Sand, dishwasher, soap and water"
+1273,2025-04-23,Central Region,Nakaseke,Bulamazzi,Bulamazzi,Pot,Jerry can,1,TRUE,14,30,Water only,"Steel wire,soap and water"
+1274,2025-04-23,Central Region,Nakaseke,Mizimbo,Mizimbo,Pot,Jerry can,1,TRUE,7,30,Water only.,"Steel wire,water and soap"
+1275,2025-04-24,Central Region,Nakaseke,Nakitembe,Nakitembe,Pot,Jerry can,1,TRUE,7,30,Water and dish washer.,"Steelwire,soap and water."
+1276,2025-04-24,Central Region,Nakaseke,Nakitembe,Nakitembe,Pot,Jerry can,1,TRUE,7,30,Water only,"Steel wire ,soap and water"
+1278,2025-04-24,Central Region,Nakaseke,Nakitembe,Nakitembe,Pot,Jerry can,1,TRUE,7,30,Ssmoking it with dry banana peelings and rinse with water,"Steel wire,sand ,soap and water"
+1280,2025-04-24,Central Region,Nakaseke,Kakonde,Kakonde,Pot,Jerry can,1,TRUE,7,30,Water and dish washer.,"Steel wire,soap and water"
+1281,2025-04-24,Central Region,Nakaseke,Kakonde,Kakonde,Pot,Jerry can,1,TRUE,7,30,Wash it with dish washer and soap after the smoke it using dry banana leaves,"Steelwire,soap and water."
+1287,2025-05-27,Central Region,Nakaseke,Namasinda,Namasinda 1,Drum,Jerry can,1,TRUE,14,30,"Steelwire, soap and water","Steelwire,soap and water"
+1288,2025-05-27,Central Region,Nakaseke,Namasinda 1,Namasinda 1,Sauce pan,Jerry can,1,TRUE,3,14,"Steelwire,soap and water.","Steelwire,soap and water"
+1289,2025-05-27,Central Region,Nakaseke,Namasinda,Namasinda 1,Bucket,Jerry can,1,TRUE,3,30,"Steelwire,soap and water","Steelwire,soap and water"
+1290,2025-05-27,Central Region,Nakaseke,Namasinda,Namasinda Nakitto,Pot,Jerry can,1,TRUE,4,30,Rinse it with water.,"Steelwire, soap and water"
+1291,2025-05-27,Central Region,Nakaseke,Namasinda,Namasinda Nakitto,Pot,Jerry can,1,TRUE,7,30,Water and dish washer.,"Steelwire,soap and water"
+1292,2025-05-27,Central Region,Nakaseke,Namasinda,Namasinda Nakitto,Pot,Jerry can,1,FALSE,7,30,Plain water,Steelwire and soap
+1293,2025-05-27,Central Region,Nakaseke,Namasinda 2,Namasinda 2,Sauce pan,Jerry can,1,TRUE,3,30,Steelwire and soap,Steel wire and soap
+1294,2025-05-27,Central Region,Nakaseke,Namasinda,Namasinda 2,Sauce pan,Jerry can,1,TRUE,5,30,"Steelwire, soap.","Steel wire, smallstones inside and soap"
+1296,2025-05-27,Central Region,Nakaseke,Namasinda 2,Namasinda 2,Pot,Jerry can,1,TRUE,7,30,Plain water,"Steelwire, soap"
+1297,2025-05-27,Central Region,Nakaseke,Lukumbi,Lukumbi,Pot,Jerry can,1,TRUE,7,30,Water only.,"Steelwire ,soap"
+1298,2025-05-27,Central Region,Nakaseke,Lukumbi,Lukumbi,Pot,Jerry can,1,TRUE,5,30,Water only,Steelwire soap and water
+1299,2025-05-28,Central Region,Nakaseke,Zirambwa,Zirambwa,Pot,Jerry can,1,TRUE,4,30,Rinse the pot with water only.,"Steelwire ,soap."
+1300,2025-05-28,Central Region,Nakaseke,Zirambwa,Zirambwa,Pot,Jerry can,1,TRUE,5,14,Water only,Steelwire and soap
+1301,2025-05-28,Central Region,Nakaseke,Zirambwa,Zirambwa,Pot,Jerry can,1,TRUE,7,30,Water only,"Steelwire, soap"
+1303,2025-05-28,Central Region,Nakaseke,Namyeso,Namyeso,Pot,Jerry can,1,TRUE,7,30,Water only,"Steelwire, sand and soap"
+1304,2025-05-28,Central Region,Nakaseke,Namyeso,Namyeso,Pot,Jerry can,1,FALSE,2,30,Water only,"Steelwire,soap"
+1305,2025-05-28,Central Region,Nakaseke,Namyeso,Namyeso,Pot,Jerry can,1,FALSE,3,30,Water and dishwasher.,Steelwire and water
+1307,2025-05-28,Central Region,Nakaseke,Kakoola Kivumu,Kakoola Kivumu,Pot,Jerry can,1,FALSE,5,30,Rinse the pot with water only.,Steelwire and soap
+1308,2025-05-28,Central Region,Nakaseke,Kakoola Kivumu,Kakoola Kivumu,Pot,Jerry can,1,FALSE,7,30,Water only,"Steelwire,soap and small stones"
+1310,2025-05-28,Central Region,Nakaseke,Bulamazzi,Bulamazzi,Pot,Jerry can,1,TRUE,5,30,Water only.,Steelwire and soap
+1311,2025-05-28,Central Region,Nakaseke,Kakoola Kivumu,Kakoola Kivumu,Pot,Jerry can,1,FALSE,4,30,Water only.,Steelwire and soap
+1313,2025-06-04,Central Region,Nakaseke,Kakonde,Kakonde,Pot,Jerry can,1,FALSE,7,30,Water only.,Steelwire and soap
+1314,2025-06-04,Central Region,Nakaseke,Kakonde,Kakonde,Pot,Jerry can,1,TRUE,7,30,Water only,"Steel wire ,water and soap"
+1315,2025-06-04,Central Region,Nakaseke,Kakonde,Kakonde,Pot,Jerry can,1,TRUE,7,30,Smoking it with banana peelings and rinse with water only,"Steelwire,soap and water."
+1317,2025-06-04,Central Region,Nakaseke,Busumba,Busumba,Pot,Jerry can,1,TRUE,5,30,Rinse the pot with water only.,"Steelwire,soap and water."
+1318,2025-06-04,Central Region,Nakaseke,Busumba,Busumba,Pot,Jerry can,1,TRUE,7,30,Water only,"Steel wire, soap and water"
+1320,2025-06-04,Central Region,Nakaseke,Lukumbi,Lukumbi,Sauce pan,Jerry can,1,FALSE,5,60,"Steelwire, soap and water","Steel wire ,soap and water"
+1321,2025-06-04,Central Region,Nakaseke,Kuffu,Kuffu,Pot,Jerry can,1,TRUE,5,30,Water only.,"Steel wire,soap and water."
+1323,2025-06-04,Central Region,Nakaseke,Kuffu,Kuffu,Pot,Jerry can,1,FALSE,5,30,Water,"Steel wire,soap and water."
+1324,2025-06-04,Central Region,Nakaseke,Kuffu,Kuffu,Pot,Jerry can,1,TRUE,7,15,Rinse with water only.,"Steelwire,soap and water."
+1325,2025-06-04,Central Region,Nakaseke,Busumba,Busumba,Pot,Jerry can,1,TRUE,3,30,Water only,"Steelwire ,and soap"
+1326,2025-06-05,Central Region,Nakaseke,Ssanze,Ssanze,Pot,Jerry can,1,FALSE,5,30,Water only,Steelwire and soap
+1328,2025-06-05,Central Region,Nakaseke,Ssanze,Ssanze,Pot,Jerry can,1,FALSE,14,60,Water only.,Steelwire and soap
+1329,2025-06-05,Central Region,Nakaseke,Ssanze,Ssanze,Pot,Jerry can,1,FALSE,7,30,Water only,"Steelwire ,and soap"
+1331,2025-06-05,Central Region,Nakaseke,Wabikyakya,Wabikyakya,Pot,Jerry can,1,TRUE,5,30,Water only.,Steelwire and soap.
+1332,2025-06-05,Central Region,Nakaseke,Wabikyakya,Wabikyakya,Pot,Jerry can,1,TRUE,6,30,Water only.,Steelwire and soap
+1333,2025-06-05,Central Region,Nakaseke,Wabikyakya,Wabikyakya,Pot,Jerry can,1,TRUE,7,30,Water and dish washer.,Steelwire and soap
+1334,2025-06-05,Central Region,Nakaseke,Bulamazzi,Bulamazzi,Pot,Jerry can,1,TRUE,2,30,Water and dishwasher.,Steelwire and soap
+1335,2025-06-05,Central Region,Nakaseke,Bulamazzi,Bulamazzi,Pot,Jerry can,1,TRUE,7,30,They use water only.,"Steelwire,soap"
+1336,2025-06-05,Central Region,Nakaseke,Mizimbo,Mizimbo,Pot,Jerry can,1,TRUE,7,30,Water only,Steelwire and soap
+1337,2025-06-05,Central Region,Nakaseke,Mizimbo,Mizimbo 1,Pot,Jerry can,1,TRUE,7,30,Water only,Steelwire and soap
+1338,2025-06-05,Central Region,Nakaseke,Mizimbo,Mizimbo,Pot,Jerry can,1,TRUE,7,30,Water only,Steel wire and soap
+1339,2025-06-06,Central Region,Nakaseke,Nakitembe,Nakitembe,Pot,Jerry can,1,TRUE,5,30,Rinse with water only.,Steelwire and soap
+1341,2025-06-06,Central Region,Nakaseke,Nakitembe,Nakitembe,Pot,Jerry can,1,TRUE,6,30,Water and dish washer.,"Steelwire ,sand and soap"
+1342,2025-06-06,Central Region,Nakaseke,Makitembe,Nakitembe,Pot,Jerry can,1,TRUE,30,30,Rinse it with water .,Steelwire andsoap
+1344,2025-06-11,Central Region,Nakaseke,Namasinda,Namasinda 1,Drum,Jerry can,1,FALSE,14,30,Steelwire and soap,Steelwire and soap
+1345,2025-06-11,Central Region,Nakaseke,Namasinda,Namasinda 1,Sauce pan,Jerry can,1,TRUE,5,30,Steel wire and soap,Steelwire and soap
+1346,2025-06-11,Central Region,Nakaseke,Namasinda,Namasinda,Bucket,Jerry can,1,TRUE,4,30,Steel wire and soap,Steelwire and soap
+1347,2025-06-11,Central Region,Nakaseke,Namasinda,Namasinda Nakitto,Pot,Jerry can,1,TRUE,7,30,Water only.,Steelwire and soap
+1348,2025-06-11,Central Region,Nakaseke,Namasinda,Namasinda Nakitto,Pot,Jerry can,1,TRUE,5,30,Rinse with water,Steelwire and soap
+1349,2025-06-11,Central Region,Nakaseke,Namasinda,Namasinda Nakitto,Pot,Jerry can,1,TRUE,7,30,Water only and put it under the sun to dry.,Steelwire and soap
+1351,2025-06-11,Central Region,Nakaseke,Namasinda,Namasinda 2,Sauce pan,Jerry can,1,TRUE,3,30,Steelwire and soap,Steelwire and soap
+1352,2025-06-11,Central Region,Nakaseke,Namasinda,Namasinda 2,Sauce pan,Jerry can,1,TRUE,5,30,Steelwire and soap,Steelwire and soap
+1353,2025-06-11,Central Region,Nakaseke,Namasinda,Namasinda 2,Pot,Jerry can,1,TRUE,7,30,Water only,Steelwire and soap
+1354,2025-06-11,Central Region,Nakaseke,Lukumbi,Lukumbi,Pot,Jerry can,1,FALSE,7,30,Rinse with water.,Steelwire and soap
+1355,2025-06-11,Central Region,Nakaseke,Lukumbi,Lukumbi,Pot,Jerry can,1,TRUE,4,30,Rinse it with water.,Steelwire
+1357,2025-06-17,Central Region,Nakaseke,Namasinda 1,Namasinda 1,Drum,Jerry can,1,FALSE,7,30,Steelwire and soap,Steelwire and soap
+1358,2025-06-17,Central Region,Nakaseke,Namasinda1,Namasinda 1,Sauce pan,Jerry can,1,TRUE,3,30,Steelwire and soap,"Steelwire, and soap"
+1359,2025-06-17,Central Region,Nakaseke,Namasinda 1,Namasinda 1,Bucket,Jerry can,1,TRUE,4,30,Steelwire and soap,Steelwire and soap
+1360,2025-06-17,Central Region,Nakaseke,Namasinda Nakitto,Namasinda Nakitto,Pot,Jerry can,1,TRUE,5,30,Rinse it with water only.,Steel wire and soap
+1361,2025-06-17,Central Region,Nakaseke,Namasinda Nakitto,Namasinda Nakitto,Pot,Jerry can,1,TRUE,5,30,Water only,Steelwire and soap
+1362,2025-06-17,Central Region,Nakaseke,Namasinda,Namasinda Nakitto,Pot,Jerry can,1,TRUE,7,30,They use water.,Steelwire and soap
+1364,2025-06-17,Central Region,Nakaseke,Namasinda,Namasinda 2,Sauce pan,Jerry can,1,TRUE,3,30,Steelwire and soap,Steelwire and soap
+1365,2025-06-17,Central Region,Nakaseke,Namasinda 2,Namasinda 2,Sauce pan,Jerry can,1,TRUE,4,30,Steelwire and soap,Steelwire and soap
+1367,2025-06-17,Central Region,Nakaseke,Namasinda 2,Namasinda 2,Pot,Jerry can,1,TRUE,7,30,Rinse with water .,Steelwire and soap
+1369,2025-06-17,Central Region,Nakaseke,Lukumbi,Lukumbi,Sauce pan,Jerry can,1,TRUE,4,30,Steelwire and soap,Steelwire and soap
+1370,2025-06-18,Central Region,Nakaseke,Zirambwa,Zirambwa,Pot,Jerry can,1,TRUE,5,30,They rinse it with water .,Steelwire and soap
+1371,2025-06-18,Central Region,Nakaseke,Zirambwa,Zirambwa,Pot,Jerry can,1,TRUE,5,30,Rinse the pot with clean water.,Steelwire and soap
+1372,2025-06-18,Central Region,Nakaseke,Zirambwa,Zirambwa,Pot,Jerry can,1,TRUE,5,30,Rinse with clean water,Steelwire and soap
+1374,2025-06-18,Central Region,Nakaseke,Mizimbo,Mizimbo 1,Pot,Jerry can,1,TRUE,7,30,They use clean water.,Steelwire and soap
+1375,2025-06-18,Central Region,Nakaseke,Mizimbo,Mizimbo 1,Pot,Jerry can,1,TRUE,5,30,Rinse with clean water.,Steel wire and soap
+1376,2025-06-18,Central Region,Nakaseke,Mizimbo,Mizimbo 1,Pot,Jerry can,1,TRUE,3,30,Dish washer and water.,Steelwire and soap
+1379,2025-06-18,Central Region,Nakaseke,Namyeso,Namyeso,Pot,Jerry can,1,TRUE,5,30,Use clean water .,Steelwire and soap
+1380,2025-06-18,Central Region,Nakaseke,Namyeso,Namyeso,Pot,Jerry can,1,TRUE,5,30,Rinse the pot with clean water.,Steelwire and soap
+1381,2025-06-18,Central Region,Nakaseke,Namyeso,Namyeso,Pot,Jerry can,1,TRUE,7,30,Clean water.,Steelwire and soap
+1382,2025-06-18,Central Region,Nakaseke,Kakoola Kivumu,Kakoola Kivumu,Pot,Jerry can,1,TRUE,6,30,Use clean water.,Steelwire and soap
+1383,2025-06-19,Central Region,Nakaseke,Kuffu,Kuffu,Pot,Jerry can,1,TRUE,7,30,"They use clean water ,dishwasher and soap",Steelwire and soap
+1385,2025-06-19,Central Region,Nakaseke,Kuffu,Kuffu,Pot,Jerry can,1,FALSE,7,30,Wash it with water.,"Steelwire,soap and water."
+1386,2025-06-19,Central Region,Nakaseke,Kuffu,Kuffu,Pot,Jerry can,1,TRUE,5,30,They use clean water to wash the pot.,30
+1387,2025-06-19,Central Region,Nakaseke,Lukumbi,Lukumbi,Pot,Jerry can,1,TRUE,4,30,They use clean water.,"Steelwire,soap and water"
+1388,2025-06-19,Central Region,Nakaseke,Lukumbi,Lukumbi,Pot,Jerry can,1,TRUE,7,30,Rinse it with clean water.,Steelwire and soap
+1389,2025-06-19,Central Region,Nakaseke,Busumba,Busumba,Pot,Jerry can,1,TRUE,7,30,They use clean water.,Steelwire and soap
+1390,2025-06-19,Central Region,Nakaseke,Busumba,Busumba,Pot,Jerry can,1,TRUE,5,30,Rinse with clean water.,"Steelwire, soap and water"
+1392,2025-06-19,Central Region,Nakaseke,Busumba,Busumba,Pot,Jerry can,1,FALSE,7,30,Rinse with clean water.,"Steelwire,soap and water"
+1393,2025-06-19,Central Region,Nakaseke,Kakonde,Kakonde,Pot,Jerry can,1,FALSE,5,30,Rinse it with clean water.,"Steel wire, soap and water"
+1394,2025-06-19,Central Region,Nakaseke,Kakonde,Kakonde,Pot,Jerry can,1,TRUE,7,30,Clean water.,"Steelwire,soap and water"
+1395,2025-06-19,Central Region,Nakaseke,Kakonde,Kakonde,Pot,Jerry can,1,TRUE,5,30,They use clean water to rinse the pot after smoking it,"Steel wire ,soap and water"
+1396,2025-06-24,Central Region,Nakaseke,Bulamazzi,Bulamazzi,Pot,Jerry can,1,TRUE,5,30,Rinse it with clean water.,Steelwire and soap
+1398,2025-06-24,Central Region,Nakaseke,Bulamazzi,Bulamazzi,Pot,Jerry can,1,TRUE,4,30,Use clean water.,Steelwire and soap
+1399,2025-06-24,Central Region,Nakaseke,Bulamazzi,Bulamazzi,Pot,Jerry can,1,FALSE,5,30,Rinse with clean water.,Steelwire and soap
+1400,2025-06-24,Central Region,Nakaseke,Kakoola Kivumu,Kakoola Kivumu,Pot,Jerry can,1,TRUE,14,30,Use clean water.,Steelwire and soap
+1401,2025-06-24,Central Region,Nakaseke,Kakoola Kivmu,Kakoola Kivumu,Pot,Jerry can,1,TRUE,7,30,Water only,Steel wire and soap
+1403,2025-06-24,Central Region,Nakaseke,Nakitembe,Nakitembe,Pot,Jerry can,1,TRUE,5,30,Use clean water and dishwasher,Steelwire and soap
+1404,2025-06-24,Central Region,Nakaseke,Nakitembe,Nakitembe,Pot,Jerry can,1,TRUE,5,30,Use water .,Steelwire and soap
+1405,2025-06-24,Central Region,Nakaseke,Nakitembe,Nakitembe,Pot,Jerry can,1,TRUE,5,30,Rinse it with water,Steelwire and soap
+1408,2025-06-25,Central Region,Nakaseke,Wabikyakya,Wabikyakya,Pot,Jerry can,1,FALSE,5,30,They use clean water to rinse it.,"Steelwire ,sand and soap"
+1409,2025-06-25,Central Region,Nakaseke,Wabikyakya,Wabikyakya,Pot,Jerry can,1,TRUE,7,30,Use clean water .,Steelwire and soap
+1410,2025-06-25,Central Region,Nakaseke,Wabikyakya,Wabikyakya,Pot,Jerry can,1,TRUE,7,30,The household uses water only.,Steel wire and soap
+1412,2025-06-25,Central Region,Nakaseke,Ssanze,Ssanze,Pot,Jerry can,1,TRUE,5,30,Rinse with clean water,Steelwire and soap
+1413,2025-06-25,Central Region,Nakaseke,Ssanze,Ssanze,Pot,Jerry can,1,FALSE,5,30,Water only.,Steelwire and soap
+1415,2025-06-25,Central Region,Nakaseke,Ssanze,Ssanze,Pot,Jerry can,1,FALSE,14,30,Water only.,Steelwire and soap.
+1416,2025-07-14,Central Region,Nakaseke,Salongo Kasule,Namasinda 1,Drum,Jerry can,1,FALSE,14,30,Steelwire soap and water.,"Steelwire ,soap and water"
+1417,2025-07-14,Central Region,Nakaseke,Namasinda 1,Namasinda 1,Bucket,Jerry can,1,TRUE,30,30,"Steelwire ,soap and water","Steelwire ,soap and water"
+1418,2025-07-14,Central Region,Nakaseke,Namasinda Nakitto,Namasinda Nakitto,Pot,Jerry can,1,TRUE,5,30,Rinse it with water only.,"Steelwire, soap and water"
+1419,2025-07-14,Central Region,Nakaseke,Namasinda Nakitto,Namasinda Nakitto,Pot,Jerry can,1,TRUE,7,30,Use clean water.,"Steelwire, smallstones and soap"
+1421,2025-07-14,Central Region,Nakaseke,Namasinda Nakitto,Namasinda Nakitto,Pot,Jerry can,1,FALSE,7,30,Water only,"Steelwire, soap and water."
+1422,2025-07-14,Central Region,Nakaseke,Namasinda 2,Namasinda 2,Pot,Jerry can,1,TRUE,2,30,"Steelwire, soap and water","Steelwire, soap and water"
+1424,2025-07-14,Central Region,Nakaseke,Namasinda 2,Namasinda 2,Sauce pan,Jerry can,1,TRUE,5,30,"Steel wire ,soap and water","Steel wire, soap and water"
+1426,2025-07-14,Central Region,Nakaseke,Lukumbi,Lukumbi,Pot,Jerry can,1,TRUE,5,30,Use clean water and then sun dry tjhe pot.,"Steelwire,soap and water"
+1427,2025-07-14,Central Region,Nakaseke,Namasinda,Namasinda 1,Sauce pan,Jerry can,1,TRUE,3,30,"Steelwire,soap and water","Steelwire, soap and water"
+1428,2025-07-14,Central Region,Nakaseke,Namasinda 2,Namasinda 2,Pot,Jerry can,1,TRUE,7,30,Clean water and dish washer.,"Steelwire, soap and water"
+1430,2025-07-15,Central Region,Nakaseke,Kuffu,Kuffu,Pot,Jerry can,1,TRUE,14,30,Rinse the pot with clean water .,"Steelwire, soap and water"
+1432,2025-07-15,Central Region,Nakaseke,Kuffu,Kuffu,Pot,Jerry can,1,TRUE,7,30,Use clean water.,"Steelwire,soap and water"
+1433,2025-07-15,Central Region,Nakaseke,Kuffu,Kuffu,Pot,Jerry can,1,TRUE,5,30,Use clean water.,"Steelwire,soap and water"
+1434,2025-07-15,Central Region,Nakaseke,Lukumbi,Lukumbi,Sauce pan,Jerry can,1,TRUE,7,30,"Clean water, soap and steelwire","Stewire,soap and water"
+1435,2025-07-15,Central Region,Nakaseke,Lukumbi,Lukumbi,Pot,Jerry can,1,TRUE,4,30,Rinse the pot with clean water,Steelwire soap and water
+1436,2025-07-15,Central Region,Nakaseke,Busumba,Busumba,Pot,Jerry can,1,TRUE,5,30,Use clean water to rinse the pot,"Steelwire, soap and water."
+1437,2025-07-15,Central Region,Nakaseke,Busumba,Busumba,Pot,Jerry can,1,TRUE,5,30,Rinse it with clean water,"Steelwire, soap and water"
+1439,2025-07-15,Central Region,Nakaseke,Kakonde,Kakonde,Pot,Jerry can,1,FALSE,5,30,Rinse with clean water.,Steelwire soap and water
+1440,2025-07-15,Central Region,Nakaseke,Kakonde,Kakonde,Pot,Jerry can,1,TRUE,7,30,Clean water,"Steel wire,soap and water."
+1441,2025-07-15,Central Region,Nakaseke,Kakonde,Kakonde,Pot,Jerry can,1,TRUE,7,30,Use clean water.,"Steelwire, soap and water"
+1442,2025-07-15,Central Region,Nakaseke,Busumba,Busumba,Pot,Jerry can,1,FALSE,5,30,Usr clean water.,"Steelwire, soap and water"
+1443,2025-07-16,Central Region,Nakaseke,Zirambwa,Zirambwa,Pot,Jerry can,1,TRUE,5,30,Use clean water,Steelwire soap and water
+1444,2025-07-16,Central Region,Nakaseke,Zirambwa,Zirambwa,Pot,Jerry can,1,TRUE,3,30,Dishwasher and plain clean water.,"Steelwire, soap, smallstones and water"
+1445,2025-07-16,Central Region,Nakaseke,Zirambwa,Zirambwa,Pot,Jerry can,1,TRUE,5,30,They clean it with water.,"Steelwire, soap and water"
+1447,2025-07-16,Central Region,Nakaseke,Mizimbo,Mizimbo 1,Pot,Jerry can,1,TRUE,6,30,Use clean water and after sun dry the pot,"Steel wire ,soap and water"
+1448,2025-07-16,Central Region,Nakaseke,Mizimbo,Mizimbo 1,Pot,Jerry can,1,TRUE,6,30,Rinse the pot with clean water.,"Steelwire, soap and water"
+1449,2025-07-16,Central Region,Nakaseke,Mizimbo,Mizimbo 1,Pot,Jerry can,1,TRUE,5,30,Clean it with water and then sun dry it,"Steelwire, soap and water"
+1452,2025-07-16,Central Region,Nakaseke,Namyeso,Namyeso,Pot,Jerry can,1,TRUE,2,30,Dish washer and water .,"Steelwire, soap, water and sand"
+1453,2025-07-16,Central Region,Nakaseke,Namyeso,Namyeso,Pot,Jerry can,1,TRUE,5,30,Dish washer and water only .,"Steelwire,sand ,water and soap"
+1454,2025-07-16,Central Region,Nakaseke,Namyeso,Namyeso,Pot,Jerry can,1,FALSE,6,30,Use clean water.,"Steelwire, soap ,smallstones and water"
+1455,2025-07-22,Central Region,Nakaseke,Nakitembe,Nakitembe,Pot,Jerry can,1,TRUE,5,30,Use clean water and after smoke it,"Steelwire ,soap and water"
+1457,2025-07-22,Central Region,Nakaseke,Nakitembe,Nakitembe,Pot,Jerry can,1,TRUE,4,30,Rinse it with clean water,"Steelwire, sand ,soap and water"
+1458,2025-07-22,Central Region,Nakaseke,Nakitembe,Nakitembe,Pot,Jerry can,1,TRUE,4,30,Clean water.,"Steelwire, smallstones,soap and water"
+1460,2025-07-22,Central Region,Nakaseke,Kakoola Kivumu,Kakoola Kivumu,Pot,Jerry can,1,TRUE,7,30,They use clean water.,"Steelwire, soap and water"
+1461,2025-07-22,Central Region,Nakaseke,Kakoola Kivumu,Kakoola Kivumu,Pot,Jerry can,1,TRUE,5,14,Rinse with clean water,"Steelwire ,soap and water"
+1462,2025-07-22,Central Region,Nakaseke,Kakoola Kivumu,Kakoola Kivumu,Pot,Jerry can,1,TRUE,14,30,"Wash with dishwasher,soap and rinse with clean water.","Steelwire, soap, water and smallstone"
+1463,2025-07-22,Central Region,Nakaseke,Bulamazzi,Bulamazzi,Pot,Jerry can,11,TRUE,3,30,Smoking it and rinse with water.,"Steelwire,soap and water"
+1464,2025-07-22,Central Region,Nakaseke,Bulamazzi,Bulamazzi,Pot,Jerry can,1,TRUE,3,30,Dishwasher and water only,"Steelwire, soap and smallstones."
+1466,2025-07-22,Central Region,Nakaseke,Bulamazzi,Bulamazzi,Pot,Jerry can,1,TRUE,7,30,Rinse with clean water,"Steelwire, soap and water"
+1468,2025-07-23,Central Region,Nakaseke,Wabikyakya,Wabikyakya,Pot,Jerry can,1,TRUE,14,30,Rinse it with clean water.,"Steelwire ,soap, sand and water"
+1469,2025-07-23,Central Region,Nakaseke,Wabikyakya,Wabikyakya,Pot,Jerry can,1,TRUE,3,30,Use dishwasher and clean water,"Steelwire, soap and water"
+1470,2025-07-23,Central Region,Nakaseke,Wabikyakya,Wabikyakya,Pot,Jerry can,1,FALSE,7,30,Smoking it and then rinse it with clean water.,"Steelwire,soap and water"
+1472,2025-07-23,Central Region,Nakaseke,Ssanze,Ssanze,Pot,Jerry can,1,FALSE,14,60,Rinse with clean water.,"Dishwasher,sand,soap and water."
+1473,2025-07-23,Central Region,Nakaseke,Ssanze,Ssanze,Pot,Jerry can,1,FALSE,6,30,Rinse with clean water.,"Steelwire,soap and water."
+1474,2025-07-23,Central Region,Nakaseke,Ssanze,Ssanze,Pot,Jerry can,1,TRUE,7,30,Rinse with clean water.,"Steelwire,soap and water"
+1477,2025-08-21,Central Region,Nakaseke,Wabikyakya,Wabikyakya,Pot,Jerry can,1,TRUE,7,30,Clean water and coffee leaves.,"Small stones, soap and steelwire"
+1478,2025-08-21,Central Region,Nakaseke,Wabikyakya,Wabikyakya,Pot,Jerry can,1,TRUE,7,30,Use clean water and dish washer.,"Steelwire,soap and water"
+1479,2025-08-21,Central Region,Nakaseke,Wabikyakya,Wabikyakya,Pot,Jerry can,1,FALSE,7,14,Use dry banana leaves and water,"Steelwire, soap and smallstones"
+1480,2025-08-21,Central Region,Nakaseke,Kafunda,Kafunda,Pot,Jerry can,1,TRUE,7,1,Rinse with water only.,"Steelwire ,sand and soap."
+1481,2025-08-21,Central Region,Nakaseke,Kafunda,Kafunda,Pot,Jerry can,1,FALSE,7,30,Use clean water,Steelwire sand and soap
+1483,2025-08-21,Central Region,Nakaseke,Kafunda,Kafunda,Pot,Jerry can,1,TRUE,7,30,Clean water only,"Steelwire,sand and water"
+1484,2025-08-21,Central Region,Nakaseke,Nakazzi Lugo,Nakazzi Lugo,Pot,Jerry can,1,TRUE,5,30,Use clean water only.,"Stewire,sand ,soap and water."
+1486,2025-08-21,Central Region,Nakaseke,Nakazzi Lugo,Nakazzi Lugo,Pot,Jerry can,1,FALSE,3,30,Use clean water and sun drying it,"Sand, water,soap and steelwire"
+1487,2025-08-21,Central Region,Nakaseke,Nakazzi Lugo,Nakazzi Lugo,Pot,Jerry can,1,TRUE,5,30,Rinse with clean water.,"Steelwire,soap and water"
+1488,2025-09-02,Central Region,Nakaseke,Zirambwa,Zirambwa,Pot,Jerry can,1,TRUE,7,30,Rinse it with clean water.,"Steelwire,soap, small stones and water."
+1489,2025-09-02,Central Region,Nakaseke,Zirambwa,Zirambwa,Pot,Jerry can,1,FALSE,7,30,Use clean water,"Steelwire, sand and soap"
+1490,2025-09-02,Central Region,Nakaseke,Zirambwa,Zirambwa,Pot,Jerry can,1,TRUE,5,30,Use clean water,"Steelwire,sand and soap ,"
+1493,2025-09-02,Central Region,Nakaseke,Kapeeka,Kapeeka Centre,Pot,Jerry can,1,TRUE,4,30,Dish washer and clean water,Steel wire and soap.
+1494,2025-09-02,Central Region,Nakaseke,Kapeeka Centre,Kapeeka Centre,Pot,Jerry can,1,TRUE,2,30,Steelwire and soap,Clean water and dry banana leaves
+1495,2025-09-02,Central Region,Nakaseke,Kapeeka Centre,Kapeeka Centre,Pot,Jerry can,1,TRUE,1,30,Clean water and banana leaves,"Steelwire,soap and water"
+1496,2025-09-02,Central Region,Nakaseke,Mizimbo,Mizimbo,Pot,Jerry can,1,TRUE,5,30,Use clean water and then sun drying,Steelwire and soap.
+1498,2025-09-02,Central Region,Nakaseke,Mizimbo,Mizimbo,Pot,Jerry can,1,FALSE,7,14,Clean water and lemon grass,"Steelwire, sand and soap"
+1499,2025-09-02,Central Region,Nakaseke,Mizimbo,Mizimbo 1,Pot,Jerry can,1,TRUE,2,30,Clean water and dishwasher.,"Steelwire,soap and sand"
+1501,2025-09-03,Central Region,Nakaseke,Namyeso,Namyeso,Pot,Jerry can,1,FALSE,6,30,Disherwasher and cleanwater,"Steelwire, soap and sand"
+1502,2025-09-03,Central Region,Nakaseke,Namyeso,Namyeso,Pot,Jerry can,1,FALSE,5,30,Clean water and dishwasher,"Steelwire, soap and smallstones to clean inside the inside of the jerrycan."
+1503,2025-09-03,Central Region,Nakaseke,Namyeso,Namyeso,Pot,Jerry can,1,TRUE,7,30,Use clean water and dish washer,"Steelwire, soap ,and small stones for inside"
+1505,2025-09-03,Central Region,Nakaseke,Kakoola Kivumu,Kakoola Kivumu,Pot,Jerry can,1,FALSE,6,30,Use clean water and then sun dry the pot,"Steelwire,soap and sand"
+1506,2025-09-03,Central Region,Nakaseke,Kakoola Kivumu,Kakoola Kivumu,Pot,Jerry can,1,TRUE,5,30,Use plain clean water .,"Steel wire, soap and sand"
+1507,2025-09-03,Central Region,Nakaseke,Kakoola Kivumu,Kakoola Kivumu,Pot,Jerry can,1,TRUE,7,14,"Clean water, soap and dishwasher","Steelwire, smallstones and soap"
+1508,2025-09-03,Central Region,Nakaseke,Bulamazzi,Bulamazzi,Pot,Jerry can,1,TRUE,3,30,Use clean water .,"Steelwire,soap ,sand and water"
+1509,2025-09-03,Central Region,Nakaseke,Bulamazzi,Bulamazzi,Pot,Jerry can,1,TRUE,4,30,Water and dishwasher.,"Steelwire, smallstones inside and soap"
+1511,2025-09-03,Central Region,Nakaseke,Bulamazzi,Bulamazzi,Pot,Jerry can,1,TRUE,3,30,Use clean water and dishwasher,"Steelwire,sand,soap and small stones inside the jerrycan"
+1512,2025-09-04,Central Region,Nakaseke,Kuffu,Kuffu,Pot,Jerry can,1,TRUE,10,30,"Dishwasher,soap and water.","Steelwire, small stones and soap"
+1513,2025-09-04,Central Region,Nakaseke,Kuffu,Kuffu,Pot,Jerry can,1,FALSE,7,30,Use clean water,"Steelwire,soap ,smallstones and water"
+1514,2025-09-04,Central Region,Nakaseke,Kuffu,Kuffu,Pot,Jerry can,1,TRUE,2,30,Dishwasher and water,"Steelwire, soap and small stones"
+1516,2025-09-04,Central Region,Nakaseke,Kiteredde,Kiteredde,Pot,Jerry can,1,TRUE,7,30,Dishwasher and hot water,"Steelwire,smallstones , sand and soap"
+1517,2025-09-04,Central Region,Nakaseke,Kiteredde,Kiteredde,Pot,Jerry can,1,TRUE,7,30,Dishwasher and water,Steelwire and soap
+1518,2025-09-04,Central Region,Nakaseke,Kiteredde,Kiteredde,Pot,Jerry can,1,TRUE,14,30,Smoking it and after rinse it with clean water,"Steelwire ,sand ,small stones and soap"
+1521,2025-09-04,Central Region,Nakaseke,Namasinda Nakitto,Namasinda Nakitto,Pot,Jerry can,1,TRUE,7,30,Use clean water.,"Smallstones,steelwire and soap"
+1522,2025-09-04,Central Region,Nakaseke,Namasinda,Namasinda Nakitto,Pot,Jerry can,1,TRUE,3,30,Water only,"Steelwire, soap, smallstones."
+1523,2025-09-04,Central Region,Nakaseke,Namasinda,Namasinda Nakitto,Pot,Jerry can,1,TRUE,3,30,Clean water and dish washer,"Steelwire,small stones and soap"
+1525,2025-09-05,Central Region,Nakaseke,Namasinda,Namasinda 1,Drum,Jerry can,1,FALSE,14,30,"Steelwire,soap and water","Steelwire,soap, smallstones inside and water"
+1526,2025-09-05,Central Region,Nakaseke,Namasinda,Namasinda 1,Pot,Jerry can,1,TRUE,3,30,"Steelwire,soap and water.","Steelwire,soap,smallstones and water"
+1527,2025-09-05,Central Region,Nakaseke,Namasinda,Namasinda 2,Sauce pan,Jerry can,1,TRUE,3,30,"Steelwire, soap and water","Steelwire, soap, small stones and water"
+1528,2025-09-05,Central Region,Nakaseke,Namasinda 2,Namasinda 2,Sauce pan,Jerry can,1,TRUE,4,30,"Steelwire ,soap and water","Steelwire ,soap ,water and sand"
+1530,2025-09-05,Central Region,Nakaseke,Namasinda 2,Namasinda 2,Pot,Jerry can,1,TRUE,5,30,Clean water and dishwasher.,"Steelwire,soap and water."
+1531,2025-09-05,Central Region,Nakaseke,Lukumbi,Lukumbi,Pot,Jerry can,1,TRUE,4,30,Use clean water and dish washer.,"Steelwire,soap,smallstones and water"
+1532,2025-09-05,Central Region,Nakaseke,Lukumbi,Lukumbi,Pot,Jerry can,1,FALSE,7,30,Use clean water.,"Steelwire ,soap and water"
+1534,2025-09-05,Central Region,Nakaseke,Lukumbi,Lukumbi,Sauce pan,Jerry can,1,FALSE,4,60,"Soap ,steelwire and water","Soap ,steelwire and water"
+1536,2025-09-05,Central Region,Nakaseke,Nanzige Penina,Namasinda 1,Pot,Jerry can,1,TRUE,3,30,"Steelwire ,water and soap","Steelwire, soap,small stones and water"
+1537,2025-09-08,Central Region,Nakaseke,Kakonde,Kakonde,Pot,Jerry can,1,TRUE,5,30,Clean water and sun drying it,"Steelwire,soap and water"
+1539,2025-09-08,Central Region,Nakaseke,Kakonde,Kakonde,Pot,Jerry can,1,TRUE,5,30,Use clean water and sun dry the pot,"Steelwire,soap ,smallstones and water"
+1540,2025-09-08,Central Region,Nakaseke,Kakonde,Kakonde,Pot,Jerry can,1,TRUE,6,30,Clean water and dishwasher,"Steelwire, soap and water"
+1542,2025-09-08,Central Region,Nakaseke,Busumba,Busumba,Pot,Jerry can,1,TRUE,7,30,Use clean water and dish washer,"Steelwire,soap, sand and water."
+1543,2025-09-08,Central Region,Nakaseke,Busumba,Busumba,Pot,Jerry can,1,TRUE,4,30,Use clean water and dish washer,"Steelwire, soap,sand and water"
+1544,2025-09-08,Central Region,Nakaseke,Busumba,Busumba,Pot,Jerry can,1,TRUE,7,30,Use dry banana leaves and clean water,"Steelwire,soap ,sand and water"
+1546,2025-09-08,Central Region,Nakaseke,Nakitembe,Nakitembe,Pot,Jerry can,1,TRUE,5,30,Use clean water and dishwasher.,"Steelwire,soap, smallstones and water"
+1547,2025-09-08,Central Region,Nakaseke,Nakitembe,Nakitembe,Pot,Jerry can,1,TRUE,4,30,Use clean water and sun dry it.,"Steelwire, soap ,small stones inside and water"
+1548,2025-09-08,Central Region,Nakaseke,Nakitembe,Nakitembe,Pot,Jerry can,1,TRUE,3,14,Rinse with clean water,"Steelwire, soap ,smallstones and water"
+1549,2025-09-10,Central Region,Nakaseke,Naluvule,Naluvule Tc,Sauce pan,Jerry can,1,TRUE,3,30,Steelwire and soap,"Steelwire,soap and smallstones inside."
+1550,2025-09-10,Central Region,Nakaseke,Naluvule,Naluvule Tc,Drum,Jerry can,1,TRUE,14,30,"Steelwire out side ,soap and dishwasher inside the drum","Steelwire for out side, soap dishwasher for inside and water"
+1553,2025-09-10,Central Region,Nakaseke,Kakoola,Kakoola C/ O,Pot,Jerry can,1,TRUE,2,7,Use banana leaves and clean water.,"Steelwire,soap ,small stones inside the jerrycan and water."
+1554,2025-09-10,Central Region,Nakaseke,Kakoola,Kakoola C/ O,Pot,Jerry can,1,TRUE,7,60,Use clean water and dish washer.,"Steelwire,soap and water"
+1555,2025-09-10,Central Region,Nakaseke,Kakoola,Kakoola C/ O,Pot,Jerry can,1,FALSE,7,30,Banana leaves and clean water,"Steelwire,soap and water"
+1556,2025-09-10,Central Region,Nakaseke,Lukumbi,Lukumbi Mosque,Pot,Jerry can,1,TRUE,30,30,Use water only.,"Steelwire,soap and water"
+1557,2025-09-10,Central Region,Nakaseke,Lukumbi,Lukumbi,Pot,Jerry can,1,TRUE,4,30,Rinse the pot with clean water.,Steelwire and soap
+1558,2025-09-10,Central Region,Nakaseke,Lukumbi,Lukumbi Mosque,Pot,Jerry can,1,FALSE,5,30,"Steelwire, soap and water","Steelwire, soap and water"
+1559,2025-09-10,Central Region,Nakaseke,Naluvule Tc,Naluvule Tc,Bucket,Jerry can,1,TRUE,5,30,"Steelwire,soap and water","Steelwire,soap and water"
+1561,2025-09-11,Central Region,Nakaseke,Kifunfugu B,Kifunfugu B,Jerry can,Jerry can,1,TRUE,1,30,"Steelwire, soap and water","Steelwire, soap and water"
+1562,2025-09-11,Central Region,Nakaseke,Kifunfugu B,Kifunfugu B,Pot,Jerry can,1,TRUE,7,14,Use clean water.,"Steelwire,soap,small stones and water"
+1563,2025-09-11,Central Region,Nakaseke,Kifunfugu,Kifunfugu B,Pot,Jerry can,1,FALSE,7,90,Dishwasher and clean water.,"Steelwire,soap , smallstones for inside."
+1565,2025-09-11,Central Region,Nakaseke,Mugenyi,Mugenyi,Pot,Jerry can,1,TRUE,7,30,Use clean water and sun dry it.,"Steelwire,soap ,smallstones for inside and water"
+1566,2025-09-11,Central Region,Nakaseke,Mugenyi,Mugenyi,Pot,Jerry can,1,TRUE,4,30,Use clean water,"Steelwire, smallstones inside and soap"
+1567,2025-09-11,Central Region,Nakaseke,Mugenyi,Mugenyi,Pot,Jerry can,1,TRUE,2,30,They rinse it with clean water.,"They use steelwire ,soap,small stones and water"
+1568,2025-09-11,Central Region,Nakaseke,Kasangombe,Kasangombe Police,Pot,Jerry can,1,TRUE,2,30,"Dish washer ,soap and water.","Steelwire ,soap and water"
+1569,2025-09-11,Central Region,Nakaseke,Kasangombe,Kasangombe Police,Pot,Jerry can,1,TRUE,4,30,Net and water only,"Steelwire,soap ,smallstones inside and water"
+1571,2025-09-11,Central Region,Nakaseke,Kasangombe,Kasangombe,Jerry can,Jerry can,1,TRUE,1,30,"Use clean water , steelwire and soap","Steelwire,soap, small stones and water"
+1573,2025-09-11,Central Region,Nakaseke,Kasangombe,Kasangombe Semagulu,Pot,Jerry can,1,TRUE,3,30,Clean water and banana leaves.,"Steelwire,soap,sand and water."
+1574,2025-09-15,Central Region,Nakaseke,Ssanze,Ssanze,Pot,Jerry can,1,FALSE,7,30,Dishwasher and clean water.,Steelwire and soap
+1575,2025-09-15,Central Region,Nakaseke,Ssanze,Ssanze,Jerry can,Jerry can,1,TRUE,7,60,Steelwire and soap,"Steelwire, sand and soap"
+1576,2025-09-15,Central Region,Nakaseke,Ssanze,Ssanze,Pot,Jerry can,1,TRUE,7,30,Use clean water and dishwasher,"Steelwire,soap,small stones and water"
+1577,2025-09-15,Central Region,Nakaseke,Butemula,Butemula A,Pot,Jerry can,1,TRUE,3,30,Clean water and dishwasher,"Steelwire,soap and water."
+1578,2025-09-15,Central Region,Nakaseke,Butemula,Butemula,Pot,Jerry can,1,TRUE,5,30,Dishwasher and clean water,"Steelwire,soap and water"
+1579,2025-09-15,Central Region,Nakaseke,Butemula,Butemula,Pot,Jerry can,1,FALSE,7,30,Use clean water only to wash the pot,"Steelwire,soap,smallstones and water"
+1581,2025-09-15,Central Region,Nakaseke,Kiwoko,Martyrs Church,Bucket,Jerry can,1,TRUE,7,30,"Steelwire ,soap and water","Steelwire ,soap and water and smallstones."
+1582,2025-09-15,Central Region,Nakaseke,Kiwoko,Martyrs Church,Drum,Jerry can,1,TRUE,14,30,"Steel wire,soap and water","Steelwire ,soap,sand and water"
+1584,2025-09-15,Central Region,Nakaseke,Kiwoko,Martyrs Church,Pot,Jerry can,1,TRUE,2,30,They use bitter leaves and clean water.,"Steelwire,soap and water"
+1586,2025-09-16,Central Region,Nakaseke,Kasangombe,Semagulu,Bucket,Jerry can,1,TRUE,6,30,"Steelwire, soap and water.",Steelwire soap and water.
+1588,2025-09-16,Central Region,Nakaseke,Kibaale,Kibaale Tc,Pot,Jerry can,1,TRUE,7,30,Use clean water.,"Steelwire, smallstones inside,soap and water"
+1589,2025-09-16,Central Region,Nakaseke,Kibaale,Kibaale Tc,Pot,Jerry can,1,TRUE,5,14,Use clean water and dishwasher,"Steelwire smallstones ,soap and water"
+1590,2025-09-16,Central Region,Nakaseke,Kibaale Tc,Kibaale Tc,Pot,Jerry can,1,TRUE,7,14,Use clean water and dishwasher.,"Steelwire,soap ,smallstones inside and water"
+1591,2025-09-16,Central Region,Nakaseke,Kasiga,Kasiga,Pot,Jerry can,1,TRUE,7,30,They use clean water.,"Steelwire,soap,water and sand"
+1593,2025-09-16,Central Region,Nakaseke,Kasiga,Kasiga,Sauce pan,Jerry can,1,TRUE,4,30,Use water and dish washer,Steel wire soap and water
+1594,2025-09-16,Central Region,Nakaseke,Kasangombe,Semagulu,Pot,Jerry can,1,TRUE,14,30,Use clean water and kaveera.,"Steelwire,soap and water"
+1595,2025-09-16,Central Region,Nakaseke,Kasiga,Kasiga,Sauce pan,Jerry can,1,TRUE,3,30,"Clean water,soap and steelewire.","Steelwire, soap, and water"
