@@ -493,3 +493,132 @@ for (name in c("borehole_visits", "household_visits", "samples", "labblanks")) {
   openxlsx::write.xlsx(dataset,
                        here::here("inst", "extdata", paste0(name, ".xlsx")))
 }
+
+# Dictionary -------------------------------------------------------------------
+# washr::setup_dictionary() lists every variable of the exported data sets in
+# data-raw/dictionary.csv. The descriptions below fill the empty description
+# cells. Descriptions already present in the CSV are kept, so manual edits to
+# the CSV are not overwritten by re-running this script.
+dict_path <- here::here("data-raw", "dictionary.csv")
+if (!file.exists(dict_path)) {
+  washr::setup_dictionary()
+}
+
+# Descriptions shared by both visit tables
+visit_common <- tibble::tribble(
+  ~variable_name, ~description,
+  "visit_id",
+  "Unique identifier of the field visit (one survey submission). Integer, assigned over all field visits sorted by district, date and submission time, so no id occurs in both borehole_visits and household_visits. Key for samples$visit_id.",
+  "date_sampled",
+  "Date of the field visit and of sample collection (YYYY-MM-DD).",
+  "region",
+  "Region of Uganda where the visit took place: Central Region, Karamoja Region, Teso Region or Busoga Region.",
+  "district",
+  "District where the visit took place: Nakaseke (Central), Kaabong (Karamoja), Kumi (Teso) or Luuka (Busoga).",
+  "community",
+  "Name of the community (village, parish or trading centre) where the visit took place, as entered by the enumerator and converted to title case."
+)
+
+descriptions <- dplyr::bind_rows(
+  # borehole_visits ------------------------------------------------------------
+  dplyr::mutate(visit_common, file_name = "borehole_visits.rda"),
+  tibble::tribble(
+    ~file_name, ~variable_name, ~description,
+    "borehole_visits.rda", "source_name",
+    "Name of the borehole sampled. Spelling variants were merged within each district; NA where the entry was not a source name.",
+    "borehole_visits.rda", "water_taste",
+    "Remark by a community member on the taste of the borehole water (free text; whitespace, case and obvious typos normalised, no semantic recoding).",
+    "borehole_visits.rda", "water_smell",
+    "Remark by a community member on the smell of the borehole water (free text; whitespace, case and obvious typos normalised, no semantic recoding).",
+    "borehole_visits.rda", "water_colour",
+    "Description of the colour of the sampled borehole water (free text; whitespace, case and obvious typos normalised, no semantic recoding)."
+  ),
+  # household_visits -----------------------------------------------------------
+  dplyr::mutate(visit_common, file_name = "household_visits.rda"),
+  tibble::tribble(
+    ~file_name, ~variable_name, ~description,
+    "household_visits.rda", "source_name",
+    "Name of the borehole from which the household collects its drinking water. Spelling variants were merged within each district; NA where the entry was not a source name.",
+    "household_visits.rda", "storage_container",
+    "Type of container in which the household stores its drinking water: Pot, Sauce pan, Jerry can, Drum or Bucket. 'Other (please specify)' answers were recoded from the specified text.",
+    "household_visits.rda", "transport_container",
+    "Type of container used by the household to collect water from the borehole: Jerry can, Bucket, Quad, Watering can, Water bottle or Jerrycan and watering can. 'Other' answers were replaced by the specified text.",
+    "household_visits.rda", "days_in_transport_container",
+    "Number of days the household keeps water in the transport container before transferring it to the storage container, as reported by the household.",
+    "household_visits.rda", "boils_water",
+    "Whether the household boils its drinking water (TRUE/FALSE).",
+    "household_visits.rda", "storage_cleaning_days",
+    "Reported interval between cleanings of the drinking water storage container. The form asked 'how often do they clean their storage device' and accepted a number; values are interpreted as days (7 = weekly, 30 = monthly). A negative entry was set to NA.",
+    "household_visits.rda", "transport_cleaning_days",
+    "Reported interval between cleanings of the transport container. The form asked 'how often do they clean their transportation device' and accepted a number; values are interpreted as days (7 = weekly, 30 = monthly).",
+    "household_visits.rda", "storage_cleaning_method",
+    "Free-text description by the household of how the storage container is cleaned (materials used, e.g. soap and water, sand, polythene bag).",
+    "household_visits.rda", "transport_cleaning_method",
+    "Free-text description by the household of how the transport container is cleaned (materials used, e.g. steel wire, soap and water, gravel)."
+  ),
+  # samples --------------------------------------------------------------------
+  tibble::tribble(
+    ~file_name, ~variable_name, ~description,
+    "samples.rda", "sample_id",
+    "Unique identifier of the water sample (one bottle). Integer.",
+    "samples.rda", "visit_id",
+    "Identifier of the field visit during which the sample was collected. Links to borehole_visits$visit_id for sample_type 'borehole' and 'borehole_duplicate', and to household_visits$visit_id for 'transport_container' and 'storage_container'. NA when a laboratory result could not be linked to a field record (see match_status).",
+    "samples.rda", "region",
+    "Region of Uganda where the sample was collected: Central Region, Karamoja Region, Teso Region or Busoga Region.",
+    "samples.rda", "district",
+    "District where the sample was collected: Nakaseke, Kaabong, Kumi or Luuka. The laboratory form used the spellings 'Kaboong' and 'Kamuli' for the last two; these were harmonised to the field survey spelling.",
+    "samples.rda", "date_sampled",
+    "Date the sample was collected (YYYY-MM-DD). For laboratory results without a field record this is the incubation start date, which in this study is the sampling date.",
+    "samples.rda", "sample_type",
+    "What was sampled: 'borehole' (water from the borehole outlet), 'borehole_duplicate' (second bottle from the same borehole taken for quality assurance), 'transport_container' (water from the container used to carry water from the borehole to the household), 'storage_container' (water from the household drinking water storage container). NA when the laboratory result has no field record.",
+    "samples.rda", "bottle_number",
+    "Number written on the sample bottle in the field and read by the laboratory. Numbering restarts every sampling day, so it identifies a sample only together with district and date_sampled.",
+    "samples.rda", "date_incubation",
+    "Date on which the sample was filtered (membrane filtration) and incubation started. NA when no laboratory result is linked.",
+    "samples.rda", "date_result",
+    "Date on which the colonies were counted and the laboratory form was submitted, normally the day after date_incubation (18-24 h incubation). NA when no laboratory result is linked.",
+    "samples.rda", "petri_dish_number",
+    "Petri dish label used by the laboratory for this sample, as recorded. Some entries are placeholder values (e.g. 88888). NA when no laboratory result is linked.",
+    "samples.rda", "ecoli_cfu",
+    "Number of E. coli colonies (colony forming units) counted on the membrane filter after incubating volume_ml of sample. The laboratory was instructed to enter 101 when more than 100 colonies were present (too numerous to count); a few values above 101 were recorded as typed. NA when no laboratory result is linked.",
+    "samples.rda", "tntc",
+    "TRUE when ecoli_cfu is greater than 100, meaning the plate was too numerous to count and ecoli_cfu is a censored value rather than an exact count. NA when no laboratory result is linked.",
+    "samples.rda", "volume_ml",
+    "Volume of sample water filtered, in millilitres. 100 mL for every analysed sample except one, where 'Other' was selected without a value (NA). NA when no laboratory result is linked.",
+    "samples.rda", "contamination_category",
+    "Contamination level derived from ecoli_cfu with the thresholds used in the project: Safe (0), Slightly contaminated (1-10), Moderately contaminated (11-50), Highly contaminated (51-100), Unsafe (more than 100). Ordered factor. NA when no laboratory result is linked.",
+    "samples.rda", "lab_notes",
+    "Free-text notes written by the laboratory technician about the sample (e.g. field blank, duplicate sample, visible maggots, interrupted incubation).",
+    "samples.rda", "match_status",
+    "How the field record and the laboratory result were linked on district, date and bottle number: 'matched' (exactly one field bottle and one laboratory result share the key), 'no lab result' (field bottle without a laboratory result), 'no field record' (laboratory result without a field record), 'ambiguous key' (the key occurs more than once in the field or the laboratory data, so the rows were deliberately not linked and remain separate)."
+  ),
+  # labblanks ------------------------------------------------------------------
+  tibble::tribble(
+    ~file_name, ~variable_name, ~description,
+    "labblanks.rda", "blank_id",
+    "Unique identifier of the laboratory blank. Integer.",
+    "labblanks.rda", "date_incubation",
+    "Date on which the blank was filtered and incubation started.",
+    "labblanks.rda", "date_result",
+    "Date on which the colonies on the blank were counted and the laboratory form was submitted.",
+    "labblanks.rda", "region",
+    "Region of Uganda whose samples were analysed in the same laboratory session as the blank: Central Region, Karamoja Region, Teso Region or Busoga Region.",
+    "labblanks.rda", "district",
+    "District whose samples were analysed in the same laboratory session as the blank: Nakaseke, Kaabong, Kumi or Luuka.",
+    "labblanks.rda", "petri_dish_number",
+    "Petri dish label of the blank as written by the laboratory technician (e.g. 'B1', '12').",
+    "labblanks.rda", "ecoli_cfu",
+    "Number of E. coli colonies counted on the blank filter (sterile water processed like a sample, 100 mL). 0 indicates no contamination introduced by the laboratory procedure; 101 means more than 100 colonies (too numerous to count)."
+  )
+)
+
+dictionary <- readr::read_csv(dict_path,
+                              col_types = readr::cols(.default = "c")) |>
+  dplyr::left_join(descriptions, by = c("file_name", "variable_name"),
+                   suffix = c("", "_new")) |>
+  dplyr::mutate(description = dplyr::coalesce(description, description_new)) |>
+  dplyr::select(-description_new)
+
+stopifnot(!anyNA(dictionary$description))
+
+readr::write_csv(dictionary, dict_path, na = "")
