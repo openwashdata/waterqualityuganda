@@ -1,0 +1,46 @@
+# ------------------------------------------------
+# CITATION.cff file created with {cffr} R package
+# See also: https://docs.ropensci.org/cffr/
+# ------------------------------------------------
+ 
+cff-version: 1.2.0
+message: 'To cite package "waterqualityuganda" in publications use:'
+type: dataset
+license: CC-BY-4.0
+title: 'waterqualityuganda: Drinking Water Quality from Boreholes to Household Storage
+  in Uganda'
+version: 0.0.0.9000
+abstract: 'Monthly E. coli monitoring of drinking water along the chain from borehole
+  sources to household storage in four Ugandan districts (Nakaseke, Kaabong, Kumi
+  and Luuka) between November 2024 and September 2025. For each borehole, water was
+  sampled at the source and, in three households using it, from the container used
+  to carry water home and from the drinking water storage container. Samples were
+  analysed by membrane filtration and classified into five contamination levels. The
+  package provides four tidy datasets: field visits to boreholes, field visits to
+  households, water samples with their laboratory results, and laboratory blanks.'
+authors:
+- family-names: Nansiimbi
+  given-names: Cecilia
+  email: nansiimbicecilia@gmail.com
+  orcid: https://orcid.org/0009-0006-9788-9732
+- family-names: Clavijo Daza
+  given-names: Adriana
+  email: aclavijo@ethz.ch
+  orcid: https://orcid.org/0009-0002-0589-2274
+repository-code: https://github.com/openwashdata/waterqualityuganda
+url: https://github.com/openwashdata/waterqualityuganda
+date-released: '2026-10-16'
+contact:
+- family-names: Clavijo Daza
+  given-names: Adriana
+  email: aclavijo@ethz.ch
+  orcid: https://orcid.org/0009-0002-0589-2274
+keywords:
+- water quality
+- E. coli
+- boreholes
+- household water storage
+- water transport
+- WASH
+- Uganda
+

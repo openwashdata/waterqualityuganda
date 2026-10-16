@@ -6,3 +6,5 @@
 ^plans$
 ^prompts$
 ^README\.Rmd$
+^\.github$
+^CITATION\.cff$
