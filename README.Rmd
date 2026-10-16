@@ -1,0 +1,323 @@
+---
+output: github_document
+always_allow_html: true
+editor_options:
+  markdown:
+    wrap: 72
+  chunk_output_type: console
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%",
+  message = FALSE,
+  warning = FALSE,
+  fig.retina = 2,
+  fig.align = 'center'
+)
+```
+
+# waterqualityuganda
+
+<!-- badges: start -->
+
+[![License: CC BY
+4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![R-CMD-check](https://github.com/openwashdata/waterqualityuganda/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/openwashdata/waterqualityuganda/actions/workflows/R-CMD-check.yaml)
+
+<!-- badges: end -->
+
+The goal of waterqualityuganda is to provide the data of a monthly
+monitoring of drinking water quality along the chain from borehole
+sources to household storage in four Ugandan districts (Nakaseke in
+Central Region, Kaabong in Karamoja, Kumi in Teso and Luuka in Busoga),
+collected between November 2024 and September 2025 by Whave Solutions
+Limited.
+
+For each borehole, water was sampled at the source and, in three
+households using that borehole, from the container used to carry water
+home (usually a jerrycan) and from the drinking water storage
+container. Samples were analysed for *E. coli* by membrane filtration
+of 100 mL and incubation for 18 to 24 hours. The aim of the monitoring
+was to find out where contamination occurs: at the source, during
+transport or during storage.
+
+## Installation
+
+You can install the development version of waterqualityuganda from
+[GitHub](https://github.com/) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("openwashdata/waterqualityuganda")
+```
+
+```{r}
+## Run the following code in console if you don't have the packages
+## install.packages(c("dplyr", "knitr", "readr", "stringr", "gt", "kableExtra"))
+library(dplyr)
+library(knitr)
+library(readr)
+library(stringr)
+library(gt)
+library(kableExtra)
+```
+
+Alternatively, you can download the individual datasets as a CSV or XLSX
+file from the table below.
+
+1.  Click Download CSV. A window opens that displays the CSV in
+    your browser.
+2.  Right-click anywhere inside the window and select "Save Page As...".
+3.  Save the file in a folder of your choice.
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+
+extdata_path <- "https://github.com/openwashdata/waterqualityuganda/raw/main/inst/extdata/"
+
+read_csv("data-raw/dictionary.csv") |>
+  distinct(file_name) |>
+  dplyr::mutate(file_name = str_remove(file_name, ".rda")) |>
+  dplyr::rename(dataset = file_name) |>
+  mutate(
+    CSV = paste0("[Download CSV](", extdata_path, dataset, ".csv)"),
+    XLSX = paste0("[Download XLSX](", extdata_path, dataset, ".xlsx)")
+  ) |>
+  knitr::kable()
+
+```
+
+## Data
+
+The package provides access to four datasets, one per observational
+unit:
+
+-   `borehole_visits`: one row per field visit to a borehole source.
+-   `household_visits`: one row per field visit to a household, with
+    the containers and water handling practices of that household.
+-   `samples`: one row per water sample (bottle), with its laboratory
+    result.
+-   `labblanks`: one row per laboratory blank, the sterile-water
+    control run alongside the samples.
+
+`samples$visit_id` links each sample to the visit it was collected at.
+The two visit tables share one id space, so a `visit_id` occurs in
+exactly one of them: in `borehole_visits` for samples of type
+`borehole` and `borehole_duplicate`, and in `household_visits` for
+samples of type `transport_container` and `storage_container`.
+
+```{r}
+library(waterqualityuganda)
+```
+
+### borehole_visits
+
+The dataset `borehole_visits` contains the location of each visited
+borehole and a community member's remarks on the taste, smell and
+colour of its water. It has `r nrow(borehole_visits)` observations and
+`r ncol(borehole_visits)` variables.
+
+```{r}
+borehole_visits |>
+  head(3) |>
+  gt::gt() |>
+  gt::as_raw_html()
+```
+
+For an overview of the variable names, see the following table.
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+readr::read_csv("data-raw/dictionary.csv") |>
+  dplyr::filter(file_name == "borehole_visits.rda") |>
+  dplyr::select(variable_name:description) |>
+  knitr::kable() |>
+  kableExtra::kable_styling("striped") |>
+  kableExtra::scroll_box(height = "200px")
+```
+
+### household_visits
+
+The dataset `household_visits` contains, for each visited household,
+the borehole it collects water from, the types of transport and
+storage container, how long water stays in the transport container,
+whether the household boils its drinking water and how often and how
+it cleans both containers. It has `r nrow(household_visits)`
+observations and `r ncol(household_visits)` variables.
+
+```{r}
+household_visits |>
+  head(3) |>
+  gt::gt() |>
+  gt::as_raw_html()
+```
+
+For an overview of the variable names, see the following table.
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+readr::read_csv("data-raw/dictionary.csv") |>
+  dplyr::filter(file_name == "household_visits.rda") |>
+  dplyr::select(variable_name:description) |>
+  knitr::kable() |>
+  kableExtra::kable_styling("striped") |>
+  kableExtra::scroll_box(height = "200px")
+```
+
+### samples
+
+The dataset `samples` contains one row per bottle of water: where and
+when it was collected, what it was taken from, and the *E. coli* count
+of the laboratory analysis together with the derived contamination
+category. It has `r nrow(samples)` observations and `r ncol(samples)`
+variables.
+
+```{r}
+samples |>
+  head(3) |>
+  gt::gt() |>
+  gt::as_raw_html()
+```
+
+For an overview of the variable names, see the following table.
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+readr::read_csv("data-raw/dictionary.csv") |>
+  dplyr::filter(file_name == "samples.rda") |>
+  dplyr::select(variable_name:description) |>
+  knitr::kable() |>
+  kableExtra::kable_styling("striped") |>
+  kableExtra::scroll_box(height = "200px")
+```
+
+### labblanks
+
+The dataset `labblanks` contains the laboratory blanks: sterile water
+filtered and incubated in the same laboratory session as the field
+samples, to detect contamination introduced by the laboratory
+procedure itself. It has `r nrow(labblanks)` observations and
+`r ncol(labblanks)` variables.
+
+```{r}
+labblanks |>
+  head(3) |>
+  gt::gt() |>
+  gt::as_raw_html()
+```
+
+For an overview of the variable names, see the following table.
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+readr::read_csv("data-raw/dictionary.csv") |>
+  dplyr::filter(file_name == "labblanks.rda") |>
+  dplyr::select(variable_name:description) |>
+  knitr::kable() |>
+  kableExtra::kable_styling("striped") |>
+  kableExtra::scroll_box(height = "200px")
+```
+
+## Example
+
+Where along the chain from source to cup does drinking water become
+contaminated? The plot below shows, for each type of sample, the share
+of analysed samples in each contamination category. Borehole water is
+mostly safe or slightly contaminated, while the majority of samples
+from transport and storage containers are unsafe.
+
+```{r contamination-by-sample-type, fig.height=4.5}
+library(waterqualityuganda)
+library(dplyr)
+library(ggplot2)
+
+sample_type_labels <- c(
+  borehole = "Borehole",
+  transport_container = "Transport container",
+  storage_container = "Storage container"
+)
+
+samples |>
+  filter(sample_type %in% names(sample_type_labels),
+         !is.na(contamination_category)) |>
+  count(sample_type, contamination_category) |>
+  mutate(sample_type = factor(sample_type_labels[sample_type],
+                              levels = rev(sample_type_labels))) |>
+  ggplot(aes(x = n, y = sample_type, fill = contamination_category)) +
+  geom_col(position = position_fill(reverse = TRUE), colour = "white",
+           linewidth = 0.6, width = 0.7) +
+  scale_x_continuous(labels = scales::label_percent(),
+                     expand = expansion(0)) +
+  scale_fill_manual(
+    values = c("#c6dbef", "#9ecae1", "#6baed6", "#3182bd", "#08519c")
+  ) +
+  guides(fill = guide_legend(nrow = 2)) +
+  labs(x = "Share of analysed samples", y = NULL,
+       fill = "Contamination category",
+       title = "E. coli contamination by sample type",
+       subtitle = "Four districts in Uganda, November 2024 to September 2025") +
+  theme_minimal() +
+  theme(panel.grid.major.y = element_blank(),
+        panel.grid.minor = element_blank(),
+        legend.position = "bottom",
+        legend.title.position = "top")
+```
+
+To relate results to household practices, join `samples` to
+`household_visits` on `visit_id`. For example, the share of unsafe
+storage-container samples by whether the household boils its drinking
+water:
+
+```{r}
+samples |>
+  filter(sample_type == "storage_container",
+         !is.na(contamination_category)) |>
+  left_join(household_visits, by = "visit_id") |>
+  group_by(boils_water) |>
+  summarise(
+    n_samples = n(),
+    share_unsafe = mean(contamination_category == "Unsafe")
+  )
+```
+
+## Notes on the data
+
+-   **Matching of field and laboratory records.** The field survey and
+    the laboratory survey were linked on district, date and bottle
+    number. Bottle numbers restart every sampling day, and the same
+    number was sometimes used twice on one day. Records were linked only
+    when the key was unique on both sides; the column `match_status` in
+    `samples` reports the outcome for every row, and rows that could not
+    be linked are kept with missing values on the other side.
+-   **Counts above 100.** The laboratory was instructed to record 101
+    colonies when a plate had more than 100 colonies (too numerous to
+    count). A few counts above 101 were recorded as typed. The logical
+    column `tntc` marks all counts above 100; treat `ecoli_cfu` as
+    censored for those rows.
+-   **District names.** The laboratory form used the spellings
+    "Kaboong" and "Kamuli" for the districts recorded as "Kaabong" and
+    "Luuka" in the field survey. The field survey spelling is used
+    throughout.
+-   **Relation to the original analysis.** In the analysis report that
+    accompanied the raw data, the bottle numbers of the transport
+    container and of the storage container were assigned to the opposite
+    sample type. This package follows the wording of the survey
+    questions, so its storage and transport results are the reverse of
+    that report's.
+-   **Dropped rows.** Submissions before 1 November 2024 (pilot visits
+    without region or survey type) and four laboratory results that were
+    submitted twice were dropped.
+
+## License
+
+Data are available as
+[CC-BY](https://github.com/openwashdata/waterqualityuganda/blob/main/LICENSE.md).
+
+## Citation
+
+Please cite this package using:
+
+```{r}
+citation("waterqualityuganda")
+```

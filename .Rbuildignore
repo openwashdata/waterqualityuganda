@@ -5,3 +5,4 @@
 ^pkgdown$
 ^plans$
 ^prompts$
+^README\.Rmd$
