@@ -1,0 +1,478 @@
+visit_id,date_sampled,region,district,community,source_name,water_taste,water_smell,water_colour
+1,2024-11-20,Karamoja Region,Kaabong,Nachukul,Nachukul,Good,No smell,Clear
+2,2024-11-21,Karamoja Region,Kaabong,Papa 2,Papa 2,Salty,Mild smell,Clear
+3,2024-11-21,Karamoja Region,Kaabong,St Marys Chapel,St Marys Chapel,Good,No smell,Clear
+4,2024-11-21,Karamoja Region,Kaabong,Tulyenyang,Tulyenyang,Good,No smell,Morning hours it's greenish
+5,2024-11-21,Karamoja Region,Kaabong,Urutukapel,Urutukapel,Good,No smell,Clear
+6,2024-11-21,Karamoja Region,Kaabong,Peikale,Peikale,Good,No smell,Clear
+7,2024-11-25,Karamoja Region,Kaabong,Kakamar,Natumugarae,Good,No smell,Clear
+8,2024-11-25,Karamoja Region,Kaabong,Jane Abonyo,NA,NA,No smell,Clear
+9,2024-11-25,Karamoja Region,Kaabong,Nagumalokoringole,Napeikidor,Water drops after several strokes,No smell,Clear
+10,2024-11-25,Karamoja Region,Kaabong,Lopelpel,Lopelpel,Good- little water in dry season,No smell,Clear
+11,2024-11-26,Karamoja Region,Kaabong,Nasuguru,Nasuguru,Good,No smell,Clear
+12,2024-11-26,Karamoja Region,Kaabong,Jane Abonyo,Nakosowan 1,Good,No smell,Morning hours redish
+13,2024-11-26,Karamoja Region,Kaabong,Narionomoru,Narionomoru 2,Good,No smell,Clear
+14,2024-11-26,Karamoja Region,Kaabong,Nakoreto,Nakoreto,Good,No smell,Greenish in morning hours
+15,2024-11-26,Karamoja Region,Kaabong,Kayokong,Kakamar Primary School,Good,No smell,Clear
+16,2024-11-27,Karamoja Region,Kaabong,Narube,Narube Primary School,Good,No smell,Clear
+17,2024-11-27,Karamoja Region,Kaabong,Narube,Narube,Good,No smell,Clear
+18,2024-11-27,Karamoja Region,Kaabong,Namamutau,Namamutau,Salty,No smell,Clear
+19,2024-11-27,Karamoja Region,Kaabong,Teregu,Teregu,Good,No smell,Clear
+20,2024-12-02,Karamoja Region,Kaabong,Kangisute,Kangisute,Good,No smell,Morning hours it's redish
+21,2024-12-02,Karamoja Region,Kaabong,Yerun,Yerun,Good,No smell,Clear
+22,2024-12-02,Karamoja Region,Kaabong,Nangolekuruk,Nangolekuruk,Good,No smell,Clear
+23,2024-12-02,Karamoja Region,Kaabong,Lopelpel,Lopelpel,Good,No smell,Evening hours turns redish
+24,2024-12-02,Karamoja Region,Kaabong,Kangingetei Kepak,Kangingetei Kepak,Good,No smell,Clear
+64,2024-12-10,Karamoja Region,Kaabong,Lokitet,Lokitet,Good,No smell,Clear
+65,2024-12-10,Karamoja Region,Kaabong,Loit,Loit,Good,No smell,Clear
+90,2025-03-18,Karamoja Region,Kaabong,Kangisute,Kangisute,Good,No smell,Clear
+91,2025-03-18,Karamoja Region,Kaabong,Nanyangadoket,Nanyangadoket,Good,No smell,Clear
+97,2025-03-19,Karamoja Region,Kaabong,Nasuguru,Nasuguru,Good,No smell,Clear
+102,2025-03-19,Karamoja Region,Kaabong,Papa 2,Papa 2,Good,No smell,Clear
+103,2025-03-19,Karamoja Region,Kaabong,St Marys Chapel,St Marys Chapel,Good,No smell,Clear
+105,2025-03-24,Karamoja Region,Kaabong,Nachukul,Nachukul,Good,No smell,Clear
+115,2025-03-24,Karamoja Region,Kaabong,Tulyenyang,Tulyenyang,Good,No smell,Clear
+116,2025-03-25,Karamoja Region,Kaabong,Moru-Ese,Moruese,Good,No smell,Clear
+120,2025-03-25,Karamoja Region,Kaabong,Natumugarae,Natumugarae,Good,No smell,Clear
+123,2025-03-26,Karamoja Region,Kaabong,Peikale,Peikale,Good,No smell,Clear
+129,2025-04-15,Karamoja Region,Kaabong,Peikale,Peikale,Good,No smell,Clear
+133,2025-04-22,Karamoja Region,Kaabong,Kangisute,Kangisute,Good,No smell,Clear
+135,2025-04-22,Karamoja Region,Kaabong,Moruese,Moruese,Good,No smell,Clear
+136,2025-04-22,Karamoja Region,Kaabong,Nanyangadoket,Nanyangadoket,Good,Slightly smelly,Clear
+142,2025-04-22,Karamoja Region,Kaabong,Narumugarae,Natumugarae,Good,No smell,Clear
+144,2025-04-23,Karamoja Region,Kaabong,Tulyenyang,Tulyenyang,Good,No smell,Clear
+145,2025-04-23,Karamoja Region,Kaabong,Nachukul,Nachukul,Good,No smell,Clear
+146,2025-04-28,Karamoja Region,Kaabong,Papa 2,Papa 2,Good,No smell,Clear
+160,2025-05-12,Karamoja Region,Kaabong,St Marys Chapel,St Marys Chapel,Good,No smell,Clear
+163,2025-05-12,Karamoja Region,Kaabong,Nasuguru,Nasuguru,Good,No smell,Clear
+170,2025-05-19,Karamoja Region,Kaabong,Tulyenyang,Tulyenyang,Good,No smell,Clear
+172,2025-05-19,Karamoja Region,Kaabong,Nasuguru,Nasuguru,Good,No smell,Clear
+180,2025-05-20,Karamoja Region,Kaabong,St Marys Chapel,St Marys Chapel,Good,No smell,Clear
+182,2025-05-20,Karamoja Region,Kaabong,Papa 2,Papa 2,Good,Slightly smelly,Clear
+185,2025-05-20,Karamoja Region,Kaabong,Nachukul,Nachukul,Good,No smell,Clear
+189,2025-05-27,Karamoja Region,Kaabong,Kangisute,Kangisute,Good,No smell,Clear
+193,2025-05-27,Karamoja Region,Kaabong,Nanyangadoket,Nanyangadoket,Good,Slightly smelling,Clear
+196,2025-05-27,Karamoja Region,Kaabong,Natumugarae,Natumugarae,Good,No smell,Clear
+200,2025-05-28,Karamoja Region,Kaabong,Moruese,Moruese,Good,No smell,Clear
+203,2025-06-02,Karamoja Region,Kaabong,Tulenyang,Tulyenyang,Good,No smell,Clear
+207,2025-06-16,Karamoja Region,Kaabong,Nasuguru,Nasuguru,Good,No smell,Clear
+213,2025-06-16,Karamoja Region,Kaabong,St Marys Chapel,St Marys Chapel,Good,No smell,Clear
+220,2025-06-17,Karamoja Region,Kaabong,Tulyenyang,Tulyenyang,Good,No smell,Clear
+231,2025-06-25,Karamoja Region,Kaabong,Moruese,Moruese,Good,No smell,Clear
+234,2025-06-25,Karamoja Region,Kaabong,Nanyangadoket,Nanyangadoket,Good,No smell,Clear
+240,2025-06-26,Karamoja Region,Kaabong,Kangisute,Kangisute,Good,No smell,Clear
+242,2025-06-26,Karamoja Region,Kaabong,Natumugarae,Natumugarae,Good,No smell,Clear
+247,2025-07-14,Karamoja Region,Kaabong,St Marys Chapel,St Marys Chapel,Good,No smell,Clear
+250,2025-07-14,Karamoja Region,Kaabong,Nasuguru,Nasuguru,Good,No smell,Clear
+254,2025-07-15,Karamoja Region,Kaabong,Tulyenyang,Tulyenyang,Good,No smell,Clear
+264,2025-07-21,Karamoja Region,Kaabong,Moruese,Moruese,Good,No smell,Clear
+267,2025-07-21,Karamoja Region,Kaabong,Nanyangadoket,Nanyangadoket,Good,No smell,Clear
+272,2025-07-21,Karamoja Region,Kaabong,Natumugarae,Natumugarae,Good,No smell,Clear
+274,2025-07-23,Karamoja Region,Kaabong,Nasuguru,Nasuguru,Good,No smell,Clear
+281,2025-07-23,Karamoja Region,Kaabong,St Marys Chapel,St Marys Chapel,Good,No smell,Clear
+286,2025-07-24,Karamoja Region,Kaabong,Nachukul,Nachukul,Good,No smell,Clear
+290,2025-07-24,Karamoja Region,Kaabong,Kangisute,Kangisute,Good,No smell,Clear
+292,2025-08-12,Karamoja Region,Kaabong,St Marys Chapel,St Marys Chapel,Good,Good,Colourless
+295,2025-08-13,Karamoja Region,Kaabong,Kamacharkol,Peikale,Good,Good,Colourless
+297,2025-08-13,Karamoja Region,Kaabong,Kathile,Papa 2,Good,Good,Colourless
+304,2025-08-13,Karamoja Region,Kaabong,Kathile,Nasuguru,Good,Good,Colourless
+307,2025-08-15,Karamoja Region,Kaabong,Kamacharkol,Urutukapel,Good,Good smell,Colourless
+313,2025-08-15,Karamoja Region,Kaabong,Kamacharkol,Nachukul,Good,No smell,Clear
+315,2025-08-18,Karamoja Region,Kaabong,Kangisute,Kangisute,Good,Good,Colourless
+316,2025-08-18,Karamoja Region,Kaabong,Nanyangadoket,Nanyangadoket,Good,Good,Colourless
+323,2025-08-19,Karamoja Region,Kaabong,Natumugarae,Natumugarae,Good,No smell,Colourless
+327,2025-08-19,Karamoja Region,Kaabong,Moru-Ese,Moruese,Good,Good smell,Colourless
+331,2025-08-20,Karamoja Region,Kaabong,Napeikidor,Napeikidor,Salty,Good,Colourless
+336,2025-08-22,Karamoja Region,Kaabong,Lopelipel,Lopelpel,Good taste,No smell,Colourless
+341,2025-08-22,Karamoja Region,Kaabong,Nakoreto,Nakoreto,Salty water,No smell,Colourless no69
+343,2025-08-26,Karamoja Region,Kaabong,Nakasowan,Nakasowan,Good,No smell,Colourless
+345,2025-08-26,Karamoja Region,Kaabong,Teregu,Teregu,Good,No smell,Colourless
+354,2025-08-26,Karamoja Region,Kaabong,Lokitet,Lokitet,Good,No smell,Colourless
+358,2025-08-27,Karamoja Region,Kaabong,Yaruun,Yerun,Good,No smell,Colourless
+362,2025-08-27,Karamoja Region,Kaabong,Nangolekuruk,Nangolekuruk,Good,No smell,Colourless
+365,2025-08-28,Karamoja Region,Kaabong,Narube,Narube,No bad taste,No smell,Colourless
+367,2025-02-01,Teso Region,Kumi,Kapolin Ps,Kapolin Ps,Tasteless,Odourless,Clear
+373,2025-02-01,Teso Region,Kumi,Apapai,Apapai Apapai,Tasteless,Odourless,Clear
+376,2025-02-02,Teso Region,Kumi,Atutur,Akalabai Okengo,Tasteless,Odourless,Clear
+380,2025-02-02,Teso Region,Kumi,Atutur,Omolokonyo,Tasteless,Odourless,Clear
+385,2025-02-03,Teso Region,Kumi,Atutur,Kalungar Ps,Tasteless,Odourless,Clear
+388,2025-02-03,Teso Region,Kumi,Kamacha,Ojie Tc,Tasteless,Odourless,Clear
+391,2025-02-04,Teso Region,Kumi,Kamacha,Adodoi Palam,Tasteless,Odourless,Clear
+396,2025-02-04,Teso Region,Kumi,Kakures,Kakures Ps,Tasteless,Odourless,Clear
+400,2025-02-05,Teso Region,Kumi,Kanyum,Odotuno,Tasteless,Odourless,Clear
+403,2025-02-05,Teso Region,Kumi,Kanyum,Kabwele Goria,Tasteless,Odourless,Clear
+409,2025-02-17,Teso Region,Kumi,Kapolin Ongino,Kapolin Ps,Tasteless,Odourless,Clear
+413,2025-02-17,Teso Region,Kumi,Atutur,Apapai Apapai,Tasteless,Odourless,Clear
+415,2025-02-18,Teso Region,Kumi,Atutur,Akalabai Okengo,Tasteless,Odourless,Clear
+420,2025-02-18,Teso Region,Kumi,Atutur,Omolokonyo,Tasteless,Odourless,Clear
+423,2025-02-19,Teso Region,Kumi,Atutur,Kalungar Ps,Tasteless,Odourless,Clear
+427,2025-02-19,Teso Region,Kumi,Kamacha,Ojie Tc,Tasteless,Odourless,Clear
+431,2025-02-20,Teso Region,Kumi,Kamacha,Adodoi Palam,Tasteless,Odourless,Clear
+435,2025-02-20,Teso Region,Kumi,Kakures,Kakures Ps,Tasteless,Odourless,Clear
+440,2025-02-21,Teso Region,Kumi,Kanyum,Odotuno,Tasteless,Odourless,Clear
+443,2025-02-21,Teso Region,Kumi,Kanyum,Kabwele Goria,Tasteless,Odourless,Clear
+447,2025-03-14,Teso Region,Kumi,Kapolin Ps,Kapolin Ps,Tasteless,Odourless,Clear
+451,2025-03-14,Teso Region,Kumi,Atutur,Apapai Apapai,Tasteless,Odourless,Clear
+455,2025-03-14,Teso Region,Kumi,Ongino,Kapolin Ps,Tasteless,Odourless,Clear
+462,2025-03-16,Teso Region,Kumi,Atutur,Kalungar Ps,Tasteless,Odourless,Clear
+464,2025-03-16,Teso Region,Kumi,Kamacha,Ojie Tc,Tasteless,Odourless,Clear
+468,2025-03-17,Teso Region,Kumi,Kamacha,Adodoi Palam,Tasteless,Odourless,Clear
+475,2025-03-17,Teso Region,Kumi,Kakures,Kakures,Tasteless,Odourless,Clear
+477,2025-03-18,Teso Region,Kumi,Kanyum,Odotuno,Tasteless,Odourless,Clear
+480,2025-03-18,Teso Region,Kumi,Kanyum,Kabwele Goria,Tasteless,Odourless,Clear
+484,2025-04-14,Teso Region,Kumi,Atutur,Apapai Apapai,Tasteless,Odourless,Clear
+488,2025-04-15,Teso Region,Kumi,Ongino,Kapolin Ps,Tasteless,Odourless,Clear
+492,2025-04-16,Teso Region,Kumi,Atutur,Omolokonyo,Tasteless,Odourless,Clear
+495,2025-04-16,Teso Region,Kumi,Atutur,Akalabai Okengo,Tasteless,Odourless,Clear
+499,2025-04-18,Teso Region,Kumi,Atutur,Kalungar Ps,Tasteless,Odourless,Clear
+503,2025-04-18,Teso Region,Kumi,Kamacha,Ojie Tc,Tasteless,Odourless,Clear
+507,2025-04-19,Teso Region,Kumi,Kamacha,Adodoi Palam,Tasteless,Odourless,Clear
+512,2025-04-19,Teso Region,Kumi,Kakures,Kakures Ps,Tasteless,Odourless,Clear
+515,2025-04-20,Teso Region,Kumi,Kanyum,Odotuno,Tasteless,Odourless,Clear
+519,2025-04-20,Teso Region,Kumi,Kanyum,Kabwele Goria,Tasteless,Odourless,Clear
+523,2025-05-22,Teso Region,Kumi,Ongino,Kapolin Ps,Tasteless,Odourless,Clear
+527,2025-05-23,Teso Region,Kumi,Atutur,Apapai Apapai,Tasteless,Odourless,Clear
+531,2025-05-23,Teso Region,Kumi,Atutur,Akalabai Okengo,Tasteless,Odourless,Clear
+535,2025-05-24,Teso Region,Kumi,Atutur,Omolokonyo,Tasteless,Odourless,Clear
+539,2025-05-25,Teso Region,Kumi,Atutur,Kalungar Ps,Tasteless,Odourless,Clear
+543,2025-05-25,Teso Region,Kumi,Atutur,Ojie Tc,Tasteless,Odourless,Clear
+547,2025-05-27,Teso Region,Kumi,Kamacha,Adodoi Palam,Tasteless,Odourless,Clear
+550,2025-05-27,Teso Region,Kumi,Kakures,Kakures Ps,Tasteless,Odourless,Clear
+555,2025-05-28,Teso Region,Kumi,Kanyum,Odotuno,Tasteless,Odourless,Clear
+558,2025-05-28,Teso Region,Kumi,Kanyum,Kabwele Goria,Tasteless,Odourless,Clear
+563,2025-06-16,Teso Region,Kumi,Ongino,Kapolin Ps,Tasteless,Odourless,Clear
+567,2025-06-17,Teso Region,Kumi,Atutur,Apapai Apapai,Tasteless,Odourless,Clear
+571,2025-06-17,Teso Region,Kumi,Atutur,Akalabai Okengo,Tasteless,Odourless,Clear
+575,2025-06-18,Teso Region,Kumi,Atutur,Kalungar Ps,Tasteless,Odourless,Clear
+580,2025-06-18,Teso Region,Kumi,Atutur,Omolokonyo,Tasteless,Odourless,Clear
+583,2025-06-19,Teso Region,Kumi,Kamacha,Adodoi Palam,Tasteless,Odourless,Clear
+587,2025-06-19,Teso Region,Kumi,Kamacha,Ojie Tc,Tasteless,Odourless,Clear
+591,2025-06-20,Teso Region,Kumi,Kakures,Kakures Ps,Tasteless,Odourless,Clear
+597,2025-06-20,Teso Region,Kumi,Kanyum,Odotuno,Tasteless,Odourless,Clear
+599,2025-06-21,Teso Region,Kumi,Kanyum,Kabwele Goria,Tasteless,Odourless,Clear
+603,2025-07-14,Teso Region,Kumi,Kanyum,Odotuno,Tasteless,Odourless,Clear
+607,2025-07-14,Teso Region,Kumi,Kanyum,Kabwele Goria,Tasteless,Odourless,Clear
+612,2025-07-15,Teso Region,Kumi,Ongino,Kapolin Ps,Tasteless,Odourless,Clear
+616,2025-07-15,Teso Region,Kumi,Atutur,Apapai Apapai,Tasteless,Odourless,Clear
+620,2025-07-16,Teso Region,Kumi,Atutur,Akalabai Okengo,Tasteless,Odourless,Clear
+624,2025-07-16,Teso Region,Kumi,Atutur,Omolokonyo,Tasteless,Odourless,Clear
+627,2025-07-17,Teso Region,Kumi,Atutur,Kalungar Ps,Tasteless,Odourless,Clear
+631,2025-07-17,Teso Region,Kumi,Kamacha,Ojie Tc,Tasteless,Odourless,Clear
+635,2025-07-18,Teso Region,Kumi,Kamacha,Adodoi Palam,Tasteless,Odourless,Clear
+639,2025-07-18,Teso Region,Kumi,Kakures,Kakures Ps,Tasteless,Odourless,Clear
+643,2025-07-25,Teso Region,Kumi,Nn,NA,NA,NA,NA
+644,2025-08-18,Teso Region,Kumi,Ongino,Kapolin Atirir,Tasteless,Odourless,Clear
+649,2025-08-18,Teso Region,Kumi,Ongino,Kapolin Ps,Tasteless,Odourless,Clear
+652,2025-08-19,Teso Region,Kumi,Kanapa,Kongoto Oturukulu,Tasteless,Odourless,Clear
+657,2025-08-20,Teso Region,Kumi,Atutur,Apapai Apapai,Tasteless,Odourless,Clear
+660,2025-08-20,Teso Region,Kumi,Atutur,Akalabai Okengo,Tasteless,Odourless,Clear
+664,2025-08-21,Teso Region,Kumi,Kakures,Kakures Ps,Tasteless,Odourless,Clear
+668,2025-08-21,Teso Region,Kumi,Kakures. Kituba,Kituba Ps,Tasteless,Odourless,Clear
+674,2025-08-22,Teso Region,Kumi,Kakures,Kakures B Rarak,Tasteless,Odourless,Clear
+675,2025-08-23,Teso Region,Kumi,Atutur,Kalungar Ps,Tasteless,Odourless,Clear
+680,2025-08-23,Teso Region,Kumi,Atutur,Omolokonyo,Tasteless,Odourless,Clear
+686,2025-08-24,Teso Region,Kumi,Kamacha,Adodoi Palam,Tasteless,Odourless,Clear
+687,2025-08-24,Teso Region,Kumi,Kamacha,Ojie Tc,Tasteless,Odourless,Clear
+691,2025-08-25,Teso Region,Kumi,Kanyum,Ajuket Ps,Tasteless,Odourless,Clear
+698,2025-08-25,Teso Region,Kumi,Kanyum,Odotuno,Tasteless,Odourless,Clear
+699,2025-08-26,Teso Region,Kumi,Kanyum,Olimai Ps,Tasteless,Odourless,Clear
+703,2025-08-26,Teso Region,Kumi,Kanyum,Kabwele Goria,Tasteless,Odourless,Clear
+710,2025-08-27,Teso Region,Kumi,Nyero,Acilun Agurut,Tasteless,Odourless,Clear
+711,2025-08-27,Teso Region,Kumi,Nyero,Orapada Omatakiria,Tasteless,Odourless,Clear
+715,2025-08-28,Teso Region,Kumi,Nyero,Moruikara,Tasteless,Odourless,Clear
+721,2025-08-28,Teso Region,Kumi,Nyero,Olilim Ps,Tasteless,Odourless,Clear
+735,2025-04-14,Busoga Region,Luuka,Nawanyago Bagole,Nawanyago Bagole,Fine,Good,Colourless
+736,2025-04-14,Busoga Region,Luuka,Nsambya Bameka,Nsambya Bameka,Has no bad taste,Has no bad smell,Colourless sample
+737,2025-04-14,Busoga Region,Luuka,Kisambira,Kisambira,No problem,Good,Colourless
+738,2025-04-14,Busoga Region,Luuka,Buwaiswa Gulemye,Buwaiswa Gulemye,Fine,Fine,Colourless
+739,2025-04-14,Busoga Region,Luuka,Nakyere,Nakyere,Taste good,Smells good,Colourless
+740,2025-04-14,Busoga Region,Luuka,Ikonia Bafumba,Ikonia Bufumba A,Okay,Okay,Colourless
+741,2025-04-14,Busoga Region,Luuka,Luzinga Park,Luzinga Park,Okay,Okay,Colourless
+742,2025-04-22,Busoga Region,Luuka,Nsambya Bameka,Nsambya Bameka,Not bad,No bad smell,Colourless
+743,2025-04-22,Busoga Region,Luuka,Nawanyago Bagole,Nawanyago Bagole,Taste good,No bad smell,Colourless
+744,2025-04-22,Busoga Region,Luuka,Budhabangula Nambula,Budhabangula Nambula,Good,Good,Colourless
+745,2025-04-22,Busoga Region,Luuka,Kisambira,Kisambira,Good,Good,Colourless
+746,2025-04-22,Busoga Region,Luuka,Buwaiswa Gulemye,Buwaiswa Gulemye,Good,Good,Colourless
+747,2025-04-22,Busoga Region,Luuka,Nakyere,Nakyere,Taste good,Smells good,Colourless
+748,2025-04-22,Busoga Region,Luuka,Ikonia Bafumba A,Ikonia Bufumba A,Good,Good,Colourless
+749,2025-04-22,Busoga Region,Luuka,Good,Luzinga Park,Good,Good,Colourless
+783,2025-05-26,Busoga Region,Luuka,Nsambya Bameka,Nsambya Bameka,Not bad,Smells good,Colourless
+784,2025-05-26,Busoga Region,Luuka,Budhuba A,Budhuba A Mosque,Not bad,Has no problem,Colourless
+785,2025-05-26,Busoga Region,Luuka,Nsima,Nsima,No bad taste,No bad smell,Colourless
+786,2025-05-26,Busoga Region,Luuka,Modern Times Ps,Modern Times Ps,Taste good,Smells good,Colourless
+787,2025-05-26,Busoga Region,Luuka,Nawankompe A,Nawankompe A,Good,Good,Colourless
+788,2025-05-26,Busoga Region,Luuka,Nakyere,Nakyere,Good,Good,Colourless
+789,2025-05-26,Busoga Region,Luuka,Ikonia Bufumbaa,Ikonia Bufumba A,Good,Good,Colourless
+790,2025-05-26,Busoga Region,Luuka,Luzinga Park,Luzinga Park,Good,Good,Colourless
+792,2025-06-18,Busoga Region,Luuka,Budhuba A Mosque,Budhuba A Mosque,Changed taste in this rainny season,Not good,Not pure
+793,2025-06-18,Busoga Region,Luuka,Nsambya Bameka,Nsambya Bameka,Good,Good,Colourless
+794,2025-06-18,Busoga Region,Luuka,Modern Times Ps,Modern Times Ps,Good,Good,Good
+795,2025-06-18,Busoga Region,Luuka,Nsiima,Nsima,Good,Good,Good
+802,2025-06-19,Busoga Region,Luuka,Nawankompe A,Nawankompe A,Good,Good,Good
+803,2025-06-19,Busoga Region,Luuka,Nakyere,Nakyere,Good,Good,Good
+804,2025-06-19,Busoga Region,Luuka,Ikonia Bafumba A,Ikonia Bufumba A,Good,Good,Good
+805,2025-06-19,Busoga Region,Luuka,Luzinga Park,Luzinga Park,Good,Good,Good
+814,2025-07-24,Busoga Region,Luuka,Luzinga Park,Luzinga Park,Has no problem,Fine,Colourless
+815,2025-07-24,Busoga Region,Luuka,Luzinga Park,Luzinga Park,Has no problem,Fine,Colourless
+816,2025-07-24,Busoga Region,Luuka,Ikonia Bufumba A,Ikonia Bufumba A,Good,Good,Colourless
+817,2025-07-24,Busoga Region,Luuka,Nakyere,Nakyere,Good,Good,Colourless
+818,2025-07-24,Busoga Region,Luuka,Modern Times Ps,Modern Times Ps,Good,Good,Colourless
+819,2025-07-24,Busoga Region,Luuka,Nsiima,Nsima,Good,Colourless,Good
+820,2025-07-24,Busoga Region,Luuka,Nsambya Bameka,Nsambya Bameka,Good,Good,Colourless
+821,2025-07-24,Busoga Region,Luuka,Budhuba A . Tc,NA,Good,Good,Colourless
+828,2025-07-28,Busoga Region,Luuka,Nawankompe A,Nawankompe A,Good,Good,Colourless
+847,2025-08-18,Busoga Region,Luuka,Bukyamata,Bukyamata,Good,No smell,Colourless
+851,2025-08-18,Busoga Region,Luuka,Buwaiswa Gulemye,Buwaiswa Gulemye,Good,No smell,Colourless
+859,2025-08-20,Busoga Region,Luuka,Nsambya Bameka,Nsambya Bameka,Fine,Fine,Colourless
+877,2025-08-25,Busoga Region,Luuka,Luzinga Park,Luzinga Park,No problem noted,No problem noted,It is colour less
+878,2025-08-25,Busoga Region,Luuka,Busanda Ps,Busanda Ps,Good,No smell,Colourless
+880,2025-08-25,Busoga Region,Luuka,Nakabaale A,Nakabaale A,It has no problem,No bad smell,Colourless
+883,2025-08-25,Busoga Region,Luuka,Ikonia Bufumba A,Ikonia Bufumba A,No problem,No smell,Colourless
+884,2025-08-25,Busoga Region,Luuka,Nairika Kagoma,Nairika Kagoma,Good,No smell,Colourless
+885,2025-08-25,Busoga Region,Luuka,Nakyere,Nakyere,Taste good,No smell,Colourless water
+886,2025-08-25,Busoga Region,Luuka,Modern Times Ps,Modern Times Ps,Good taste,No bad smell,Colourless
+887,2025-08-25,Busoga Region,Luuka,Budhabangula Nambula,Budhabangula Nambula,Good,No smell,Colourless
+889,2025-08-25,Busoga Region,Luuka,Nsima,Nsima,Fine,Fine,Colourless
+892,2025-08-25,Busoga Region,Luuka,Nawanyago Bugole,Nawanyago Bagole,Not bad,Fine,Colourless
+893,2025-08-25,Busoga Region,Luuka,Budhuba A Mosque,Budhuba A Mosque,Not bad,Good smell,Colourless water sample
+906,2025-08-27,Busoga Region,Luuka,Nawankompe A,Nawankompe A,Good taste,No smell,Colourless water
+911,2025-08-27,Busoga Region,Luuka,Nabikuyi Dodovico,Nabikuyi Dodovico,Good,Good,Colourless
+914,2025-08-27,Busoga Region,Luuka,Kibinga A,Kibinga A,Good,Fine,Colourless
+915,2025-08-27,Busoga Region,Luuka,Kibinga Tc,Kibinga Tc,Good taste,Good smell,Colourless
+919,2025-08-27,Busoga Region,Luuka,Irongo Sub / C,Irongo Sub/ C,Good,Good,Colourless
+935,2025-09-01,Busoga Region,Luuka,Nakabondo,Nakabondo,Good,No smell,Colourless
+936,2025-09-01,Busoga Region,Luuka,Budondo A,Budondo A,Good,No smell,Colourless
+937,2025-09-01,Busoga Region,Luuka,Kisambira,Kisambira,Good,Good,Colourless
+941,2025-09-01,Busoga Region,Luuka,Kimanto,Kimanto,Good,No smell,Colourless
+942,2025-09-01,Busoga Region,Luuka,Busige Bumanha,Busige Bumanha,Good,No smell,Colourless
+946,2025-09-01,Busoga Region,Luuka,Kyanvuma Ps,Kyanvuma Ps,Good,No smell,Colourless
+947,2024-11-12,Central Region,Nakaseke,Ssanze Mifunya,Ssanze,Good,Not bad,NA
+948,2024-11-12,Central Region,Nakaseke,Kyambogo,Kyambogo Lc1,Good,Good,NA
+949,2024-11-12,Central Region,Nakaseke,Kasambya,St Kizito Kasambya,Not bad,Not bad,NA
+950,2024-11-12,Central Region,Nakaseke,Kikwata Tc,Kikwata Tc,Not bad,Not bad,NA
+951,2024-11-12,Central Region,Nakaseke,Kigege,Kigege C/ U,Not bad,Not bad,NA
+952,2024-11-12,Central Region,Nakaseke,Kokogwanga Migingye,Kokogwanga,Good,Not bad,NA
+953,2024-11-12,Central Region,Nakaseke,Busumba,Busumba,Not bad,Not bad,NA
+954,2024-11-12,Central Region,Nakaseke,Kyoga T.c Kikyusa,Kyoga T.c,Not bad,Not bad,NA
+955,2024-11-13,Central Region,Nakaseke,Bukuku Kasangombe,Bukuku,Not bad,Not bad,NA
+956,2024-11-13,Central Region,Nakaseke,Mugenyi Kasangombe,Mugenyi,Not bad,Not bad,NA
+957,2024-11-13,Central Region,Nakaseke,Kisango Bulyake,Kisango,Not bad,Not bad,NA
+958,2024-11-13,Central Region,Nakaseke,Kituntu Kasangombe,Kituntu C/ U,Not bad,Not bad,NA
+959,2024-11-13,Central Region,Nakaseke,Bukoto Kikamulo,Bukoto,Not bad,Not bad,NA
+960,2024-11-13,Central Region,Nakaseke,Kivumu T.c,Kivumu,Not bad,Not bad,NA
+961,2024-11-13,Central Region,Nakaseke,Naluvule Kapeeka,Naluvule Tc,Not bad,Not bad,NA
+962,2024-11-13,Central Region,Nakaseke,Zirambwa Kapeeka,Zirambwa,Not bad,Not bad,NA
+963,2024-11-13,Central Region,Nakaseke,Bambaga Kikandwa,Bambaga,Not bad,Not bad,NA
+964,2024-11-13,Central Region,Nakaseke,Kiteredde,Kiteredde,Not bad,Not bad,NA
+965,2024-11-13,Central Region,Nakaseke,Buwa,Buwa,Not bad,Not bad,NA
+966,2024-11-13,Central Region,Nakaseke,Kakonde,Kakonde,Not bad,Not bad,NA
+967,2024-11-26,Central Region,Nakaseke,Mayirikiti,Mayirikiti,Not bad,Not bad,NA
+968,2024-11-26,Central Region,Nakaseke,Namasujju,Namasujju B,Not bad,Not bad,NA
+969,2024-11-26,Central Region,Nakaseke,Kifunfugu Kasangombe,Kifunfugu B,Not bad,Not bad,NA
+970,2024-11-26,Central Region,Nakaseke,Kamuli,Kamuli Mosque,Not bad,Not bad,NA
+971,2024-11-26,Central Region,Nakaseke,Kamuli,Kamuli C/ U Ps Borehole,Not bad,Not bad,NA
+972,2024-11-26,Central Region,Nakaseke,Lumpewe,Lumpewe Borehole,Not bad,Not bad,NA
+973,2024-11-26,Central Region,Nakaseke,Wabikyakya,Wabikyakya,Not bad,Not bad,NA
+974,2024-11-26,Central Region,Nakaseke,Kiruuli,Kiruuli Borehole,Not bad,Not bad,NA
+975,2024-11-26,Central Region,Nakaseke,Butikwa,Butikwa Project,Not bad,Not bad,NA
+976,2024-11-26,Central Region,Nakaseke,Kivumu,Kivumu Bulamazzi,Not bad,Not bad,NA
+977,2024-11-28,Central Region,Nakaseke,Bukatira,Bukatira Bagala,Not bad,Not bad,NA
+978,2024-11-28,Central Region,Nakaseke,Kikandwa,Kikandwa Health Centre,Not bad,Not bad,NA
+979,2024-11-28,Central Region,Nakaseke,Namasinda,Namasinda Nakitto,Not bad,Not bad,NA
+980,2024-11-28,Central Region,Nakaseke,Nvunanwa,Nvunanwa Kasaawe,Not bad,Not bad,NA
+981,2024-11-28,Central Region,Nakaseke,Kikandwa,Kikandwa A,Not bad,Not bad,NA
+982,2024-11-28,Central Region,Nakaseke,Komamboga Transformer,Komamboga,Not bad,Not bad,NA
+983,2024-11-28,Central Region,Nakaseke,Kibubu Kikandwa,Kibubu,Not bad,Not bad,NA
+984,2024-11-28,Central Region,Nakaseke,Kuffu,Kuffu,Not bad,Not bad,NA
+985,2024-11-28,Central Region,Nakaseke,Kadunda Kapeeka,Kadunda P/ S,Not bad,Not bad,NA
+986,2024-11-28,Central Region,Nakaseke,Kalagala,Kalagala Bukokolo,Not bad,Not bad,NA
+987,2024-11-28,Central Region,Nakaseke,Mizimbo,Mizimbo 1,Not bad,Not bad,NA
+988,2024-11-28,Central Region,Nakaseke,Kasiga,Kasiga 2,Not bad,Not bad,NA
+989,2024-11-28,Central Region,Nakaseke,Bukeeka,Bukeeka P/ S,Not bad,Not bad,NA
+1009,2024-12-05,Central Region,Nakaseke,Mifunya,Mifunya Lc1,Not bad,Not bad,NA
+1010,2024-12-05,Central Region,Nakaseke,Kikwata,Kikwata Lc1,Not bad,Not bad,NA
+1014,2024-12-05,Central Region,Nakaseke,Kitaweera,Kitaweera A,Not bad,Not bad,NA
+1015,2024-12-05,Central Region,Nakaseke,Butemula,Butemula A,Not bad,Not bad,NA
+1022,2024-12-10,Central Region,Nakaseke,Kyetume Mijinje,Kyetume,Not bad,Not bad,NA
+1023,2024-12-10,Central Region,Nakaseke,Kifunfugu Kasangombe,Kifunfugu A,Not bad,Not bad,NA
+1027,2024-12-10,Central Region,Nakaseke,Kisango Kasangombe,Kisango Borehole,Not bad,Not bad,NA
+1031,2024-12-10,Central Region,Nakaseke,Namasujju Kasangombe,Namasujju A,Not bad,Not bad,NA
+1032,2024-12-10,Central Region,Nakaseke,Kasangombe,Kasangombe Police,Not bad,Not bad,NA
+1050,2024-12-12,Central Region,Nakaseke,Nakitembe Semuto,Nakitembe,Not bad,Not bad,NA
+1051,2024-12-12,Central Region,Nakaseke,Namyeso Kitto,Namyeso,Not bad,Not bad,NA
+1052,2024-12-12,Central Region,Nakaseke,Kirema P/S,Kirema,Not bad,Not bad,NA
+1053,2024-12-12,Central Region,Nakaseke,Wamengo Semuto,Wamengo,Not bad,Not bad,NA
+1066,2024-12-18,Central Region,Nakaseke,Kyagatto Kasangombe,Kyagatto,Not bad,Not bad,Not bad
+1067,2024-12-18,Central Region,Nakaseke,Njagalabwami Musuuza,NA,Not bad,Not bad,Clear
+1068,2024-12-18,Central Region,Nakaseke,Timuna,Timuna Kafene,Not bad,Not bad,Clear
+1069,2024-12-18,Central Region,Nakaseke,Sakabusolo,Sakabusolo Borehole,Not bad,Not bad,Clear
+1070,2024-12-18,Central Region,Nakaseke,Kikumango,Kikumango B,Not bad,Not bad,Clear
+1071,2024-12-18,Central Region,Nakaseke,Kiryanongo,Kiryanongo Borehole,Not bad,Not bad,Clear
+1072,2024-12-18,Central Region,Nakaseke,Kakoola,Kakoola C/ O,Not bad,Not bad,Clear
+1073,2024-12-18,Central Region,Nakaseke,Butonya Kitto,Butonya Borehole,Not bad,Not bad,Clear
+1074,2024-12-18,Central Region,Nakaseke,Lwanda Kapeeka,Lwanda,Not bad,Not bad,Clear
+1075,2024-12-18,Central Region,Nakaseke,Nakazzi Semuto,Nakazzi Lugo,Not bad,Not bad,Clear
+1076,2024-12-19,Central Region,Nakaseke,Najooki Semuto T/C,Najooki,Not bad,Not bad,Clear
+1077,2024-12-19,Central Region,Nakaseke,Kirinya,Kirinya Borehole,Not bad,Not bad,Clear
+1078,2024-12-19,Central Region,Nakaseke,Kalege,Kalege 1,Not bad,Not bad,Clear
+1079,2024-12-19,Central Region,Nakaseke,Kalege,Kalege Mulokole,Not bad,Not bad,NA
+1080,2024-12-19,Central Region,Nakaseke,Lukumbi,Lukumbi,Not bad,Not bad,Clear
+1081,2024-12-19,Central Region,Nakaseke,Namasinda,Namasinda 2,Not bad,Not bad,Clear
+1082,2024-12-19,Central Region,Nakaseke,Namasinda,Namasinda A,Not bad,Not bad,Clear
+1083,2024-12-19,Central Region,Nakaseke,Kaloke,Kaloke Lc1,Not bad,Not bad,NA
+1084,2025-01-04,Central Region,Nakaseke,Nakanswa Kitto,Nakanswa,Not bad,Not bad,Clear
+1085,2025-01-13,Central Region,Nakaseke,Kyambogo,Kyambogo Kikweke,Not bad,Not bad,Clear
+1086,2025-01-13,Central Region,Nakaseke,Kyampisi,Kyampisi,Not bad,Not bad,Clear
+1087,2025-01-13,Central Region,Nakaseke,Kibira Kigege,Kibira Dongo 2,Not bad,Not bad,Clear
+1088,2025-01-13,Central Region,Nakaseke,Kibira Dongo Kigege,Kibira Dongo Regina,Not bad,Not bad,Clear
+1089,2025-01-13,Central Region,Nakaseke,Katalekamese,Katalekamese B,Not bad,Not bad,Clear
+1090,2025-01-13,Central Region,Nakaseke,Kibaale,Kibaale A,Not bad,Not bad,Clear
+1091,2025-01-13,Central Region,Nakaseke,Kapeeka,Christina Borehole,Not bad,Not bad,Clear
+1092,2025-01-13,Central Region,Nakaseke,Kapeeka,Kapeeka Centre,Not bad,Not bad,Clear
+1093,2025-01-13,Central Region,Nakaseke,Namusaale,Namusaale G,Not bad,Not bad,Clear
+1094,2025-01-13,Central Region,Nakaseke,Sumbwe Kapeeka,Sumbwe Borehole,Not bad,Not bad,Clear
+1095,2025-01-14,Central Region,Nakaseke,Bukuku,Bukuku,Not bad,Not bad,Clear
+1096,2025-01-14,Central Region,Nakaseke,Timuna,Timuna Nakajako,Not bad,Not bad,Clear
+1097,2025-01-14,Central Region,Nakaseke,Sakabusolo Kasangombe,Sakabusolo 2,Not bad,Not bad,Clear
+1098,2025-01-14,Central Region,Nakaseke,Sakabusolo,Twekembe,Not bad,Not bad,Clear
+1099,2025-01-14,Central Region,Nakaseke,Kitutu,Kitutu B,Not bad,Not bad,Clear
+1100,2025-01-14,Central Region,Nakaseke,Namakokolo Kasangombe,Namakokolo,Not bad,Not bad,Clear
+1101,2025-01-14,Central Region,Nakaseke,Kitutu Kasangombe,Kitutu Mugerwa,Not bad,Not bad,Clear
+1102,2025-01-14,Central Region,Nakaseke,Kikumango,Kikumango,Not bad,Not bad,Clear
+1103,2025-01-14,Central Region,Nakaseke,Kibaale,Kibaale Tc,Not bad,Not bad,Clear
+1104,2025-01-14,Central Region,Nakaseke,Kitutu Kasangombe,Namusisi Borehole Kitutu,Not bad,Not bad,Clear
+1105,2025-01-14,Central Region,Nakaseke,Kabbubu,Kabbubu,Not bad,Not bad,Clear
+1106,2025-01-14,Central Region,Nakaseke,Wakayamba,Wakayamba,Not bad,Not bad,Clear
+1107,2025-01-15,Central Region,Nakaseke,Mifunya,Mifunya C/ U,Not bad,Not bad,Clear
+1108,2025-01-15,Central Region,Nakaseke,Kyamuyinula,Kyamuyinula,Not bad,Not bad,Clear
+1109,2025-01-15,Central Region,Nakaseke,Luteete,Luteete Bongole,Not bad,Not bad,Clear
+1110,2025-01-15,Central Region,Nakaseke,Lukenku,Lukenku,Not bad,Not bad,Clear
+1111,2025-01-15,Central Region,Nakaseke,Mabale,Annie's Well,Not bad,Not bad,Clear
+1112,2025-01-15,Central Region,Nakaseke,Wabitunda,Wabitunda,Not bad,Not bad,Clear
+1113,2025-01-15,Central Region,Nakaseke,Kagango Naguru,Kagango Naguru,Not bad,Not bad,Clear
+1114,2025-01-15,Central Region,Nakaseke,Kiwoko,Martyrs Church,Not bad,Not bad,Clear
+1115,2025-01-15,Central Region,Nakaseke,Nongo,Nongo Shallow,Not bad,Not bad,Clear
+1116,2025-01-20,Central Region,Nakaseke,Katalekamese,Bukalegye,Not bad,Not bad,Clear
+1117,2025-01-21,Central Region,Nakaseke,Kalagi,Kalagi Mulokole,Not bad,Not bad,Clear
+1118,2025-01-21,Central Region,Nakaseke,Bulyake,Bulyake Gitta,Not bad,Not bad,Clear
+1119,2025-01-21,Central Region,Nakaseke,Naseeta Kasangombe,Naseeta,Not bad,Not bad,Clear
+1120,2025-01-21,Central Region,Nakaseke,Kasangombe,Semagulu,Not bad,Not bad,Clear
+1121,2025-01-21,Central Region,Nakaseke,Kirugga Kasangombe,Kirugga B,Not bad,Not bad,Clear
+1122,2025-01-21,Central Region,Nakaseke,Kirugga,Kirugga A,Not bad,Not bad,Clear
+1123,2025-01-21,Central Region,Nakaseke,Kikamulo,Kikamulo H/ C,Not bad,Not bad,Clear
+1124,2025-01-21,Central Region,Nakaseke,Kijeebejo,Kijeebejo,Not bad,Not bad,Clear
+1125,2025-01-21,Central Region,Nakaseke,Mazigo Semuto,Mazigo,Not bad,Not bad,Clear
+1150,2025-02-05,Central Region,Nakaseke,Katakala,Katakala,Not bad,Not bad,Clear
+1154,2025-02-06,Central Region,Nakaseke,Lwabijogo,Lwabijogo,Not bad,Not bad,Clear
+1158,2025-02-06,Central Region,Nakaseke,Wakyato,Wakyato Lc,Not bad,Not bad,Clear
+1159,2025-02-06,Central Region,Nakaseke,Butalangu,Lukunga Butalangu,Not bad,Not bad,Clear
+1160,2025-02-06,Central Region,Nakaseke,Kasiiso,Kasiiso Mosque,Not bad,Not bad,Clear
+1161,2025-02-06,Central Region,Nakaseke,Mijinje,Kawuku,Not bad,Not bad,Clear
+1165,2025-03-18,Central Region,Nakaseke,Lukumbi,Lukumbi,Good,No smell,Clear
+1169,2025-03-18,Central Region,Nakaseke,Namasinda,Namasinda 1,Not bad,Not bad,Clear
+1174,2025-03-18,Central Region,Nakaseke,Namasinda,Namasinda Nakitto,Not bad,Not bad,Clear
+1176,2025-03-18,Central Region,Nakaseke,Namasinda,Namasinda 2,Not bad,Not bad,Clear
+1181,2025-03-19,Central Region,Nakaseke,Zirambwa,Zirambwa,Not bad,Not bad,Clear
+1182,2025-03-19,Central Region,Nakaseke,Namyeso,Namyeso,Not bad,Not bad,Clear
+1186,2025-03-19,Central Region,Nakaseke,Kakoola Kivumu,Kakoola Kivumu,Not bad,Not bad,Clear
+1187,2025-03-19,Central Region,Nakaseke,Bulamazzi,NA,Not bad,Not bad,Clear
+1195,2025-03-20,Central Region,Nakaseke,Mizimbo,Mizimbo 1,Not bad,Not bad,Clear
+1196,2025-03-20,Central Region,Nakaseke,Wabikyakya,Wabikyakya,Not bad,Not bad,Clear
+1200,2025-03-20,Central Region,Nakaseke,Ssanze,Ssanze,Not bad,Not bad,Clear
+1207,2025-03-24,Central Region,Nakaseke,Kuffu,Kuffu,Not bad,Not bad,Clear
+1214,2025-03-24,Central Region,Nakaseke,Busumba,Busumba,Not bad,Not bad,Clear
+1216,2025-03-24,Central Region,Nakaseke,Kakonde,Kakonde,Not bad,Not bad,Clear
+1221,2025-03-27,Central Region,Nakaseke,Nakitembe,Nakitembe,Not bad,Not bad,Clear
+1222,2025-04-16,Central Region,Nakaseke,Namasinda,Namasinda Nakitto,Not bad,Not bad,Clear
+1225,2025-04-16,Central Region,Nakaseke,Namasinda,Namasinda 2,Not bad,Not bad,Clear
+1228,2025-04-16,Central Region,Nakaseke,Namasinda,Namasinda 1,Not bad,Not bad,Clear
+1234,2025-04-17,Central Region,Nakaseke,Kuffu,Kuffu,Not bad,Not bad,Clear
+1238,2025-04-17,Central Region,Nakaseke,Lukumbi,Lukumbi,Not bad,Not bad,Clear
+1242,2025-04-17,Central Region,Nakaseke,Busumba,Busumba,Not bad,Not bad,Clear
+1247,2025-04-21,Central Region,Nakaseke,Namyeso,Namyeso,Not bad,Not bad,Clear
+1251,2025-04-22,Central Region,Nakaseke,Zirambwa,Zirambwa,Not bad,Not bad,Clear
+1255,2025-04-22,Central Region,Nakaseke,Kakoola Kivumu,Kakoola Kivumu,Not bad,Not bad,Clear
+1260,2025-04-22,Central Region,Nakaseke,Bulamazzi,Bulamazzi,Not bad,Not bad,Clear
+1263,2025-04-23,Central Region,Nakaseke,Mizimbo,Mizimbo 1,Not bad,Not bad,Clear
+1266,2025-04-23,Central Region,Nakaseke,Ssanze,Ssanze,Not bad,Not bad,Clear
+1269,2025-04-23,Central Region,Nakaseke,Wabikyakya,Wabikyakya,Not bad,Not bad,Clear
+1277,2025-04-24,Central Region,Nakaseke,Nakitembe,Nakitembe,Not bad,Not bad,Clear
+1279,2025-04-24,Central Region,Nakaseke,Kakonde,Kakonde,Not bad,Not bad,Clear
+1282,2025-05-26,Central Region,Nakaseke,Namasinda,Namasinda Nakitto,Not bad,Not bad,Clear
+1283,2025-05-26,Central Region,Nakaseke,Zirambwa,Zirambwa,Not bad,Not bad,Clear
+1284,2025-05-26,Central Region,Nakaseke,Mizimbo,Mizimbo 1,Not bad,Not bad,Clear
+1285,2025-05-26,Central Region,Nakaseke,Namyeso,Namyeso,Not bad,Not bad,Clear
+1286,2025-05-27,Central Region,Nakaseke,Namasinda,Namasinda 1,Not bad,Not bad,Clear
+1295,2025-05-27,Central Region,Nakaseke,Namasinda,Namasinda 2,Not bad,Not bad,Clear
+1302,2025-05-28,Central Region,Nakaseke,Zirambwa,Zirambwa,Not bad,Not bad,Clear
+1306,2025-05-28,Central Region,Nakaseke,Kakoola Kivumu,Kakoola Kivumu,Not bad,Not bad,Clear
+1309,2025-05-28,Central Region,Nakaseke,Bulamazzi,Bulamazzi,Not bad,Not bad,Clear
+1312,2025-06-04,Central Region,Nakaseke,Kakonde,Kakonde,Not bad,Not bad,Clear
+1316,2025-06-04,Central Region,Nakaseke,Busumba,Busumba,Good,Not bad,Clear
+1319,2025-06-04,Central Region,Nakaseke,Lukumbi,Lukumbi,Good,Not bad,Clear
+1322,2025-06-04,Central Region,Nakaseke,Kuffu,Kuffu,Not bad,Not bad,Clear
+1327,2025-06-05,Central Region,Nakaseke,Ssanze,Ssanze,Good,Good,Clear
+1330,2025-06-05,Central Region,Nakaseke,Wabikyakya,Wabikyakya,Not bad,Good,Clear
+1340,2025-06-06,Central Region,Nakaseke,Nakitembe,Nakitembe,Not bad,Not bad,Clear
+1343,2025-06-11,Central Region,Nakaseke,Namasinda,Namasinda 1,Not bad,Not bad,Clear
+1350,2025-06-11,Central Region,Nakaseke,Namasinda,Namasinda 2,Not bad,Not bad,Clear
+1356,2025-06-17,Central Region,Nakaseke,Namasinda 1,Namasinda 1,Not bad,Not bad,Clear
+1363,2025-06-17,Central Region,Nakaseke,Namasinda,Namasinda Nakitto,Not bad,Not bad,Clear
+1366,2025-06-17,Central Region,Nakaseke,Namasinda 2,Namasinda 2,Not bad,Not bad,Clear
+1368,2025-06-17,Central Region,Nakaseke,Lukumbi,Lukumbi,Not bad,Not bad,Clear
+1373,2025-06-18,Central Region,Nakaseke,Zirambwa,Zirambwa,Not bad,Not bad,Clear
+1377,2025-06-18,Central Region,Nakaseke,Mizimbo,Mizimbo 1,Not bad,Not bad,Clear
+1378,2025-06-18,Central Region,Nakaseke,Namyeso,Namyeso,Not bad,Not bad,Clear
+1384,2025-06-19,Central Region,Nakaseke,Kuffu,Kuffu,Not bad,Not bad,Clear
+1391,2025-06-19,Central Region,Nakaseke,Busumba,Busumba,Not bad,Not bad,Clear
+1397,2025-06-24,Central Region,Nakaseke,Bulamazzi,Bulamazzi,Not bad,Not bad,Clear
+1402,2025-06-24,Central Region,Nakaseke,Kakoola Kivumu,Kakoola Kivumu,Not bad,Not bad,Clear
+1406,2025-06-24,Central Region,Nakaseke,Nakitembe,Nakitembe,Not bad,Not bad,Clear
+1407,2025-06-25,Central Region,Nakaseke,Wabikyakya,Wabikyakya,Not bad,Not bad,Clear
+1411,2025-06-25,Central Region,Nakaseke,Ssanze,Ssanze,Not bad,Not bad,Clear
+1414,2025-06-25,Central Region,Nakaseke,Kakonde,Kakonde,Not bad,Not bad,Clear
+1420,2025-07-14,Central Region,Nakaseke,Namasinda Nakitto,Namasinda Nakitto,Not bad,Not bad,Clear
+1423,2025-07-14,Central Region,Nakaseke,Namasinda 2,Namasinda 2,Not bad,Not bad,Clear
+1425,2025-07-14,Central Region,Nakaseke,Lukumbi,Lukumbi,Not bad,Not bad,Clear
+1429,2025-07-14,Central Region,Nakaseke,Namasinda 1,Namasinda 1,Not bad,Not bad,Clear
+1431,2025-07-15,Central Region,Nakaseke,Kuffu,Kuffu,Not bad,Not bad,Brownish.
+1438,2025-07-15,Central Region,Nakaseke,Busumba,Busumba,Not bad,Not bad,Clear
+1446,2025-07-16,Central Region,Nakaseke,Zirambwa,Zirambwa,Not bad,Not bad,Clear
+1450,2025-07-16,Central Region,Nakaseke,Mizimbo 1,Mizimbo 1,Not bad,Not bad,Clear
+1451,2025-07-16,Central Region,Nakaseke,Namyeso,Namyeso,Not bad,Not bad,Clear
+1456,2025-07-22,Central Region,Nakaseke,Nakitembe,Nakitembe,Not bad,Not bad,Clear
+1459,2025-07-22,Central Region,Nakaseke,Kakoola Kivumu,Kakoola Kivumu,Not bad,Not bad,Clear
+1465,2025-07-22,Central Region,Nakaseke,Bulamazzi,Bulamazzi,Not bad,Not bad,Clear
+1467,2025-07-23,Central Region,Nakaseke,Wabikyakya,Wabikyakya,Not bad,Not bad,Clear
+1471,2025-07-23,Central Region,Nakaseke,Ssanze,Ssanze,Not bad,Not bad,Clear
+1475,2025-07-23,Central Region,Nakaseke,Kakonde,Kakonde,Not bad,Not bad,Clear
+1476,2025-08-21,Central Region,Nakaseke,Wabikyakya,Wabikyakya,Not bad,Not bad,Clear
+1482,2025-08-21,Central Region,Nakaseke,Kafunda,Kafunda,Not bad,Not bad,Clear
+1485,2025-08-21,Central Region,Nakaseke,Nakazzi Lugo,Nakazzi Lugo,Not bad,Not bad,Clear
+1491,2025-09-02,Central Region,Nakaseke,Zirambwa,Zirambwa,Not bad,Not bad,Clear
+1492,2025-09-02,Central Region,Nakaseke,Kapeeka Centre,Kapeeka Centre,Not bad,Not bad,Clear
+1497,2025-09-02,Central Region,Nakaseke,Mizimbo,Mizimbo 1,Not bad,Not bad,Clear
+1500,2025-09-03,Central Region,Nakaseke,Namyeso,Namyeso,Not bad,Not bad,Clear
+1504,2025-09-03,Central Region,Nakaseke,Kakoola Kivumu,Kakoola Kivumu,Not bad,Not bad,Clear
+1510,2025-09-03,Central Region,Nakaseke,Bulamazzi,Bulamazzi,Not bad,Not bad,Clear
+1515,2025-09-04,Central Region,Nakaseke,Kuffu,Kuffu,Not bad,Not bad,Whitish
+1519,2025-09-04,Central Region,Nakaseke,Kiteredde,Kiteredde,Not bad,Not bad,Clear
+1520,2025-09-04,Central Region,Nakaseke,Namasinda,Namasinda Nakitto,Not bad,Not bad,Clear
+1524,2025-09-05,Central Region,Nakaseke,Namasinda,Namasinda 1,Not bad,Not bad,Clear
+1529,2025-09-05,Central Region,Nakaseke,Namasinda 2,Namasinda 2,Not bad,Not bad,Clear
+1533,2025-09-05,Central Region,Nakaseke,Lukumbi,Lukumbi,Not bad,Not bad,Clear
+1535,2025-09-05,Central Region,Nakaseke,Lukumbi,Lukumbi Mosque,Not bad,Not bad,Clear
+1538,2025-09-08,Central Region,Nakaseke,Kakonde,Kakonde,Not bad,Not bad,Clear
+1541,2025-09-08,Central Region,Nakaseke,Busumba,Busumba,Not bad,Not bad,Clear
+1545,2025-09-08,Central Region,Nakaseke,Nakitembe,Nakitembe,Not bad,Not bad,Clear
+1551,2025-09-10,Central Region,Nakaseke,Naluvule,Naluvule Tc,Not bad,Not bad,Clear
+1552,2025-09-10,Central Region,Nakaseke,Kakoola,Kakoola C/ O,Not bad,Not bad,Clear
+1560,2025-09-11,Central Region,Nakaseke,Kifunfugu,Kifunfugu B,Not bad,Not bad,Clear
+1564,2025-09-11,Central Region,Nakaseke,Mugenyi,Mugenyi,Not bad,Not bad,Clear
+1570,2025-09-11,Central Region,Nakaseke,Kasangombe,Kasangombe Police,Not bad,Not bad,Clear
+1572,2025-09-11,Central Region,Nakaseke,Kasangombe,Semagulu,Not bad,Not bad,Clear
+1580,2025-09-15,Central Region,Nakaseke,Butemula A,Butemula,Not bad,Not bad,Clear
+1583,2025-09-15,Central Region,Nakaseke,Kiwoko,Martyrs Church,Not bad,Not bad,Clear
+1585,2025-09-15,Central Region,Nakaseke,Ssanze,Ssanze,Not bad,Not bad,Clear
+1587,2025-09-16,Central Region,Nakaseke,Kibaale,Kibaale Tc,Not bad,Not bad,Clear
+1592,2025-09-16,Central Region,Nakaseke,Kasiga,Kasiga,Not bad,Not bad,Clear

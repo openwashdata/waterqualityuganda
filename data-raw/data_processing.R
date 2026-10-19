@@ -1,295 +1,624 @@
 # Description ------------------------------------------------------------------
-# R script to process uploaded raw data into a tidy, analysis-ready data frame
+# R script to process uploaded raw data into tidy, analysis-ready data frames.
+#
+# Raw data: two mWater survey exports from the Maji Health / Whave Solutions
+# monitoring of drinking water quality from borehole sources to household
+# storage in four Ugandan districts (Nov 2024 to Sep 2025).
+#
+#   data-raw/Sample_collection.xlsx    field survey, one row per visit
+#   data-raw/Sample_E.coliresults.xlsx lab survey, one row per analysed bottle
+#
+# Output: four tidy tables, one per observational unit.
+#
+#   borehole_visits  one row per field visit to a borehole source
+#   household_visits one row per field visit to a household
+#   samples          one row per water sample (bottle), with E. coli result
+#   labblanks        one row per laboratory blank (sterile-water control)
+#
 # Load packages ----------------------------------------------------------------
 ## Run the following code in console if you don't have the packages
-## install.packages(c("usethis", "fs", "here", "readr", "readxl", "openxlsx"))
+## install.packages(c("usethis", "fs", "here", "readr", "readxl", "openxlsx",
+##                    "tidyverse", "janitor"))
 library(usethis)
 library(fs)
 library(here)
 library(readr)
 library(readxl)
 library(openxlsx)
+library(dplyr)
+library(tidyr)
+library(stringr)
+library(lubridate)
+library(tibble)
+library(janitor)
 
 # Read data --------------------------------------------------------------------
-# data_in <- readr::read_csv("data-raw/dataset.csv")
-# codebook <- readxl::read_excel("data-raw/codebook.xlsx") |>
-#  clean_names()
+field_raw <- readxl::read_excel(here::here("data-raw", "Sample_collection.xlsx")) |>
+  janitor::clean_names()
 
-# Tidy data --------------------------------------------------------------------
-## Clean the raw data into a tidy format here
+lab_raw <- readxl::read_excel(here::here("data-raw", "Sample_E.coliresults.xlsx")) |>
+  janitor::clean_names()
 
-raw_data1 <- readxl::read_excel(here::here("data", "raw", "Sample_collection.xlsx"))
+# Constants --------------------------------------------------------------------
+# Monitoring started in November 2024. Rows before that are pilot / training
+# submissions (no region, no survey type) and are dropped.
+study_start <- as.Date("2024-11-01")
 
-raw_data2 <- readxl::read_excel(here::here("data", "raw", "Sample_E.coliresults.xlsx"))
+# Region <-> district is one-to-one in this study. The lab form spells two
+# districts differently from the field form (Kaboong vs Kaabong) or names the
+# neighbouring district (Kamuli vs Luuka). The field spelling is used.
+district_region <- tibble::tribble(
+  ~district,   ~region,
+  "Nakaseke",  "Central Region",
+  "Kaabong",   "Karamoja Region",
+  "Kumi",      "Teso Region",
+  "Luuka",     "Busoga Region"
+)
 
-#Selecting relevant columns
+# Five contamination levels used in the project (colonies per 100 mL).
+contamination_levels <- c(
+  "Safe",
+  "Slightly contaminated",
+  "Moderately contaminated",
+  "Highly contaminated",
+  "Unsafe"
+)
 
-#raw_data1: Sample collection
+# Spelling variants of borehole / source names, after str_to_title(). Only
+# clear variants of the same name within a district are merged.
+source_recode <- tibble::tribble(
+  ~district,  ~from,                       ~to,
+  "Kaabong",  "Lopelipel",                 "Lopelpel",
+  "Kaabong",  "Moru-Ese",                  "Moruese",
+  "Kaabong",  "Nakoreto .",                "Nakoreto",
+  "Kaabong",  "Tulenyang",                 "Tulyenyang",
+  "Kaabong",  "St Mary's Borehole",        "St Marys Chapel",
+  "Kaabong",  "St Marys Borehole",         "St Marys Chapel",
+  "Kaabong",  "Yaruun",                    "Yerun",
+  "Kumi",     "Kakure Ps",                 "Kakures Ps",
+  "Kumi",     "Kalumgar Os",               "Kalungar Ps",
+  "Kumi",     "Kalungar",                  "Kalungar Ps",
+  "Kumi",     "Kongoto Oturukuku",         "Kongoto Oturukulu",
+  "Luuka",    "Budhuaba A Mosque",         "Budhuba A Mosque",
+  "Luuka",    "Budhuuba A Mosque",         "Budhuba A Mosque",
+  "Luuka",    "Budhuba A",                 "Budhuba A Mosque",
+  "Luuka",    "Bukyama",                   "Bukyamata",
+  "Luuka",    "Bumanha Busige",            "Busige Bumanha",
+  "Luuka",    "Ikonia Bafumba",            "Ikonia Bufumba A",
+  "Luuka",    "Ikonia Bafumba A",          "Ikonia Bufumba A",
+  "Luuka",    "Ikonia Bufumbaa",           "Ikonia Bufumba A",
+  "Luuka",    "Irongo Sc",                 "Irongo Subcounty",
+  "Luuka",    "Irongo Sub / C",            "Irongo Subcounty",
+  "Luuka",    "Irongo Sub C",              "Irongo Subcounty",
+  "Luuka",    "Irongo Subc",               "Irongo Subcounty",
+  "Luuka",    "Kibinga T/C",               "Kibinga Tc",
+  "Luuka",    "Kiklbinga T/C",             "Kibinga Tc",
+  "Luuka",    "Kibingaa",                  "Kibinga A",
+  "Luuka",    "Lizinga Park",              "Luzinga Park",
+  "Luuka",    "Modern Time Ps",            "Modern Times Ps",
+  "Luuka",    "Modern Times",              "Modern Times Ps",
+  "Luuka",    "Naika Kagoma",              "Nairika Kagoma",
+  "Luuka",    "Nawanyago Bugole",          "Nawanyago Bagole",
+  "Luuka",    "Nsiima",                    "Nsima",
+  "Nakaseke", "Busumba Borehole",          "Busumba",
+  "Nakaseke", "Kakonde Borehole",          "Kakonde",
+  "Nakaseke", "Kakoola Kvumu",             "Kakoola Kivumu",
+  "Nakaseke", "Kivumu Kakoola",            "Kakoola Kivumu",
+  "Nakaseke", "Kasiga.",                   "Kasiga",
+  "Nakaseke", "Kuffu Borehole",            "Kuffu",
+  "Nakaseke", "Lukenku Borehole",          "Lukenku",
+  "Nakaseke", "Lukumbi Borehole",          "Lukumbi",
+  "Nakaseke", "Mugenyi Borehole",          "Mugenyi",
+  "Nakaseke", "Mugenyi Lc",                "Mugenyi",
+  "Nakaseke", "Mugenyi Lc1",               "Mugenyi",
+  "Nakaseke", "Nakazi Lugo",               "Nakazzi Lugo",
+  "Nakaseke", "Nakitembe Borehole",        "Nakitembe",
+  "Nakaseke", "Nalivule Tc",               "Naluvule Tc",
+  "Nakaseke", "Naluvule",                  "Naluvule Tc",
+  "Nakaseke", "Naluvule T.c",              "Naluvule Tc",
+  "Nakaseke", "Namasinda Nakito",          "Namasinda Nakitto",
+  "Nakaseke", "Namasinda2",                "Namasinda 2",
+  "Nakaseke", "Namsinda 1",                "Namasinda 1",
+  "Nakaseke", "Namsinda 2",                "Namasinda 2",
+  "Nakaseke", "Namyesi",                   "Namyeso",
+  "Nakaseke", "Namyeso Borehole",          "Namyeso",
+  "Nakaseke", "Semagullu",                 "Semagulu",
+  "Nakaseke", "Ssanze Mifunya",            "Ssanze",
+  "Nakaseke", "Wabikyakya Borehole",       "Wabikyakya",
+  "Nakaseke", "Wabikykya",                 "Wabikyakya"
+)
 
-sample_data <- raw_data1|>
-  select(
-    `Enter date and time of sampling`,
-    `Select the District`,
-    `Select the region`,
-    `Select the type of survey being taken`,
-    `Enter the source name`,
-    `Ask a community member to make notes on the taste of the water`,
-    `Ask a community member to make notes about the smell of the water`,
-    `What is the colour of the sampled water`,
-    `Select the current type of storage technology/ container for drinking water being used`,
-    `Please specify the type of storage container for drinking water`,
-    `What medium/ type of container do they use to collect water from the borehole?`,
-    `Take a sample from the transportation medium/ container used by the household and enter sample bottle number`,
-    `Take another sample from the household storage container and enter the sample bottle number.`,
-    `Enter the sample bottle number`)
+# Values entered in the source-name field that are not source names
+# (an enumerator name, keyboard noise, numbers).
+source_junk <- c("Jane Abonyo", "Dff", "Ka", "Good", "02", "20")
 
-#raw_data2: E.coli testing results
+# Keyboard noise in the free-text sensory fields.
+text_junk <- c("Ddf", "Dd", "Morunyang Nanyangadoket")
 
-sample_result <- raw_data2 |>
-  select(`Enter the date and time now`,
-         `Select region`,
-         `Select district`,
-         `Enter sample bottle number`,
-         `Enter sample petri dish number`,
-         `Enter sample incubation start time`,
-         `Count the number of colonies and enter the number here. If there are >100 colonies, meaning "too numerous to count", enter 101.`,
-         `What was the volume of water that was filtered when this sample was analysed?`
+# Obvious typos in the free-text sensory fields (after str_to_sentence()).
+text_typos <- c(
+  "Notbad"      = "Not bad",
+  "No bad"      = "Not bad",
+  "Mot bad"     = "Not bad",
+  "Noy bad"     = "Not bad",
+  "Tastless"    = "Tasteless",
+  "Tasteleless" = "Tasteless",
+  "Tastelless"  = "Tasteless",
+  "Good tast"   = "Good taste",
+  "Odourkess"   = "Odourless",
+  "Odurless"    = "Odourless",
+  "Cclear"      = "Clear",
+  "Colourles"   = "Colourless",
+  "Colour less" = "Colourless",
+  "Colorless"   = "Colourless"
+)
+
+# Helper: normalise free text (trim, collapse spaces, sentence case), fix
+# obvious typos and turn keyboard noise into NA.
+clean_text <- function(x) {
+  x <- stringr::str_squish(x)
+  x <- dplyr::if_else(x %in% text_junk, NA_character_, x)
+  x <- stringr::str_to_sentence(x)
+  dplyr::if_else(x %in% names(text_typos), unname(text_typos[x]), x)
+}
+
+# Tidy data: field survey -> visits + field samples ----------------------------
+field <- field_raw |>
+  dplyr::select(
+    submitted_on,
+    datetime_sampled    = enter_date_and_time_of_sampling,
+    district            = select_the_district,
+    community           = enter_the_name_of_the_community,
+    survey_type         = select_the_type_of_survey_being_taken,
+    source_name         = enter_the_source_name,
+    water_taste         = ask_a_community_member_to_make_notes_on_the_taste_of_the_water,
+    water_smell         = ask_a_community_member_to_make_notes_about_the_smell_of_the_water,
+    water_colour        = what_is_the_colour_of_the_sampled_water,
+    storage_container   = select_the_current_type_of_storage_technology_container_for_drinking_water_being_used,
+    storage_other       = please_specify_the_type_of_storage_container_for_drinking_water,
+    transport_container = what_medium_type_of_container_do_they_use_to_collect_water_from_the_borehole,
+    transport_other     = if_other_please_specify_the_medium_type_of_container_used_for_transporting_water_from_borehole,
+    days_in_transport_container = ask_the_household_members_for_how_long_water_is_temporarily_kept_in_the_transportation_container_before_it_is_transferred_into_the_storage_container_record_the_number_in_days,
+    boils_water         = does_the_household_boil_their_drinking_water,
+    bottle_transport    = take_a_sample_from_the_transportation_medium_container_used_by_the_household_and_enter_sample_bottle_number,
+    bottle_storage      = take_another_sample_from_the_household_storage_container_and_enter_the_sample_bottle_number,
+    bottle_borehole     = enter_the_sample_bottle_number,
+    bottle_duplicate    = enter_the_bottle_number_of_the_duplicate_sample,
+    storage_cleaning_days     = how_often_do_they_clean_their_storage_device,
+    transport_cleaning_days   = how_often_do_they_clean_their_transportation_device,
+    transport_cleaning_method = let_them_briefly_describe_how_they_clean_their_transportation_device,
+    storage_cleaning_method   = let_them_briefly_describe_how_they_clean_their_storage_device
+  ) |>
+  dplyr::mutate(date_sampled = as.Date(datetime_sampled)) |>
+  dplyr::filter(date_sampled >= study_start) |>
+  dplyr::mutate(
+    # Location
+    district = dplyr::case_when(
+      district == "Kaboong" ~ "Kaabong",
+      district == "Kamuli"  ~ "Luuka",
+      TRUE ~ district
+    ),
+    community   = stringr::str_to_title(stringr::str_squish(community)),
+    survey_type = stringr::str_to_lower(survey_type),
+    # Source / borehole names
+    source_name = stringr::str_to_title(stringr::str_squish(source_name)),
+    source_name = stringr::str_replace_all(source_name, "\\s*/\\s*", "/ "),
+    source_name = dplyr::if_else(source_name %in% source_junk,
+                                 NA_character_, source_name),
+    # Sensory notes
+    dplyr::across(c(water_taste, water_smell, water_colour), clean_text),
+    # Storage container: resolve "Other (please specify)"; NA stays NA
+    storage_other = stringr::str_to_lower(stringr::str_squish(storage_other)),
+    storage_container = dplyr::case_when(
+      is.na(storage_container) ~ NA_character_,
+      storage_container != "Other (please specify)" ~ storage_container,
+      stringr::str_detect(storage_other, "drum|dram") ~ "Drum",
+      stringr::str_detect(storage_other, "bucket|backet|cylinder") ~ "Bucket",
+      stringr::str_detect(storage_other, "pot") ~ "Pot",
+      TRUE ~ "Other"
+    ),
+    # Transport container: resolve "Other"; NA stays NA
+    transport_other = stringr::str_to_sentence(stringr::str_squish(transport_other)),
+    transport_container = dplyr::case_when(
+      is.na(transport_container) ~ NA_character_,
+      transport_container != "Other" ~ transport_container,
+      transport_other == "Backet" ~ "Bucket",
+      !is.na(transport_other) ~ transport_other,
+      TRUE ~ "Other"
+    ),
+    # Household practices
+    boils_water = dplyr::case_when(
+      boils_water == "Yes" ~ TRUE,
+      boils_water == "No"  ~ FALSE,
+      TRUE ~ NA
+    ),
+    dplyr::across(c(storage_cleaning_days, transport_cleaning_days),
+                  \(x) dplyr::if_else(x < 0, NA_real_, x)),
+    dplyr::across(c(storage_cleaning_method, transport_cleaning_method),
+                  clean_text)
+  ) |>
+  # Apply the explicit source-name recodes
+  dplyr::left_join(source_recode, by = c("district", "source_name" = "from")) |>
+  dplyr::mutate(source_name = dplyr::coalesce(to, source_name)) |>
+  dplyr::select(-to, -storage_other, -transport_other) |>
+  # Region from district
+  dplyr::left_join(district_region, by = "district") |>
+  # One id space for both visit tables
+  dplyr::arrange(district, date_sampled, submitted_on) |>
+  dplyr::mutate(visit_id = dplyr::row_number())
+
+borehole_visits <- field |>
+  dplyr::filter(survey_type == "borehole") |>
+  dplyr::select(
+    visit_id, date_sampled, region, district, community, source_name,
+    water_taste, water_smell, water_colour
   )
 
-#Renaming columns
-
-#sample_data
-samples_data <- sample_data |> rename(date = `Enter date and time of sampling`,
-                                      district = `Select the District`,
-                                      region = `Select the region`,
-                                      survey = `Select the type of survey being taken`,
-                                      source = `Enter the source name`,
-                                      taste = `Ask a community member to make notes on the taste of the water`,
-                                      smell = `Ask a community member to make notes about the smell of the water`,
-                                      color = `What is the colour of the sampled water`,
-                                      storage_container = `Select the current type of storage technology/ container for drinking water being used`,
-                                      other_container = `Please specify the type of storage container for drinking water`,
-                                      tp_container = `What medium/ type of container do they use to collect water from the borehole?`,
-                                      storage_num = `Take a sample from the transportation medium/ container used by the household and enter sample bottle number`,
-                                      tp_num = `Take another sample from the household storage container and enter the sample bottle number.`,
-                                      bh_num = `Enter the sample bottle number`)
-
-#sample_result
-
-samples_result <- sample_result |>
-  rename(result_date = `Enter the date and time now`,
-         region = `Select region`,
-         district = `Select district`,
-         sample_num = `Enter sample bottle number`,
-         dish_num = `Enter sample petri dish number`,
-         test_date = `Enter sample incubation start time`,
-         E.coli_CFUs = `Count the number of colonies and enter the number here. If there are >100 colonies, meaning "too numerous to count", enter 101.`,
-         volume = `What was the volume of water that was filtered when this sample was analysed?`
+household_visits <- field |>
+  dplyr::filter(survey_type == "household") |>
+  dplyr::select(
+    visit_id, date_sampled, region, district, community, source_name,
+    storage_container, transport_container, days_in_transport_container,
+    boils_water, storage_cleaning_days, transport_cleaning_days,
+    storage_cleaning_method, transport_cleaning_method
   )
 
-samples_data$date_column <- as.Date(samples_data$date, format = "%Y-%m-%d")
+# One row per bottle collected in the field
+field_samples <- field |>
+  dplyr::select(visit_id, region, district, date_sampled,
+                bottle_borehole, bottle_duplicate,
+                bottle_transport, bottle_storage) |>
+  tidyr::pivot_longer(
+    cols = tidyr::starts_with("bottle_"),
+    names_to = "sample_type",
+    names_prefix = "bottle_",
+    values_to = "bottle_number",
+    values_drop_na = TRUE
+  ) |>
+  dplyr::mutate(
+    sample_type = dplyr::recode(
+      sample_type,
+      borehole  = "borehole",
+      duplicate = "borehole_duplicate",
+      transport = "transport_container",
+      storage   = "storage_container"
+    ),
+    bottle_number = as.integer(bottle_number)
+  )
 
-#Transferring all sample names and bottle numbers into one column
+# Tidy data: lab survey -> lab results + labblanks -----------------------------
+lab <- lab_raw |>
+  dplyr::select(
+    datetime_result     = enter_the_date_and_time_now,
+    region_raw          = select_region,
+    district_raw        = select_district,
+    is_blank            = is_this_a_laboratory_blank,
+    blank_dish          = enter_petri_dish_number_for_laboratory_blank_e_g_b1_or_b13,
+    blank_cfu           = enter_number_of_e_coli_colonies_in_the_laboratory_blank_sample,
+    bottle_number       = enter_sample_bottle_number,
+    petri_dish_number   = enter_sample_petri_dish_number,
+    datetime_incubation = enter_sample_incubation_start_time,
+    ecoli_cfu           = count_the_number_of_colonies_and_enter_the_number_here_if_there_are_100_colonies_meaning_too_numerous_to_count_enter_101,
+    volume_raw          = what_was_the_volume_of_water_that_was_filtered_when_this_sample_was_analysed,
+    volume_other        = please_specify_the_volume_of_water_sampled_m_l,
+    lab_notes           = record_any_notes_about_the_sample_here
+  ) |>
+  dplyr::mutate(
+    # One incubation start was entered with year 2034 instead of 2024
+    datetime_incubation = dplyr::if_else(
+      lubridate::year(datetime_incubation) > 2030,
+      datetime_incubation - lubridate::years(10),
+      datetime_incubation
+    ),
+    date_incubation = as.Date(datetime_incubation),
+    date_result     = as.Date(datetime_result),
+    # District: use the lab's district when it is a single valid value,
+    # otherwise derive it from the (single-valued) region.
+    district = dplyr::case_when(
+      district_raw == "Nakaseke" ~ "Nakaseke",
+      district_raw == "Kaboong"  ~ "Kaabong",
+      district_raw == "Kumi"     ~ "Kumi",
+      district_raw == "Kamuli"   ~ "Luuka",
+      region_raw == "Central Region"  ~ "Nakaseke",
+      region_raw == "Karamoja Region" ~ "Kaabong",
+      region_raw == "Teso Region"     ~ "Kumi",
+      region_raw == "Busoga Region"   ~ "Luuka",
+      TRUE ~ NA_character_
+    ),
+    bottle_number     = as.integer(bottle_number),
+    petri_dish_number = as.character(petri_dish_number),
+    tntc              = ecoli_cfu > 100,
+    volume_ml = dplyr::case_when(
+      volume_raw == "100 mL" ~ 100,
+      !is.na(volume_other) ~ as.numeric(volume_other),
+      TRUE ~ NA_real_
+    ),
+    lab_notes = stringr::str_squish(lab_notes)
+  ) |>
+  dplyr::left_join(district_region, by = "district") |>
+  dplyr::filter(date_incubation >= study_start) |>
+  # Four results were submitted twice within minutes (identical district,
+  # dates, bottle, dish and count), three times to add a laboratory blank.
+  # Keep one submission, preferring the one that carries the blank.
+  dplyr::arrange(dplyr::desc(is_blank == "Yes"), datetime_result) |>
+  dplyr::distinct(district, date_incubation, date_result, bottle_number,
+                  petri_dish_number, ecoli_cfu, .keep_all = TRUE)
 
-#samples names
-samples_names_2425 <- samples_data |>
-  filter(date_column >= as.Date("2024-11-1") & date_column <= as.Date("2025-9-22"))|>
-  mutate(bh = case_when(
-    survey == "Borehole"  & !is.na(source) ~ source ,
-    TRUE~ NA_character_)) |>
-  relocate(bh, .before = storage_container) |>
-  mutate(storage_container = ifelse(
-    storage_container == "Other (please specify)",
-    other_container,
-    storage_container )) |>
-  relocate(other_container, .before = bh) |>
-  relocate(date_column, .before = date)
+labblanks <- lab |>
+  dplyr::filter(is_blank == "Yes") |>
+  dplyr::arrange(district, date_incubation, datetime_result) |>
+  dplyr::transmute(
+    blank_id = dplyr::row_number(),
+    date_incubation,
+    date_result,
+    region,
+    district,
+    petri_dish_number = stringr::str_squish(blank_dish),
+    ecoli_cfu = as.numeric(blank_cfu)
+  )
 
-samples_names_2425|>
-  count(survey)
+lab_results <- lab |>
+  dplyr::arrange(district, date_incubation, datetime_result) |>
+  dplyr::mutate(lab_id = dplyr::row_number()) |>
+  dplyr::select(lab_id, region, district, date_incubation, date_result,
+                bottle_number, petri_dish_number, ecoli_cfu, tntc,
+                volume_ml, lab_notes)
 
-#Creating all samples names column
+# Match field samples to lab results -------------------------------------------
+# Key: district + date + bottle number (bottle numbers restart every day).
+# A field bottle and a lab result are linked only when the key is unique on
+# both sides. Keys that occur more than once on either side stay unlinked
+# ("ambiguous key") so that no result is guessed or double counted.
+field_keyed <- field_samples |>
+  dplyr::add_count(district, date_sampled, bottle_number, name = "n_field") |>
+  dplyr::left_join(
+    lab_results |>
+      dplyr::count(district, date_incubation, bottle_number, name = "n_lab"),
+    by = c("district", "date_sampled" = "date_incubation", "bottle_number")
+  ) |>
+  dplyr::mutate(match_status = dplyr::case_when(
+    is.na(n_lab) ~ "no lab result",
+    n_field == 1 & n_lab == 1 ~ "matched",
+    TRUE ~ "ambiguous key"
+  ))
 
-samples_names_final <-samples_names_2425 |>
-  pivot_longer(
-    cols = c(bh,storage_container, tp_container),
-    names_to = "Sample_Type",
-    values_to = "Sample_Name")
+lab_keyed <- lab_results |>
+  dplyr::add_count(district, date_incubation, bottle_number, name = "n_lab") |>
+  dplyr::left_join(
+    field_samples |>
+      dplyr::count(district, date_sampled, bottle_number, name = "n_field"),
+    by = c("district", "date_incubation" = "date_sampled", "bottle_number")
+  ) |>
+  dplyr::mutate(match_status = dplyr::case_when(
+    is.na(n_field) ~ "no field record",
+    n_field == 1 & n_lab == 1 ~ "matched",
+    TRUE ~ "ambiguous key"
+  ))
 
-samples_names_final|>
-  count(survey)
+matched <- field_keyed |>
+  dplyr::filter(match_status == "matched") |>
+  dplyr::select(-n_field, -n_lab) |>
+  dplyr::inner_join(
+    lab_keyed |>
+      dplyr::filter(match_status == "matched") |>
+      dplyr::select(-region, -n_field, -n_lab, -match_status),
+    by = c("district", "date_sampled" = "date_incubation", "bottle_number"),
+    relationship = "one-to-one"
+  ) |>
+  dplyr::mutate(date_incubation = date_sampled)
 
-samples_names_final |>
-  count(Sample_Type)
+field_only <- field_keyed |>
+  dplyr::filter(match_status != "matched") |>
+  dplyr::select(-n_field, -n_lab)
 
-samples_names_final |>
-  count(Sample_Name)
+lab_only <- lab_keyed |>
+  dplyr::filter(match_status != "matched") |>
+  dplyr::select(-n_field, -n_lab) |>
+  dplyr::mutate(date_sampled = date_incubation)
 
-#Creating all sample collection bottle numbers column
+samples <- dplyr::bind_rows(matched, field_only, lab_only) |>
+  dplyr::mutate(
+    contamination_category = dplyr::case_when(
+      ecoli_cfu == 0 ~ "Safe",
+      ecoli_cfu <= 10 ~ "Slightly contaminated",
+      ecoli_cfu <= 50 ~ "Moderately contaminated",
+      ecoli_cfu <= 100 ~ "Highly contaminated",
+      ecoli_cfu > 100 ~ "Unsafe",
+      TRUE ~ NA_character_
+    ),
+    contamination_category = factor(contamination_category,
+                                    levels = contamination_levels,
+                                    ordered = TRUE)
+  ) |>
+  dplyr::arrange(district, date_sampled, visit_id, sample_type, bottle_number,
+                 lab_id) |>
+  dplyr::mutate(sample_id = dplyr::row_number()) |>
+  dplyr::select(
+    sample_id, visit_id, region, district, date_sampled, sample_type,
+    bottle_number, date_incubation, date_result, petri_dish_number,
+    ecoli_cfu, tntc, volume_ml, contamination_category, lab_notes,
+    match_status
+  )
 
-samples_data_final <- samples_names_final |>
-  mutate(Sample_Num =
-           case_when(Sample_Type == "bh" ~ bh_num,
-                     Sample_Type == "storage_container" ~ storage_num,
-                     Sample_Type == "tp_container" ~ tp_num,
-                     .default = NA)) |>
-  filter(!is.na(Sample_Num))
+# Sanity checks ----------------------------------------------------------------
+all_visit_ids <- c(borehole_visits$visit_id, household_visits$visit_id)
+borehole_types <- c("borehole", "borehole_duplicate")
+household_types <- c("transport_container", "storage_container")
 
+stopifnot(
+  # visit ids: unique across both visit tables, all field visits kept
+  !anyDuplicated(all_visit_ids),
+  length(all_visit_ids) == nrow(field),
+  all(c(borehole_visits$district, household_visits$district) %in%
+        district_region$district),
+  # no column empty by design in either visit table
+  !any(colSums(!is.na(borehole_visits)) == 0),
+  !any(colSums(!is.na(household_visits)) == 0),
+  # samples: keys and foreign keys
+  all(samples$visit_id[!is.na(samples$visit_id)] %in% all_visit_ids),
+  all(samples$visit_id[samples$sample_type %in% borehole_types] %in%
+        borehole_visits$visit_id),
+  all(samples$visit_id[samples$sample_type %in% household_types] %in%
+        household_visits$visit_id),
+  !anyNA(samples$district),
+  !anyNA(samples$date_sampled),
+  !anyNA(samples$bottle_number),
+  all(samples$sample_type %in% c(borehole_types, household_types) |
+        is.na(samples$visit_id)),
+  all(!is.na(samples$sample_type) | is.na(samples$visit_id)),
+  # lab values
+  all(samples$ecoli_cfu >= 0, na.rm = TRUE),
+  all(!is.na(samples$contamination_category) | is.na(samples$ecoli_cfu)),
+  # every lab result and every field bottle appears exactly once
+  nrow(lab_results) == sum(!is.na(samples$ecoli_cfu)),
+  nrow(field_samples) == sum(!is.na(samples$visit_id)),
+  !anyNA(labblanks$ecoli_cfu)
+)
 
-glimpse(samples_data_final)
-
-samples_data_final |>
-  count(Sample_Type)
-
-#Final cleaned sample collection data
-samples_data_cleaned <-samples_data_final |>
-  filter(!is.na(Sample_Name)) |>
-  select(date_column,
-         district,
-         region,
-         survey,
-         source,
-         taste,
-         smell,
-         color,
-         Sample_Type,
-         Sample_Name,
-         Sample_Num) |>
-  arrange(desc(region), desc(date_column))|> rename(sample_type = Sample_Type,
-                                                    sample_name = Sample_Name,
-                                                    sample_num = Sample_Num,
-                                                    test_date = date_column)  |> mutate(region = case_when(
-                                                      region == "Busoga Region" ~ "Busoga Region",
-                                                      region == "Busoga Region, Central Region, Teso Region" ~ "Busoga Region",
-                                                      region == "Central Region" ~ "Central Region",
-                                                      region == "Karamoja Region" ~ "Karamoja Region",
-                                                      region == "Teso Region" ~ "Teso Region",
-                                                      region == "Teso Region, Central Region, Busoga Region" ~ "Central Region",
-                                                      region == "Teso Region, Karamoja Region" ~ "Teso Region",
-                                                      TRUE ~ region
-                                                    )) |>
-  mutate(district = case_when(
-    region == "Teso Region" ~ "Kumi",
-    region == "Busoga Region" ~ "Kamuli",
-    region == "Central Region" ~ "Nakaseke",
-    region == "Karamoja Region" ~ "Kabong",
-    TRUE ~ district ))
-
-samples_data_cleaned |> count(survey)
-
-samples_data_cleaned |>
-  count(region)
-
-samples_data_cleaned |>
-  count(district)
-samples_data_cleaned |>
-  count(sample_type)
-
-samples_result$result_date<- as.Date(samples_result$result_date, format = "%Y-%m-%d")
-
-samples_result$test_date<- as.Date(samples_result$test_date, format = "%Y-%m-%d")
-
-#Matching dates as in samples data df
-
-samples_result_2425<- samples_result |> filter(result_date >= as.Date("2024-11-1") & result_date <= as.Date("2025-9-22")) |>
-  filter(test_date >= as.Date("2024-11-1") & test_date <= as.Date("2025-9-22"))
-
-#Removing redundant columns
-samples_result_final <- samples_result_2425|>select(district,region,
-                                                    sample_num,
-                                                    dish_num,
-                                                    E.coli_CFUs,
-                                                    volume,
-                                                    test_date,
-                                                    result_date) |> mutate(region = case_when(
-                                                      region == "Busoga Region" ~ "Busoga Region",
-                                                      region == "Busoga Region, Central Region, Teso Region" ~ "Busoga Region",
-                                                      region == "Central Region" ~ "Central Region",
-                                                      region == "Karamoja Region" ~ "Karamoja Region",
-                                                      region == "Teso Region" ~ "Teso Region",
-                                                      region == "Teso Region, Central Region, Busoga Region" ~ "Central Region",
-                                                      region == "Teso Region, Karamoja Region" ~ "Teso Region",
-                                                      TRUE ~ region)) |>  mutate(district = case_when(
-                                                        region == "Teso Region" ~ "Kumi",
-                                                        region == "Busoga Region" ~ "Kamuli",
-                                                        region == "Central Region" ~ "Nakaseke",
-                                                        region == "Karamoja Region" ~ "Kabong",
-                                                        TRUE ~ district )) |> arrange(desc(region), desc(result_date))
-
-
-samples_result_final |>
-  count(region)
-
-samples_result_final |>
-  count(district)
-
-samples_result_final |>
-  count(test_date)
-
-#Joining the sample data and sample result
-
-samples_joined <- samples_data_cleaned %>%
-
-  right_join(samples_result_final, by = c("test_date" = "test_date",
-                                          "sample_num" = "sample_num",
-                                          "region" = "region",
-                                          "district" = "district")) |>
-  relocate(result_date, .after = test_date)
-samples_joined |>
-  filter(!is.na(survey))
-
-samples_joined |> count(region)
-
-samples_joined |> count(survey)
-
-samples_joined |> count(sample_type)
-
-head(samples_joined)
-
-#Correcting typos in rows of the final dataset containing both sample collection and sample result data
-
-samples_joined_regions <- samples_joined |> mutate(region = case_when(
-  region == "Busoga Region" ~ "Busoga Region",
-  region == "Busoga Region, Central Region, Teso Region" ~ "Busoga Region",
-  region == "Central Region" ~ "Central Region",
-  region == "Karamoja Region" ~ "Karamoja Region",
-  region == "Teso Region" ~ "Teso Region",
-  region == "Teso Region, Central Region, Busoga Region" ~ "Central Region",
-  region == "Teso Region, Karamoja Region" ~ "Teso Region",
-  TRUE ~ region
-))
-
-samples_joined_regions |>count(region)
-
-samples_joined_regions |> count(district)
-
-samples_joined_regions|> count(survey)
-
-samples_joined_district <-samples_joined_regions |>
-  mutate(district = case_when(
-    region == "Teso Region" ~ "Kumi",
-    region == "Busoga Region" ~ "Kamuli",
-    region == "Central Region" ~ "Nakaseke",
-    region == "Karamoja Region" ~ "Kabong",
-    TRUE ~ district ))
-
-samples_joined_district|> count(district)
-
-test_data <- samples_data |>
-  filter(date_column == "2025-03-18",
-         storage_num == 5 | tp_num == 5 | bh_num == 5)
-
-rm(test_data)
-
-rm(samples_joined_district)
-
-rm(samples_joined_regions)
-
+message("borehole_visits: ", nrow(borehole_visits), " rows")
+message("household_visits: ", nrow(household_visits), " rows")
+message("samples: ", nrow(samples), " rows")
+print(dplyr::count(samples, match_status))
+print(dplyr::count(samples, sample_type))
+message("labblanks: ", nrow(labblanks), " rows")
 
 # Export Data ------------------------------------------------------------------
-usethis::use_data(waterqualityuganda, overwrite = TRUE)
+usethis::use_data(borehole_visits, household_visits, samples, labblanks,
+                  overwrite = TRUE)
 fs::dir_create(here::here("inst", "extdata"))
-readr::write_csv(waterqualityuganda,
-                 here::here("inst", "extdata", paste0("waterqualityuganda", ".csv")))
-openxlsx::write.xlsx(waterqualityuganda,
-                     here::here("inst", "extdata", paste0("waterqualityuganda", ".xlsx")))
+for (name in c("borehole_visits", "household_visits", "samples", "labblanks")) {
+  dataset <- get(name)
+  readr::write_csv(dataset,
+                   here::here("inst", "extdata", paste0(name, ".csv")))
+  openxlsx::write.xlsx(dataset,
+                       here::here("inst", "extdata", paste0(name, ".xlsx")))
+}
+
+# Dictionary -------------------------------------------------------------------
+# washr::setup_dictionary() lists every variable of the exported data sets in
+# data-raw/dictionary.csv. The descriptions below fill the empty description
+# cells. Descriptions already present in the CSV are kept, so manual edits to
+# the CSV are not overwritten by re-running this script.
+dict_path <- here::here("data-raw", "dictionary.csv")
+if (!file.exists(dict_path)) {
+  washr::setup_dictionary()
+}
+
+# Descriptions shared by both visit tables
+visit_common <- tibble::tribble(
+  ~variable_name, ~description,
+  "visit_id",
+  "Unique identifier of the field visit (one survey submission). Integer, assigned over all field visits sorted by district, date and submission time, so no id occurs in both borehole_visits and household_visits. Key for samples$visit_id.",
+  "date_sampled",
+  "Date of the field visit and of sample collection (YYYY-MM-DD).",
+  "region",
+  "Region of Uganda where the visit took place: Central Region, Karamoja Region, Teso Region or Busoga Region.",
+  "district",
+  "District where the visit took place: Nakaseke (Central), Kaabong (Karamoja), Kumi (Teso) or Luuka (Busoga).",
+  "community",
+  "Name of the community (village, parish or trading centre) where the visit took place, as entered by the enumerator and converted to title case."
+)
+
+descriptions <- dplyr::bind_rows(
+  # borehole_visits ------------------------------------------------------------
+  dplyr::mutate(visit_common, file_name = "borehole_visits.rda"),
+  tibble::tribble(
+    ~file_name, ~variable_name, ~description,
+    "borehole_visits.rda", "source_name",
+    "Name of the borehole sampled. Spelling variants were merged within each district; NA where the entry was not a source name.",
+    "borehole_visits.rda", "water_taste",
+    "Remark by a community member on the taste of the borehole water (free text; whitespace, case and obvious typos normalised, no semantic recoding).",
+    "borehole_visits.rda", "water_smell",
+    "Remark by a community member on the smell of the borehole water (free text; whitespace, case and obvious typos normalised, no semantic recoding).",
+    "borehole_visits.rda", "water_colour",
+    "Description of the colour of the sampled borehole water (free text; whitespace, case and obvious typos normalised, no semantic recoding)."
+  ),
+  # household_visits -----------------------------------------------------------
+  dplyr::mutate(visit_common, file_name = "household_visits.rda"),
+  tibble::tribble(
+    ~file_name, ~variable_name, ~description,
+    "household_visits.rda", "source_name",
+    "Name of the borehole from which the household collects its drinking water. Spelling variants were merged within each district; NA where the entry was not a source name.",
+    "household_visits.rda", "storage_container",
+    "Type of container in which the household stores its drinking water: Pot, Sauce pan, Jerry can, Drum or Bucket. 'Other (please specify)' answers were recoded from the specified text.",
+    "household_visits.rda", "transport_container",
+    "Type of container used by the household to collect water from the borehole: Jerry can, Bucket, Quad, Watering can, Water bottle or Jerrycan and watering can. 'Other' answers were replaced by the specified text.",
+    "household_visits.rda", "days_in_transport_container",
+    "Number of days the household keeps water in the transport container before transferring it to the storage container, as reported by the household.",
+    "household_visits.rda", "boils_water",
+    "Whether the household boils its drinking water (TRUE/FALSE).",
+    "household_visits.rda", "storage_cleaning_days",
+    "Reported interval between cleanings of the drinking water storage container. The form asked 'how often do they clean their storage device' and accepted a number; values are interpreted as days (7 = weekly, 30 = monthly). A negative entry was set to NA.",
+    "household_visits.rda", "transport_cleaning_days",
+    "Reported interval between cleanings of the transport container. The form asked 'how often do they clean their transportation device' and accepted a number; values are interpreted as days (7 = weekly, 30 = monthly).",
+    "household_visits.rda", "storage_cleaning_method",
+    "Free-text description by the household of how the storage container is cleaned (materials used, e.g. soap and water, sand, polythene bag).",
+    "household_visits.rda", "transport_cleaning_method",
+    "Free-text description by the household of how the transport container is cleaned (materials used, e.g. steel wire, soap and water, gravel)."
+  ),
+  # samples --------------------------------------------------------------------
+  tibble::tribble(
+    ~file_name, ~variable_name, ~description,
+    "samples.rda", "sample_id",
+    "Unique identifier of the water sample (one bottle). Integer.",
+    "samples.rda", "visit_id",
+    "Identifier of the field visit during which the sample was collected. Links to borehole_visits$visit_id for sample_type 'borehole' and 'borehole_duplicate', and to household_visits$visit_id for 'transport_container' and 'storage_container'. NA when a laboratory result could not be linked to a field record (see match_status).",
+    "samples.rda", "region",
+    "Region of Uganda where the sample was collected: Central Region, Karamoja Region, Teso Region or Busoga Region.",
+    "samples.rda", "district",
+    "District where the sample was collected: Nakaseke, Kaabong, Kumi or Luuka. The laboratory form used the spellings 'Kaboong' and 'Kamuli' for the last two; these were harmonised to the field survey spelling.",
+    "samples.rda", "date_sampled",
+    "Date the sample was collected (YYYY-MM-DD). For laboratory results without a field record this is the incubation start date, which in this study is the sampling date.",
+    "samples.rda", "sample_type",
+    "What was sampled: 'borehole' (water from the borehole outlet), 'borehole_duplicate' (second bottle from the same borehole taken for quality assurance), 'transport_container' (water from the container used to carry water from the borehole to the household), 'storage_container' (water from the household drinking water storage container). NA when the laboratory result has no field record.",
+    "samples.rda", "bottle_number",
+    "Number written on the sample bottle in the field and read by the laboratory. Numbering restarts every sampling day, so it identifies a sample only together with district and date_sampled.",
+    "samples.rda", "date_incubation",
+    "Date on which the sample was filtered (membrane filtration) and incubation started. NA when no laboratory result is linked.",
+    "samples.rda", "date_result",
+    "Date on which the colonies were counted and the laboratory form was submitted, normally the day after date_incubation (18-24 h incubation). NA when no laboratory result is linked.",
+    "samples.rda", "petri_dish_number",
+    "Petri dish label used by the laboratory for this sample, as recorded. Some entries are placeholder values (e.g. 88888). NA when no laboratory result is linked.",
+    "samples.rda", "ecoli_cfu",
+    "Number of E. coli colonies (colony forming units) counted on the membrane filter after incubating volume_ml of sample. The laboratory was instructed to enter 101 when more than 100 colonies were present (too numerous to count); a few values above 101 were recorded as typed. NA when no laboratory result is linked.",
+    "samples.rda", "tntc",
+    "TRUE when ecoli_cfu is greater than 100, meaning the plate was too numerous to count and ecoli_cfu is a censored value rather than an exact count. NA when no laboratory result is linked.",
+    "samples.rda", "volume_ml",
+    "Volume of sample water filtered, in millilitres. 100 mL for every analysed sample except one, where 'Other' was selected without a value (NA). NA when no laboratory result is linked.",
+    "samples.rda", "contamination_category",
+    "Contamination level derived from ecoli_cfu with the thresholds used in the project: Safe (0), Slightly contaminated (1-10), Moderately contaminated (11-50), Highly contaminated (51-100), Unsafe (more than 100). Ordered factor. NA when no laboratory result is linked.",
+    "samples.rda", "lab_notes",
+    "Free-text notes written by the laboratory technician about the sample (e.g. field blank, duplicate sample, visible maggots, interrupted incubation).",
+    "samples.rda", "match_status",
+    "How the field record and the laboratory result were linked on district, date and bottle number: 'matched' (exactly one field bottle and one laboratory result share the key), 'no lab result' (field bottle without a laboratory result), 'no field record' (laboratory result without a field record), 'ambiguous key' (the key occurs more than once in the field or the laboratory data, so the rows were deliberately not linked and remain separate)."
+  ),
+  # labblanks ------------------------------------------------------------------
+  tibble::tribble(
+    ~file_name, ~variable_name, ~description,
+    "labblanks.rda", "blank_id",
+    "Unique identifier of the laboratory blank. Integer.",
+    "labblanks.rda", "date_incubation",
+    "Date on which the blank was filtered and incubation started.",
+    "labblanks.rda", "date_result",
+    "Date on which the colonies on the blank were counted and the laboratory form was submitted.",
+    "labblanks.rda", "region",
+    "Region of Uganda whose samples were analysed in the same laboratory session as the blank: Central Region, Karamoja Region, Teso Region or Busoga Region.",
+    "labblanks.rda", "district",
+    "District whose samples were analysed in the same laboratory session as the blank: Nakaseke, Kaabong, Kumi or Luuka.",
+    "labblanks.rda", "petri_dish_number",
+    "Petri dish label of the blank as written by the laboratory technician (e.g. 'B1', '12').",
+    "labblanks.rda", "ecoli_cfu",
+    "Number of E. coli colonies counted on the blank filter (sterile water processed like a sample, 100 mL). 0 indicates no contamination introduced by the laboratory procedure; 101 means more than 100 colonies (too numerous to count)."
+  )
+)
+
+dictionary <- readr::read_csv(dict_path,
+                              col_types = readr::cols(.default = "c")) |>
+  dplyr::left_join(descriptions, by = c("file_name", "variable_name"),
+                   suffix = c("", "_new")) |>
+  dplyr::mutate(description = dplyr::coalesce(description, description_new)) |>
+  dplyr::select(-description_new)
+
+stopifnot(!anyNA(dictionary$description))
+
+readr::write_csv(dictionary, dict_path, na = "")

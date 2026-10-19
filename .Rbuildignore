@@ -1,3 +1,14 @@
 ^waterqualityuganda\.Rproj$
 ^\.Rproj\.user$
 ^data-raw$
+^LICENSE\.md$
+^pkgdown$
+^plans$
+^prompts$
+^README\.Rmd$
+^\.github$
+^CITATION\.cff$
+^_pkgdown\.yml$
+^docs$
+^_brand\.yml$
+^logos$
