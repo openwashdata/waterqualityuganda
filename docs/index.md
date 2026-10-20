@@ -315,11 +315,6 @@ samples |>
 - **District names.** The laboratory form used the spellings “Kaboong”
   and “Kamuli” for the districts recorded as “Kaabong” and “Luuka” in
   the field survey. The field survey spelling is used throughout.
-- **Relation to the original analysis.** In the analysis report that
-  accompanied the raw data, the bottle numbers of the transport
-  container and of the storage container were assigned to the opposite
-  sample type. This package follows the wording of the survey questions,
-  so its storage and transport results are the reverse of that report’s.
 - **Dropped rows.** Submissions before 1 November 2024 (pilot visits
   without region or survey type) and four laboratory results that were
   submitted twice were dropped.
@@ -346,7 +341,8 @@ citation("waterqualityuganda")
 #> A BibTeX entry for LaTeX users is
 #> 
 #>   @Manual{,
-#>     title = {waterqualityuganda: Drinking Water Quality from Boreholes to Household Storage in Uganda},
+#>     title = {waterqualityuganda: Drinking Water Quality from Boreholes to Household Storage in
+#> Uganda},
 #>     author = {Cecilia Nansiimbi and Adriana {Clavijo Daza}},
 #>     year = {2026},
 #>     note = {R package version 0.0.0.9000},
