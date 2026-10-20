@@ -24,7 +24,7 @@ A tibble with 477 rows and 9 variables
   Unique identifier of the field visit (one survey submission). Integer,
   assigned over all field visits sorted by district, date and submission
   time, so no id occurs in both borehole_visits and household_visits.
-  Key for samples\$visit_id.
+  Key for the visit_id column of samples.
 
 - date_sampled:
 

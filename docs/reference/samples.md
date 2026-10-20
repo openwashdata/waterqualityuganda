@@ -31,8 +31,8 @@ A tibble with 3203 rows and 16 variables
 - visit_id:
 
   Identifier of the field visit during which the sample was collected.
-  Links to borehole_visits\$visit_id for sample_type 'borehole' and
-  'borehole_duplicate', and to household_visits\$visit_id for
+  Links to the visit_id column of borehole_visits for sample_type
+  'borehole' and 'borehole_duplicate', and of household_visits for
   'transport_container' and 'storage_container'. NA when a laboratory
   result could not be linked to a field record (see match_status).
 

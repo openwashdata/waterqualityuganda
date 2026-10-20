@@ -508,7 +508,7 @@ if (!file.exists(dict_path)) {
 visit_common <- tibble::tribble(
   ~variable_name, ~description,
   "visit_id",
-  "Unique identifier of the field visit (one survey submission). Integer, assigned over all field visits sorted by district, date and submission time, so no id occurs in both borehole_visits and household_visits. Key for samples$visit_id.",
+  "Unique identifier of the field visit (one survey submission). Integer, assigned over all field visits sorted by district, date and submission time, so no id occurs in both borehole_visits and household_visits. Key for the visit_id column of samples.",
   "date_sampled",
   "Date of the field visit and of sample collection (YYYY-MM-DD).",
   "region",
@@ -562,7 +562,7 @@ descriptions <- dplyr::bind_rows(
     "samples.rda", "sample_id",
     "Unique identifier of the water sample (one bottle). Integer.",
     "samples.rda", "visit_id",
-    "Identifier of the field visit during which the sample was collected. Links to borehole_visits$visit_id for sample_type 'borehole' and 'borehole_duplicate', and to household_visits$visit_id for 'transport_container' and 'storage_container'. NA when a laboratory result could not be linked to a field record (see match_status).",
+    "Identifier of the field visit during which the sample was collected. Links to the visit_id column of borehole_visits for sample_type 'borehole' and 'borehole_duplicate', and of household_visits for 'transport_container' and 'storage_container'. NA when a laboratory result could not be linked to a field record (see match_status).",
     "samples.rda", "region",
     "Region of Uganda where the sample was collected: Central Region, Karamoja Region, Teso Region or Busoga Region.",
     "samples.rda", "district",
