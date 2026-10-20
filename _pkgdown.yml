@@ -34,8 +34,6 @@ authors:
     - cre
     - aut
     - ctb
-    before: So *who* does the work?
-    after: Thanks all!
 reference:
 - title: Data
   desc: Access the waterqualityuganda datasets

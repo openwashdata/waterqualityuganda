@@ -1,5 +1,5 @@
 directory,file_name,variable_name,variable_type,description
-data/,borehole_visits.rda,visit_id,integer,"Unique identifier of the field visit (one survey submission). Integer, assigned over all field visits sorted by district, date and submission time, so no id occurs in both borehole_visits and household_visits. Key for samples$visit_id."
+data/,borehole_visits.rda,visit_id,integer,"Unique identifier of the field visit (one survey submission). Integer, assigned over all field visits sorted by district, date and submission time, so no id occurs in both borehole_visits and household_visits. Key for the visit_id column of samples."
 data/,borehole_visits.rda,date_sampled,Date,Date of the field visit and of sample collection (YYYY-MM-DD).
 data/,borehole_visits.rda,region,character,"Region of Uganda where the visit took place: Central Region, Karamoja Region, Teso Region or Busoga Region."
 data/,borehole_visits.rda,district,character,"District where the visit took place: Nakaseke (Central), Kaabong (Karamoja), Kumi (Teso) or Luuka (Busoga)."
@@ -8,7 +8,7 @@ data/,borehole_visits.rda,source_name,character,Name of the borehole sampled. Sp
 data/,borehole_visits.rda,water_taste,character,"Remark by a community member on the taste of the borehole water (free text; whitespace, case and obvious typos normalised, no semantic recoding)."
 data/,borehole_visits.rda,water_smell,character,"Remark by a community member on the smell of the borehole water (free text; whitespace, case and obvious typos normalised, no semantic recoding)."
 data/,borehole_visits.rda,water_colour,character,"Description of the colour of the sampled borehole water (free text; whitespace, case and obvious typos normalised, no semantic recoding)."
-data/,household_visits.rda,visit_id,integer,"Unique identifier of the field visit (one survey submission). Integer, assigned over all field visits sorted by district, date and submission time, so no id occurs in both borehole_visits and household_visits. Key for samples$visit_id."
+data/,household_visits.rda,visit_id,integer,"Unique identifier of the field visit (one survey submission). Integer, assigned over all field visits sorted by district, date and submission time, so no id occurs in both borehole_visits and household_visits. Key for the visit_id column of samples."
 data/,household_visits.rda,date_sampled,Date,Date of the field visit and of sample collection (YYYY-MM-DD).
 data/,household_visits.rda,region,character,"Region of Uganda where the visit took place: Central Region, Karamoja Region, Teso Region or Busoga Region."
 data/,household_visits.rda,district,character,"District where the visit took place: Nakaseke (Central), Kaabong (Karamoja), Kumi (Teso) or Luuka (Busoga)."
@@ -30,7 +30,7 @@ data/,labblanks.rda,district,character,"District whose samples were analysed in 
 data/,labblanks.rda,petri_dish_number,character,"Petri dish label of the blank as written by the laboratory technician (e.g. 'B1', '12')."
 data/,labblanks.rda,ecoli_cfu,numeric,"Number of E. coli colonies counted on the blank filter (sterile water processed like a sample, 100 mL). 0 indicates no contamination introduced by the laboratory procedure; 101 means more than 100 colonies (too numerous to count)."
 data/,samples.rda,sample_id,integer,Unique identifier of the water sample (one bottle). Integer.
-data/,samples.rda,visit_id,integer,"Identifier of the field visit during which the sample was collected. Links to borehole_visits$visit_id for sample_type 'borehole' and 'borehole_duplicate', and to household_visits$visit_id for 'transport_container' and 'storage_container'. NA when a laboratory result could not be linked to a field record (see match_status)."
+data/,samples.rda,visit_id,integer,"Identifier of the field visit during which the sample was collected. Links to the visit_id column of borehole_visits for sample_type 'borehole' and 'borehole_duplicate', and of household_visits for 'transport_container' and 'storage_container'. NA when a laboratory result could not be linked to a field record (see match_status)."
 data/,samples.rda,region,character,"Region of Uganda where the sample was collected: Central Region, Karamoja Region, Teso Region or Busoga Region."
 data/,samples.rda,district,character,"District where the sample was collected: Nakaseke, Kaabong, Kumi or Luuka. The laboratory form used the spellings 'Kaboong' and 'Kamuli' for the last two; these were harmonised to the field survey spelling."
 data/,samples.rda,date_sampled,Date,"Date the sample was collected (YYYY-MM-DD). For laboratory results without a field record this is the incubation start date, which in this study is the sampling date."

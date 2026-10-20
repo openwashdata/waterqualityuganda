@@ -98,7 +98,7 @@ borehole_visits |>
   gt::as_raw_html()
 ```
 
-<div id="nwfedjosqt" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="fgzrvxtffn" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
   &#10;  <table class="gt_table" data-quarto-disable-processing="false" data-quarto-bootstrap="false" style="-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; display: table; border-collapse: collapse; line-height: normal; margin-left: auto; margin-right: auto; color: #333333; font-size: 16px; font-weight: normal; font-style: normal; background-color: #FFFFFF; width: auto; border-top-style: solid; border-top-width: 2px; border-top-color: #A8A8A8; border-right-style: none; border-right-width: 2px; border-right-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #A8A8A8; border-left-style: none; border-left-width: 2px; border-left-color: #D3D3D3;" bgcolor="#FFFFFF">
   <thead style="border-style: none;">
     <tr class="gt_col_headings" style="border-style: none; border-top-style: solid; border-top-width: 2px; border-top-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3;">
@@ -193,7 +193,7 @@ integer
 Unique identifier of the field visit (one survey submission). Integer,
 assigned over all field visits sorted by district, date and submission
 time, so no id occurs in both borehole_visits and household_visits. Key
-for samples\$visit_id.
+for the visit_id column of samples.
 </td>
 
 </tr>
@@ -381,7 +381,7 @@ household_visits |>
   gt::as_raw_html()
 ```
 
-<div id="vtkfrblans" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="jqjnznnbdh" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
   &#10;  <table class="gt_table" data-quarto-disable-processing="false" data-quarto-bootstrap="false" style="-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; display: table; border-collapse: collapse; line-height: normal; margin-left: auto; margin-right: auto; color: #333333; font-size: 16px; font-weight: normal; font-style: normal; background-color: #FFFFFF; width: auto; border-top-style: solid; border-top-width: 2px; border-top-color: #A8A8A8; border-right-style: none; border-right-width: 2px; border-right-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #A8A8A8; border-left-style: none; border-left-width: 2px; border-left-color: #D3D3D3;" bgcolor="#FFFFFF">
   <thead style="border-style: none;">
     <tr class="gt_col_headings" style="border-style: none; border-top-style: solid; border-top-width: 2px; border-top-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3;">
@@ -496,7 +496,7 @@ integer
 Unique identifier of the field visit (one survey submission). Integer,
 assigned over all field visits sorted by district, date and submission
 time, so no id occurs in both borehole_visits and household_visits. Key
-for samples\$visit_id.
+for the visit_id column of samples.
 </td>
 
 </tr>
@@ -788,7 +788,7 @@ samples |>
   gt::as_raw_html()
 ```
 
-<div id="yddsftxxmt" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="banntvmizq" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
   &#10;  <table class="gt_table" data-quarto-disable-processing="false" data-quarto-bootstrap="false" style="-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; display: table; border-collapse: collapse; line-height: normal; margin-left: auto; margin-right: auto; color: #333333; font-size: 16px; font-weight: normal; font-style: normal; background-color: #FFFFFF; width: auto; border-top-style: solid; border-top-width: 2px; border-top-color: #A8A8A8; border-right-style: none; border-right-width: 2px; border-right-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #A8A8A8; border-left-style: none; border-left-width: 2px; border-left-color: #D3D3D3;" bgcolor="#FFFFFF">
   <thead style="border-style: none;">
     <tr class="gt_col_headings" style="border-style: none; border-top-style: solid; border-top-width: 2px; border-top-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3;">
@@ -928,9 +928,9 @@ integer
 <td style="text-align:left;">
 
 Identifier of the field visit during which the sample was collected.
-Links to
-borehole_visits$visit_id for sample_type 'borehole' and 'borehole_duplicate', and to household_visits$visit_id
-for ‘transport_container’ and ‘storage_container’. NA when a laboratory
+Links to the visit_id column of borehole_visits for sample_type
+‘borehole’ and ‘borehole_duplicate’, and of household_visits for
+‘transport_container’ and ‘storage_container’. NA when a laboratory
 result could not be linked to a field record (see match_status).
 </td>
 
@@ -1258,7 +1258,7 @@ labblanks |>
   gt::as_raw_html()
 ```
 
-<div id="kpoayseuhf" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="rnzufemlex" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
   &#10;  <table class="gt_table" data-quarto-disable-processing="false" data-quarto-bootstrap="false" style="-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; display: table; border-collapse: collapse; line-height: normal; margin-left: auto; margin-right: auto; color: #333333; font-size: 16px; font-weight: normal; font-style: normal; background-color: #FFFFFF; width: auto; border-top-style: solid; border-top-width: 2px; border-top-color: #A8A8A8; border-right-style: none; border-right-width: 2px; border-right-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #A8A8A8; border-left-style: none; border-left-width: 2px; border-left-color: #D3D3D3;" bgcolor="#FFFFFF">
   <thead style="border-style: none;">
     <tr class="gt_col_headings" style="border-style: none; border-top-style: solid; border-top-width: 2px; border-top-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3;">
@@ -1561,11 +1561,6 @@ samples |>
 - **District names.** The laboratory form used the spellings “Kaboong”
   and “Kamuli” for the districts recorded as “Kaabong” and “Luuka” in
   the field survey. The field survey spelling is used throughout.
-- **Relation to the original analysis.** In the analysis report that
-  accompanied the raw data, the bottle numbers of the transport
-  container and of the storage container were assigned to the opposite
-  sample type. This package follows the wording of the survey questions,
-  so its storage and transport results are the reverse of that report’s.
 - **Dropped rows.** Submissions before 1 November 2024 (pilot visits
   without region or survey type) and four laboratory results that were
   submitted twice were dropped.
@@ -1583,18 +1578,19 @@ Please cite this package using:
 citation("waterqualityuganda")
 #> To cite package 'waterqualityuganda' in publications use:
 #> 
-#>   Nansiimbi C, Clavijo Daza A (2026). _waterqualityuganda: Drinking
-#>   Water Quality from Boreholes to Household Storage in Uganda_. R
-#>   package version 0.0.0.9000,
+#>   Nansiimbi C, Clavijo Daza A (2026). "waterqualityuganda: Drinking
+#>   Water Quality from Boreholes to Household Storage in Uganda."
 #>   <https://github.com/openwashdata/waterqualityuganda>.
 #> 
 #> A BibTeX entry for LaTeX users is
 #> 
-#>   @Manual{,
+#>   @Misc{nansiimbi_etall:2026,
 #>     title = {waterqualityuganda: Drinking Water Quality from Boreholes to Household Storage in Uganda},
 #>     author = {Cecilia Nansiimbi and Adriana {Clavijo Daza}},
 #>     year = {2026},
-#>     note = {R package version 0.0.0.9000},
 #>     url = {https://github.com/openwashdata/waterqualityuganda},
+#>     abstract = {Monthly E. coli monitoring of drinking water along the chain from borehole sources to household storage in four Ugandan districts (Nakaseke, Kaabong, Kumi and Luuka) between November 2024 and September 2025. For each borehole, water was sampled at the source and, in three households using it, from the container used to carry water home and from the drinking water storage container. Samples were analysed by membrane filtration and classified into five contamination levels. The package provides four tidy datasets: field visits to boreholes, field visits to households, water samples with their laboratory results, and laboratory blanks.},
+#>     keywords = {water quality,E. coli,boreholes,household water storage,water transport,WASH,Uganda},
+#>     version = {0.0.0.9000},
 #>   }
 ```

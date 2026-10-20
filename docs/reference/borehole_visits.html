@@ -65,7 +65,7 @@ linked through visit_id."><script defer data-domain="openwashdata.github.io" src
     {
       "@type": "PropertyValue",
       "name": "borehole_visits.visit_id",
-      "description": "Unique identifier of the field visit (one survey submission). Integer, assigned over all field visits sorted by district, date and submission time, so no id occurs in both borehole_visits and household_visits. Key for samples$visit_id."
+      "description": "Unique identifier of the field visit (one survey submission). Integer, assigned over all field visits sorted by district, date and submission time, so no id occurs in both borehole_visits and household_visits. Key for the visit_id column of samples."
     },
     {
       "@type": "PropertyValue",
@@ -110,7 +110,7 @@ linked through visit_id."><script defer data-domain="openwashdata.github.io" src
     {
       "@type": "PropertyValue",
       "name": "household_visits.visit_id",
-      "description": "Unique identifier of the field visit (one survey submission). Integer, assigned over all field visits sorted by district, date and submission time, so no id occurs in both borehole_visits and household_visits. Key for samples$visit_id."
+      "description": "Unique identifier of the field visit (one survey submission). Integer, assigned over all field visits sorted by district, date and submission time, so no id occurs in both borehole_visits and household_visits. Key for the visit_id column of samples."
     },
     {
       "@type": "PropertyValue",
@@ -220,7 +220,7 @@ linked through visit_id."><script defer data-domain="openwashdata.github.io" src
     {
       "@type": "PropertyValue",
       "name": "samples.visit_id",
-      "description": "Identifier of the field visit during which the sample was collected. Links to borehole_visits$visit_id for sample_type 'borehole' and 'borehole_duplicate', and to household_visits$visit_id for 'transport_container' and 'storage_container'. NA when a laboratory result could not be linked to a field record (see match_status)."
+      "description": "Identifier of the field visit during which the sample was collected. Links to the visit_id column of borehole_visits for sample_type 'borehole' and 'borehole_duplicate', and of household_visits for 'transport_container' and 'storage_container'. NA when a laboratory result could not be linked to a field record (see match_status)."
     },
     {
       "@type": "PropertyValue",
@@ -394,7 +394,7 @@ linked through <code>visit_id</code>.</p>
     <div class="section level2">
     <h2 id="format">Format<a class="anchor" aria-label="anchor" href="#format"></a></h2>
     <p>A tibble with 477 rows and 9 variables</p><dl><dt>visit_id</dt>
-<dd><p>Unique identifier of the field visit (one survey submission). Integer, assigned over all field visits sorted by district, date and submission time, so no id occurs in both borehole_visits and household_visits. Key for samples$visit_id.</p></dd>
+<dd><p>Unique identifier of the field visit (one survey submission). Integer, assigned over all field visits sorted by district, date and submission time, so no id occurs in both borehole_visits and household_visits. Key for the visit_id column of samples.</p></dd>
 
 <dt>date_sampled</dt>
 <dd><p>Date of the field visit and of sample collection (YYYY-MM-DD).</p></dd>

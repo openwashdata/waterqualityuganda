@@ -8,7 +8,7 @@
 A tibble with 3203 rows and 16 variables
 \describe{
 \item{sample_id}{Unique identifier of the water sample (one bottle). Integer.}
-\item{visit_id}{Identifier of the field visit during which the sample was collected. Links to borehole_visits$visit_id for sample_type 'borehole' and 'borehole_duplicate', and to household_visits$visit_id for 'transport_container' and 'storage_container'. NA when a laboratory result could not be linked to a field record (see match_status).}
+\item{visit_id}{Identifier of the field visit during which the sample was collected. Links to the visit_id column of borehole_visits for sample_type 'borehole' and 'borehole_duplicate', and of household_visits for 'transport_container' and 'storage_container'. NA when a laboratory result could not be linked to a field record (see match_status).}
 \item{region}{Region of Uganda where the sample was collected: Central Region, Karamoja Region, Teso Region or Busoga Region.}
 \item{district}{District where the sample was collected: Nakaseke, Kaabong, Kumi or Luuka. The laboratory form used the spellings 'Kaboong' and 'Kamuli' for the last two; these were harmonised to the field survey spelling.}
 \item{date_sampled}{Date the sample was collected (YYYY-MM-DD). For laboratory results without a field record this is the incubation start date, which in this study is the sampling date.}

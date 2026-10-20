@@ -13,7 +13,7 @@
 #'   survey collected with mWater. Data provided by Cecilia Nansiimbi.
 #' @format A tibble with 1118 rows and 14 variables
 #' \describe{
-#'   \item{visit_id}{Unique identifier of the field visit (one survey submission). Integer, assigned over all field visits sorted by district, date and submission time, so no id occurs in both borehole_visits and household_visits. Key for samples$visit_id.}
+#'   \item{visit_id}{Unique identifier of the field visit (one survey submission). Integer, assigned over all field visits sorted by district, date and submission time, so no id occurs in both borehole_visits and household_visits. Key for the visit_id column of samples.}
 #'   \item{date_sampled}{Date of the field visit and of sample collection (YYYY-MM-DD).}
 #'   \item{region}{Region of Uganda where the visit took place: Central Region, Karamoja Region, Teso Region or Busoga Region.}
 #'   \item{district}{District where the visit took place: Nakaseke (Central), Kaabong (Karamoja), Kumi (Teso) or Luuka (Busoga).}

@@ -63,7 +63,7 @@ results."><script defer data-domain="openwashdata.github.io" src="https://plausi
     {
       "@type": "PropertyValue",
       "name": "borehole_visits.visit_id",
-      "description": "Unique identifier of the field visit (one survey submission). Integer, assigned over all field visits sorted by district, date and submission time, so no id occurs in both borehole_visits and household_visits. Key for samples$visit_id."
+      "description": "Unique identifier of the field visit (one survey submission). Integer, assigned over all field visits sorted by district, date and submission time, so no id occurs in both borehole_visits and household_visits. Key for the visit_id column of samples."
     },
     {
       "@type": "PropertyValue",
@@ -108,7 +108,7 @@ results."><script defer data-domain="openwashdata.github.io" src="https://plausi
     {
       "@type": "PropertyValue",
       "name": "household_visits.visit_id",
-      "description": "Unique identifier of the field visit (one survey submission). Integer, assigned over all field visits sorted by district, date and submission time, so no id occurs in both borehole_visits and household_visits. Key for samples$visit_id."
+      "description": "Unique identifier of the field visit (one survey submission). Integer, assigned over all field visits sorted by district, date and submission time, so no id occurs in both borehole_visits and household_visits. Key for the visit_id column of samples."
     },
     {
       "@type": "PropertyValue",
@@ -218,7 +218,7 @@ results."><script defer data-domain="openwashdata.github.io" src="https://plausi
     {
       "@type": "PropertyValue",
       "name": "samples.visit_id",
-      "description": "Identifier of the field visit during which the sample was collected. Links to borehole_visits$visit_id for sample_type 'borehole' and 'borehole_duplicate', and to household_visits$visit_id for 'transport_container' and 'storage_container'. NA when a laboratory result could not be linked to a field record (see match_status)."
+      "description": "Identifier of the field visit during which the sample was collected. Links to the visit_id column of borehole_visits for sample_type 'borehole' and 'borehole_duplicate', and of household_visits for 'transport_container' and 'storage_container'. NA when a laboratory result could not be linked to a field record (see match_status)."
     },
     {
       "@type": "PropertyValue",

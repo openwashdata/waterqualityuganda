@@ -101,7 +101,7 @@ For an overview of the variable names, see the following table.
 
 | variable_name | variable_type | description |
 |:---|:---|:---|
-| visit_id | integer | Unique identifier of the field visit (one survey submission). Integer, assigned over all field visits sorted by district, date and submission time, so no id occurs in both borehole_visits and household_visits. Key for samples\$visit_id. |
+| visit_id | integer | Unique identifier of the field visit (one survey submission). Integer, assigned over all field visits sorted by district, date and submission time, so no id occurs in both borehole_visits and household_visits. Key for the visit_id column of samples. |
 | date_sampled | Date | Date of the field visit and of sample collection (YYYY-MM-DD). |
 | region | character | Region of Uganda where the visit took place: Central Region, Karamoja Region, Teso Region or Busoga Region. |
 | district | character | District where the visit took place: Nakaseke (Central), Kaabong (Karamoja), Kumi (Teso) or Luuka (Busoga). |
@@ -137,7 +137,7 @@ For an overview of the variable names, see the following table.
 
 | variable_name | variable_type | description |
 |:---|:---|:---|
-| visit_id | integer | Unique identifier of the field visit (one survey submission). Integer, assigned over all field visits sorted by district, date and submission time, so no id occurs in both borehole_visits and household_visits. Key for samples\$visit_id. |
+| visit_id | integer | Unique identifier of the field visit (one survey submission). Integer, assigned over all field visits sorted by district, date and submission time, so no id occurs in both borehole_visits and household_visits. Key for the visit_id column of samples. |
 | date_sampled | Date | Date of the field visit and of sample collection (YYYY-MM-DD). |
 | region | character | Region of Uganda where the visit took place: Central Region, Karamoja Region, Teso Region or Busoga Region. |
 | district | character | District where the visit took place: Nakaseke (Central), Kaabong (Karamoja), Kumi (Teso) or Luuka (Busoga). |
@@ -178,7 +178,7 @@ For an overview of the variable names, see the following table.
 | variable_name | variable_type | description |
 |:---|:---|:---|
 | sample_id | integer | Unique identifier of the water sample (one bottle). Integer. |
-| visit_id | integer | Identifier of the field visit during which the sample was collected. Links to borehole_visits$`visit_id for sample_type 'borehole' and 'borehole_duplicate', and to household_visits`$visit_id for ‘transport_container’ and ‘storage_container’. NA when a laboratory result could not be linked to a field record (see match_status). |
+| visit_id | integer | Identifier of the field visit during which the sample was collected. Links to the visit_id column of borehole_visits for sample_type ‘borehole’ and ‘borehole_duplicate’, and of household_visits for ‘transport_container’ and ‘storage_container’. NA when a laboratory result could not be linked to a field record (see match_status). |
 | region | character | Region of Uganda where the sample was collected: Central Region, Karamoja Region, Teso Region or Busoga Region. |
 | district | character | District where the sample was collected: Nakaseke, Kaabong, Kumi or Luuka. The laboratory form used the spellings ‘Kaboong’ and ‘Kamuli’ for the last two; these were harmonised to the field survey spelling. |
 | date_sampled | Date | Date the sample was collected (YYYY-MM-DD). For laboratory results without a field record this is the incubation start date, which in this study is the sampling date. |
@@ -315,11 +315,6 @@ samples |>
 - **District names.** The laboratory form used the spellings “Kaboong”
   and “Kamuli” for the districts recorded as “Kaabong” and “Luuka” in
   the field survey. The field survey spelling is used throughout.
-- **Relation to the original analysis.** In the analysis report that
-  accompanied the raw data, the bottle numbers of the transport
-  container and of the storage container were assigned to the opposite
-  sample type. This package follows the wording of the survey questions,
-  so its storage and transport results are the reverse of that report’s.
 - **Dropped rows.** Submissions before 1 November 2024 (pilot visits
   without region or survey type) and four laboratory results that were
   submitted twice were dropped.
@@ -338,19 +333,20 @@ Please cite this package using:
 citation("waterqualityuganda")
 #> To cite package 'waterqualityuganda' in publications use:
 #> 
-#>   Nansiimbi C, Clavijo Daza A (2026). _waterqualityuganda: Drinking
-#>   Water Quality from Boreholes to Household Storage in Uganda_. R
-#>   package version 0.0.0.9000,
+#>   Nansiimbi C, Clavijo Daza A (2026). "waterqualityuganda: Drinking
+#>   Water Quality from Boreholes to Household Storage in Uganda."
 #>   <https://github.com/openwashdata/waterqualityuganda>.
 #> 
 #> A BibTeX entry for LaTeX users is
 #> 
-#>   @Manual{,
+#>   @Misc{nansiimbi_etall:2026,
 #>     title = {waterqualityuganda: Drinking Water Quality from Boreholes to Household Storage in Uganda},
 #>     author = {Cecilia Nansiimbi and Adriana {Clavijo Daza}},
 #>     year = {2026},
-#>     note = {R package version 0.0.0.9000},
 #>     url = {https://github.com/openwashdata/waterqualityuganda},
+#>     abstract = {Monthly E. coli monitoring of drinking water along the chain from borehole sources to household storage in four Ugandan districts (Nakaseke, Kaabong, Kumi and Luuka) between November 2024 and September 2025. For each borehole, water was sampled at the source and, in three households using it, from the container used to carry water home and from the drinking water storage container. Samples were analysed by membrane filtration and classified into five contamination levels. The package provides four tidy datasets: field visits to boreholes, field visits to households, water samples with their laboratory results, and laboratory blanks.},
+#>     keywords = {water quality,E. coli,boreholes,household water storage,water transport,WASH,Uganda},
+#>     version = {0.0.0.9000},
 #>   }
 ```
 
