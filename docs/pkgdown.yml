@@ -1,8 +1,0 @@
-pandoc: 3.8.3
-pkgdown: 2.2.1
-pkgdown_sha: ~
-articles: {}
-last_built: 2026-10-20T12:09Z
-urls:
-  reference: https://openwashdata.github.io/waterqualityuganda/reference
-  article: https://openwashdata.github.io/waterqualityuganda/articles
