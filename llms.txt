@@ -1,7 +1,5 @@
 # waterqualityuganda
 
-A data package published by [openwashdata](https://openwashdata.org).
-
 The goal of waterqualityuganda is to provide the data of a monthly
 monitoring of drinking water quality along the chain from borehole
 sources to household storage in four Ugandan districts (Nakaseke in
@@ -327,6 +325,8 @@ Data are available as
 [CC-BY](https://github.com/openwashdata/waterqualityuganda/blob/main/LICENSE.md).
 
 ## Citation
+
+Published by openwashdata, <https://openwashdata.org>.
 
 Please cite this package using:
 
